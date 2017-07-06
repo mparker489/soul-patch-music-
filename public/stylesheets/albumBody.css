@@ -12,8 +12,7 @@ div img
 }
 #photo
 {
-    float: left; 
-    position: absolute; 
+    float: left;  
 }
 #description
 {
@@ -29,4 +28,12 @@ p
 {
     font-size: 2rem;
     text-align: left;
+}
+
+aside ul li:hover{
+    color: #6f796e;
+}
+
+aside ul ul {
+    background-color:#e7e6e6
 }

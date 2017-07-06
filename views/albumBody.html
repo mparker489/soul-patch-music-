@@ -2,19 +2,73 @@
 
 <html>
 <head> 
-    <link type= "text/css", rel = "stylesheet", href = "albumBody.css"></link>
+    <link type = "text/css", rel = "stylesheet", href = "../public/stylesheets/home-page/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
 </head> 
 
 <body>  
-    <div id = "complete"> 
-        <div id = "photo">
-            <img src = "https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg"/> 
-        </div>
-        <div id = "description">
-            <h1> Romantic Works by Keaton Henson </h1> 
-            <p> Romantic Works is the 3rd album by British musician Keaton Henson. This album was written to be completely instrumental and features cellist Ren Ford. It was released in 2014 and features tracks such as "Earnestly Yours" and "Healah Dancing" </p>
-        </div>
-    </div> 
+    <header>
+        <nav>
+            <ul>
+                <li> ALL ALBUMS </li>
+                <li> POP </li>
+                <li> RAP/HIP HOP </li>
+                <li> CLASSICAL </li>
+                <li> JAZZ </li>
+                <li> FOLK </li>
+                <li> COUNTRY </li>
+                <li> LATIN </li>
+                <div class="dropdown"> 
+                    <li class="dropdown-button">MORE GENRES</li>
+                    <ul class="dropdown-content">
+                        <li> DECADES </li>
+                        <li> ALT ROCK </li>
+                        <li> ACOUSTIC INDIE </li>
+                        <li> R&B/SOUL </li>
+                        <li> FRENCH </li>
+                        <li> SOUNDTRACKS </li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id = "complete"> 
+            <div id = "photo">
+                <img src = "https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg"/> 
+            </div>
+            <div id = "description">
+                <h1> Romantic Works by Keaton Henson </h1> 
+                <p> Romantic Works is the 3rd album by British musician Keaton Henson. This album was written to be completely instrumental and features cellist Ren Ford. It was released in 2014 and features tracks such as "Earnestly Yours" and "Healah Dancing" </p>
+            </div>
+        </div> 
+        <aside>
+            <ul>
+                <div class="dropdown"> 
+                    <li class="dropdown-button">Platform:</li>
+                    <ul class="dropdown-content", style>
+                        <li> Vinyl: $9.99 </li>
+                        <li> Cassette: $2.00 </li>
+                        <li> CD: $2.00 </li>
+                        <li> Digital: Free </li>
+                    </ul>
+                </div>
+            </ul>
+        </aside>
+    </main> 
+
+    <footer class="footer">
+        <script src="https://use.fontawesome.com/a404a9b8d8.js"></script>
+        <p class="footerText"> COPYRIGHT 2017 <i class="fa fa-copyright" aria-hidden="true"></i>
+        </p>
+        <p class="socialMedia">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </p>
+    </footer>
+
 </body> 
 </html>

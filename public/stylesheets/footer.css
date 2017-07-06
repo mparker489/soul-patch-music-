@@ -1,6 +1,7 @@
 .footer{
   background-color: #6f796e;
   padding: 1%;
+  display: block;
 }
 
 .footerText{
