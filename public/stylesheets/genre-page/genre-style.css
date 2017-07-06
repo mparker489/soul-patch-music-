@@ -18,3 +18,12 @@ header{
   font-family: 'Amatic SC';
   color: #dfdada;
 }
+
+h1{
+    padding:40px;
+    position:relative;
+    font-size:3em;
+    left:10%;
+    width:20%;
+    border-bottom:5px solid #585858;
+}
