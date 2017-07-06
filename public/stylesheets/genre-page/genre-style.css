@@ -19,11 +19,33 @@ header{
   color: #dfdada;
 }
 
+main {
+    padding:auto;
+}
+
 h1{
-    padding:40px;
+    margin:40px;
     position:relative;
     font-size:3em;
     left:10%;
+}
+
+main ul{
+    border-top:5px solid #585858;
+    padding-top:50px;
+}
+
+li{
+    display:inline;
+    list-style-type: none;
+}
+
+ul a{
+    display:none;
+}
+
+img{
+    visibility: visible;
     width:20%;
-    border-bottom:5px solid #585858;
+    padding-bottom:50px;
 }

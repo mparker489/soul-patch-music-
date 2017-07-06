@@ -2,7 +2,6 @@
 @import url(../header-nav.css);
 @import url(albums.css);
 @import url(../footer.css);
-@import url(../albumBody.css);
 
 *{
   box-sizing:border-box;
