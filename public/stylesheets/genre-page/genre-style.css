@@ -1,0 +1,45 @@
+@import url(../footer.css);
+@import url(../header-nav.css);
+
+*{
+  box-sizing:border-box;
+}
+
+
+html{
+  font-size: 24px; 
+  background-color: #e7e6e6;
+  color: #585858;
+  font-family: 'Amatic SC';
+}
+
+header{
+  background-color: #6f796e;
+  font-family: 'Amatic SC';
+  color: #dfdada;
+}
+
+h1{
+    padding:40px;
+    position:relative;
+    font-size:3em;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+#albums-of-genre li{
+    position:relative;
+    display:inline;
+    padding:5%;
+}
+    
+#albums-of-genre img{
+    width:25%;
+}
