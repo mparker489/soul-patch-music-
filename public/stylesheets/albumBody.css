@@ -1,0 +1,32 @@
+html
+{
+    font-family: 'Amatic SC';
+    font-size: 24px; 
+    background-color: #e7e6e6;
+    color: #585858;
+}
+div img
+{
+    height: 700px; 
+    width: 700px; 
+}
+#photo
+{
+    float: left; 
+    position: absolute; 
+}
+#description
+{
+    float: right; 
+    width: 50%;
+    margin: 50px; 
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+p
+{
+    font-size: 2rem;
+    text-align: left;
+}
