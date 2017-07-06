@@ -23,23 +23,7 @@ h1{
     padding:40px;
     position:relative;
     font-size:3em;
-}
-
-ul{
-    list-style-type: none;
-
-}
-
-a{
-    text-decoration:none;
-}
-
-#albums-of-genre li{
-    position:relative;
-    display:inline;
-    padding:5%;
-}
-    
-#albums-of-genre img{
-    width:25%;
+    left:10%;
+    width:20%;
+    border-bottom:5px solid #585858;
 }
