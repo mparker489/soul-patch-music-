@@ -1,7 +1,7 @@
 /*separate into different files and then add @import fileName*/
-@import header-nav.css
-@import albums.css
-@import footer.css
+@import url(../header-nav.css);
+@import url(albums.css);
+@import url(../footer.css);
 
 *{
   box-sizing:border-box;
