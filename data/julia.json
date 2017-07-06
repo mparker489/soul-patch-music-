@@ -148,7 +148,7 @@
                 "artist": "Nat King Cole",
                 "title": "The Unforgettable Nat King Cole",
                 "genre": "Jazz",
-                "description": "",
+                "description": "The Unforgettable Nat King Cole is a compilation of all of Nat King Cole’s most famous songs. Nat King Cole is a very well-known jazz pianist and singer. This album was released in 2000 and features some of his greatest hits such as “L-O-V-E” and “Unforgettable”.",
                 "coverArt": "../public/img/jazz/Nat_King_Cole.jpg"
             },
             {
@@ -195,17 +195,17 @@
                 "coverArt": "../public/img/classical/Rene_Jacobs.jpg"
             },
             {
-                "artist": "Vladamir Ashkenazy",
+                "artist": "Vladimir Ashkenazy",
                 "title": "Bach: French Suites, BWV 812-817",
                 "genre": "Classical",
-                "description": "",
+                "description": "This album by Russian musician, Vladimir Ashkenazy is a combination of Bach’s French suites between numbers 812 and 817. Vladimir is known for being an incredible orchestra pianist and conductor and has won several Grammys for his recordings of classical pieces. This album includes all parts of the suites 812-817.",
                 "coverArt": "../public/img/classical/Vladamir.jpg"
             },
             {
                 "artist": "Sistine Chapel Choir",
                 "title": "Palestrina",
                 "genre": "Classical",
-                "description": "",
+                "description": "Palestrina is a classical choir work performed by the Sistine Chapel Choir. The Sistine Chapel Choir is made up of about 30 boys and men who are focused on not only recreating this classical work, but using actual Renaissance practices to get the most authentic sound. The album includes songs such as “Confitemini Domino” and “Ave Maria”.",
                 "coverArt": "../public/img/classical/Palestrina.jpg"
             },
             {
