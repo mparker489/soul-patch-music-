@@ -7,7 +7,7 @@
 
 
 html{
-  font-size: 24px; 
+  font-size: 24px;
   background-color: #e7e6e6;
   color: #585858;
   font-family: 'Amatic SC';
@@ -48,4 +48,13 @@ img{
     visibility: visible;
     width:20%;
     padding-bottom:50px;
+}
+
+#myInput{
+  font-family: 'Amatic SC';
+  width: 15%;
+  border: 1px solid #585858;
+  color: #585858;
+  font-size: 1rem;
+  margin-left: 10%;
 }
