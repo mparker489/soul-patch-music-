@@ -6,7 +6,7 @@
                 "title":"Come On Over",
                 "artist":"Shania Twain",
                 "genre":"country",
-                "cover-art":"/country-images/come-on-over.jpg",
+                "cover-art":"..public/img/country-images/come-on-over.jpg",
                 "description":"",
                 //Prices???
             },
