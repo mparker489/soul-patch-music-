@@ -61,35 +61,33 @@
                 "cover-art":"..public/img/country/need-you-now.jpg"
             },
             {
-                "title":"Some Hearts",
                 "artist":"Carrie Underwood",
+                "title":"Some Hearts",
                 "genre":"country",
-                "cover-art":"..public/img/country/some-hearts.jpg",
-                "description":"",
-                 
+                "description":"Carrie Underwood released her debut studio album, Some Hearts, in 2005. It rocked the world of country, with songs like 'Before He Cheats' which speaks of her revenge on a cheating boyfriend. With Underwood's powerful voice and even more powerful lyrics, Some Hearts became the best selling album of 2006 #tbt.",
+                "cover-art":"..public/img/country/some-hearts.jpg"
             },
             {
-                "title":"The Big Revival",
                 "artist":"Kenny Chesney",
+                "title":"The Big Revival",
                 "genre":"country",
-                "cover-art":"..public/img/country/the-big-revival.jpg",
-                "description":"",
-                 
+                "description":"In 2014, American country singer Kenney Chesney released his sixteenth studio album. You go Kenney! The Big Revival features songs like 'American Kids' and 'Save It for a Rainy Day'. Although not best seller, citcs loved Chesney's album, saying it was one of his best. After lsitening to the other fifteen, let us know what you think!",
+                "cover-art":"..public/img/country/the-big-revival.jpg"
             },
             {
-                "title":"Way Out Here",
                 "artist":"Josh Thompson",
+                "title":"Way Out Here",
                 "genre":"country",
-                "cover-art":"..public/img/country/way-out-here.jpg",
-                "description":"",
+                "description":"Way Out Here is Josh Thompson's debut studio album, released in 2010. With smooth vocals and crafty lyrics (and lucious locks), Thompson's songs like 'Way Out Here' and 'Beer on the Table' were top 20 on the Billboard Hot Country Songs.",
+                "cover-art":"..public/img/country/way-out-here.jpg"
                  
             },
             {
-                "title":"Act One",
                 "artist":"Marian Hill",
+                "title":"Act One",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/act-one.jpg",
                 "description":"",
+                "cover-art":"..public/img/pop/act-one.jpg"
                  
             },
             {
@@ -173,43 +171,40 @@
                  
             },
             {
-                "title":"All Eyez On Me",
                 "artist":"2Pac",
+                "title":"All Eyez On Me",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/all-eyez-on-me.jpg",
-                "description":"",
-                 
+                "description":"'All Eyez On Me' is 2pac's fourth studio album, and last one to be released before his death. Featuring songs like 'How Do U Want It' and 'Califronia Love', both of which reached number one on the Billboard Hot 100, all eyes were on 2Pac.",
+                "cover-art":"..public/img/rap/all-eyez-on-me.jpg"
             },
             {
-                "title":"American Teen",
                 "artist":"Khalid",
+                "title":"American Teen",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/american-teen.jpg",
-                "description":"",
+                "description":"'American Teen' is American rapper Khalid's debut studio album. Released in 2017, one of the featured songs 'Location' reached 16 on the Billboards Hot 100. Also included, is 'Young, Dumb, and Broke', which embodies the carefree attitude of the younger generations #yolo.",
+                "cover-art":"..public/img/rap/american-teen.jpg"
                  
             },
             {
-                "title":"Birds in the Trap Sing McKnight",
                 "artist":"Travis Scott",
+                "title":"Birds in the Trap Sing McKnight",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/birds-in-the-trap-sing-mcknight.jpg",
-                "description":"",
-                 
+                "description":"Travis Scott's second studio album was released in 2016. 'Birds in the Trap Sing McKnight' features many popular rappers, like Kid Cudi and André 3000. With positive critical reviews and the success of songs like 'goosebumps', the hype was worth it.",
+                "cover-art":"..public/img/rap/birds-in-the-trap-sing-mcknight.jpg"
             },
             {
-                "title":"Born Sinner",
                 "artist":"J.Cole",
+                "title":"Born Sinner",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/born-sinner.jpg",
-                "description":"",
-                 
+                "description":"As J.Cole's second studio album, 'Born Sinner', the album was number two on the Billboard 200 for two weeks, finally climbing to number one. Including songs like 'Power Trip' and 'Crooked Smile' and featuring artists such as Miguel and Kendrick Lamar, this album was a born winner.",
+                "cover-art":"..public/img/rap/born-sinner.jpg"
             },
             {
-                "title":"Coloring Book",
                 "artist":"Chance the Rapper",
+                "title":"Coloring Book",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/coloring-book.jpg",
                 "description":"",
+                "cover-art":"..public/img/rap/coloring-book.jpg"
                  
             },
             {
