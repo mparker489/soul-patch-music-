@@ -24,7 +24,7 @@ header img
     margin-top:0px;
     margin-bottom: 0px;
 }
-h1
+#brand
 {
     padding-top: 50px; 
     padding-bottom: 0px;
@@ -33,7 +33,7 @@ h1
     text-align:center;
     font-size: 4rem;
 }
-h1:hover
+#brand:hover
 {
     color: #f2ddde;
 }
