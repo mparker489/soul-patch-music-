@@ -1,0 +1,359 @@
+{
+    "data": {
+        "title": "Music Store Albums",
+        "albums": [
+            {
+                "title":"Come On Over",
+                "artist":"Shania Twain",
+                "genre":"country",
+                "cover-art":"/country-images/come-on-over.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Crash My Party",
+                "artist":"Luke Bryan",
+                "genre":"country",
+                "cover-art":"/coutnry-images/crash-my-party.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Four the Record",
+                "artist":"Miranda Lambert",
+                "genre":"country",
+                "cover-art":"/coutnry-images/four-the-record.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Here's to the Good Times",
+                "artist":"Florida Georgia Line",
+                "genre":"country",
+                "cover-art":"/coutnry-images/heres-to-the-good-times.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Hunter Huayes - Encore",
+                "artist":"Hunter Hayes",
+                "genre":"country",
+                "cover-art":"",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Meat and Candy",
+                "artist":"Old Dominion",
+                "genre":"country",
+                "cover-art":"/coutnry-images/meat-and-candy.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Montevallo",
+                "artist":"Sam Hunt",
+                "genre":"country",
+                "cover-art":"/coutnry-images/montevallo.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Need You Now",
+                "artist":"Lady Antebellum",
+                "genre":"country",
+                "cover-art":"/coutnry-images/need-you-now.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Some Hearts",
+                "artist":"Carrie Underwood",
+                "genre":"country",
+                "cover-art":"/coutnry-images/some-hearts.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"The Big Revival",
+                "artist":"Kenny Chesney",
+                "genre":"country",
+                "cover-art":"/coutnry-images/the-big-revival.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Way Out Here",
+                "artist":"Josh Thompson",
+                "genre":"country",
+                "cover-art":"/coutnry-images/way-out-here.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Act One",
+                "artist":"Marian Hill",
+                "genre":"pop",
+                "cover-art":"/pop-images/act-one.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"BANLANDS",
+                "artist":"Halsey",
+                "genre":"pop",
+                "cover-art":"/pop-images/badlands.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Born To Die",
+                "artist":"Lana Del Rey",
+                "genre":"pop",
+                "cover-art":"/pop-images/born-to-die.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Funk Way Bounces Vol.1",
+                "artist":"Calvin Harris",
+                "genre":"pop",
+                "cover-art":"/pop-images/funk-way-bounces.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"I See You",
+                "artist":"The xx",
+                "genre":"pop",
+                "cover-art":"/pop-images/i-see-you.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"In Return",
+                "artist":"ODEZA",
+                "genre":"pop",
+                "cover-art":"/pop-images/in-return.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Now That the Light is Fading",
+                "artist":"Maggie Rogers",
+                "genre":"pop",
+                "cover-art":"/pop-images/now-that-the-light-is-fading.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Oh Wonder",
+                "artist":"Oh Wonder",
+                "genre":"pop",
+                "cover-art":"/pop-images/oh-wonder.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"+",
+                "artist":"Ed Sheeran",
+                "genre":"pop",
+                "cover-art":"/pop-images/plus.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Somewhere in Between",
+                "artist":"Vérité",
+                "genre":"pop",
+                "cover-art":"/pop-images/somewhere-in-between.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Songs About Jane",
+                "artist":"Maroon 5",
+                "genre":"pop",
+                "cover-art":"/pop-images/songs-about-jane.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"All Eyez On Me",
+                "artist":"2Pac",
+                "genre":"rap",
+                "cover-art":"/rap-images/all-eyez-on-me.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"American Teen",
+                "artist":"Khalid",
+                "genre":"rap",
+                "cover-art":"/rap-images/american-teen.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Birds in the Trap Sing McKnight",
+                "artist":"Travis Scott",
+                "genre":"rap",
+                "cover-art":"/rap-images/birds-in-the-trap-sing-mcknight.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Born Sinner",
+                "artist":"J.Cole",
+                "genre":"rap",
+                "cover-art":"/rap-images/born-sinner.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Coloring Book",
+                "artist":"Chance the Rapper",
+                "genre":"rap",
+                "cover-art":"/rap-images/coloring-book.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Future",
+                "artist":"Future",
+                "genre":"rap",
+                "cover-art":"/rap-images/future.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"good kid m.A.A.d city",
+                "artist":"Kendrick Lamar",
+                "genre":"rap",
+                "cover-art":"/rap-images/good-kid-maad-city.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Lupe Fiasco's Food & Liquor",
+                "artist":"Lupe Fiasco",
+                "genre":"rap",
+                "cover-art":"/rap-images/lupe-fiascos-food-&-liquor.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Man on the Moon",
+                "artist":"Kid Cudi",
+                "genre":"rap",
+                "cover-art":"/rap-images/man-on-the-moon.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Miss E...So Addictive",
+                "artist":"Missy Elliot",
+                "genre":"rap",
+                "cover-art":"/rap-images/miss-e-so-addictive.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Take Care",
+                "artist":"Drake",
+                "genre":"rap",
+                "cover-art":"/rap-images/take-care.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"All Of Me",
+                "artist":"Estelle",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/all-of-me.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Aquarius",
+                "artist":"Tinashe",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/aquarius.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"As I Am",
+                "artist":"Alicia Keys",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/as-i-am.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Awaken My Love",
+                "artist":"Childish Gambino",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/awaken-my-love.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"channel ORANGE",
+                "artist":"Frank Ocean",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/channel-orange.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Confessions",
+                "artist":"Usher",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/confessions.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Love in the Future",
+                "artist":"John Legend",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/love-in-the-future.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Never Say Never",
+                "artist":"Brandy",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/never-say-never.jpg",
+                "description":"",
+                //Prices???
+            },
+            {
+                "title":"Sail Out",
+                "artist":"Jhené Aiko",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/sail-out.jpg",
+                "description":"",
+                //Prices???
+            },
+             {
+                "title":"Starboy",
+                "artist":"The Weeknd",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/starboy.jpg",
+                "description":"",
+                //Prices???
+            },
+             {
+                "title":"The Breakthrough",
+                "artist":"Mary J. Blige",
+                "genre":"rnb",
+                "cover-art":"/rnb-images/the-breakthrough.jpg",
+                "description":"",
+                //Prices???
+            }
+        ]
+    }
+}
