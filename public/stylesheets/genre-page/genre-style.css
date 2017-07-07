@@ -66,5 +66,6 @@ main img{
   margin-left: 10%;
   float:right;
   position:relative;
-  bottom:100px;
+  bottom:90px;
+  right:50px;
 }
