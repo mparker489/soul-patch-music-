@@ -34,6 +34,7 @@ html
 }
 .albumBodyLink{
   color:#585858;
+  text-align: left;
 }
 .albumBodyLink:hover{
     color: #6f796e;
@@ -46,9 +47,9 @@ html
     padding-right:1%;
     padding-left:1%;
     background-color:#e7e6e6;
+    width: 250px;
+
 }
-
-
 .dropdown:hover .dropdown-contentAlbum{
     display:block;
 }
