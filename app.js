@@ -17,6 +17,10 @@ app.get('/genres', (req, res) => {
     res.render('genre-page');
 });
 
+app.get('/albums', (req, res) => {
+    res.render('album-body');
+});
+
 app.listen(1234, () => {
     console.log('The application is running on localhost:1234!')
 ;});
