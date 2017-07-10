@@ -19,7 +19,7 @@ header{
   color: #dfdada;
 }
 
-main h1{
+#genre-name{
     margin-top:40px;
     margin-bottom:40px;
     position:relative;
@@ -29,29 +29,29 @@ main h1{
     max-width:500px;
 }
 
-main h1:hover{
+#genre-name:hover{
     color:#585858;
 }
 
-main{
+#genre-page{
     position:relative;
     float:center;
 }
-main ul{
+#genre-page ul{
     border-top:5px solid #585858;
     padding-top:50px;
 }
 
-main li{
+#genre-page li{
     display:inline;
     list-style-type: none;
 }
 
-main ul a{
+#genre-page ul a{
     display:none;
 }
 
-main img{
+#genre-page img{
     visibility: visible;
     width:20%;
     padding-bottom:50px;
