@@ -5,16 +5,17 @@
   white-space:nowrap;
 }
 
-div a{
+div {
   text-decoration: none;
 }
 
-div a img{
+.image{
   position: relative;
   width: 20%;
   height: 20%;
   display: inline-block;
 }
+
 .container {
     position: relative;
     width: 20%;
