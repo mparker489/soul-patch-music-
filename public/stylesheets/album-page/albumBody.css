@@ -3,39 +3,39 @@
 html
 {
     font-family: 'Amatic SC';
-    font-size: 24px; 
+    font-size: 24px;
     background-color: #e7e6e6;
     color: #585858;
 }
-div img
+.albumBodyAlbum
 {
-    height: 700px; 
-    width: 700px; 
+    height: 700px;
+    width: 700px;
 }
 #photo
 {
-    float: left;  
+    float: left;
 }
 #description
 {
-    float: right; 
+    float: right;
     width: 50%;
-    margin: 50px; 
+    margin: 50px;
 }
-main h1{
+.albumBodyTitle{
     font-size: 3rem;
     text-align: center;
 }
-p
+.albumBodyDescription
 {
     font-size: 2rem;
     text-align: left;
 }
 
-aside ul li:hover{
+.albumBodyLink:hover{
     color: #6f796e;
 }
 
-aside ul ul {
+.albumBodyUl{
     background-color:#e7e6e6
 }
