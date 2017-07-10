@@ -1,0 +1,23 @@
+{
+  "name": "soul-patch-music-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mparker489/soul-patch-music-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mparker489/soul-patch-music-/issues"
+  },
+  "homepage": "https://github.com/mparker489/soul-patch-music-#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
