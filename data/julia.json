@@ -80,6 +80,13 @@
                 "description": "This is the debut album for the boy band released in 1996. It was ranked among the most popular debut albums of all time. The Backstreet Boys album features songs “Everybody (Backstreet’s Back)” and “As Long As You Love Me”.",
                 "coverArt": "../public/img/decades/Backstreet_Boys.jpg" 
             },
+            {
+                "artist": "Muzak Makers",
+                "title": "The Dream of the 90's is Alive in PDX",
+                "genre": "Decades",
+                "description": "Your favorite decade is making a comeback, especially in the new Muzak Makers album, The Dream of the 90’s is Alive in Portland. Made in the city that is always weird, the Muzak Makers crafted the songs to capture the vibe of the 90’s. Even though many told them “Ugh as if!” they stuck with the idea. The album climbed the charts and produced some of their most famous songs, including “What’s the 4-1-1” and “That’s my Name, Don’t Wear It Out”.",
+                "coverArt": "" 
+            },
             //Jazz
             {
                 "artist": "Kenny G",
@@ -158,6 +165,13 @@
                 "description": "Ella and Friends is a duet album released by the queen of jazz, Ella Fitzgerald, in 1996. This album features songs with Louis Armstrong, The Ink Spots, and other famous jazz musicians. This album has songs such as “Dream a Little Dream of Me”, “(I Love You) For Sentimental Reasons” and “Baby It’s Cold Outside”.",
                 "coverArt": "../public/img/jazz/Ella_Fitzgerald.jpg"
             },
+            {
+                "artist": "Muzak Makers",
+                "title": "Smooth HTML",
+                "genre": "Jazz",
+                "description": "The Muzak Makers are back at it again with their 45th studio album under the record label Emo-Bois. In Smooth HTML the Muzak Makers use their genius coding skills to create the worlds most amazing album yet featuring the sweet sounds of saxophone and futuristic elements. Some say this album has changed the future of jazz music forever. Smooth HTML features smash hits such as “Divs to the Heart” and “Too Many Li’s Comin Out Your Mouth”",
+                "coverArt": "" 
+            },
             //Classical 
             {
                 "artist": "Yo-Yo Ma",
@@ -235,6 +249,13 @@
                 "genre": "Classical",
                 "description": "Tchaikovsky is a very well-known composer who has written the music to multiple world famous ballets, Swan Lake being one of them. This is a recording of André Previn playing all of the pieces from the ballet.",
                 "coverArt": "../public/img/classical/Swan_Lake.jpg"
+            },
+            {
+                "artist": "Muzak Makers",
+                "title": "Issa Wig Symphony in C#",
+                "genre": "Classical",
+                "description": "Inspired by the art of powdered wigs and the world-famous meme, the Muzak Makers created this artfully composed symphony only from the sounds wigs could produce. A creative edition to all of the classics, some have compared it to the symphonies of Bach and Beethoven. This symphony includes pieces such as “Your Hair Changes all the Time in F#” and “YOU GOT BANGS?! in D Minor”",
+                "coverArt": "" 
             }
         ]
     }
