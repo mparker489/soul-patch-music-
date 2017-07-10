@@ -82,6 +82,13 @@
                 "coverArt": "../public/img/folk/joanbaez.jpeg"
             },
 {
+                "artist": "Muzak Makers",
+                "title": "wtf (What the Folk)" ,
+                "genre": "Folk" ,
+                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is one of their oldest, it was released in 1901 but was an instant best-seller because it was the first folk-album ever released and the incoroporation of EDM and Folk music. It features singles such as, 'My banjo and Turntables' and 'Old Yesler Tearing Up the Forest'",
+                "coverArt": "../public/img/folk/"
+            },
+{
                 "artist": "The Staves",
                 "title": "Dead & Born & Grown" ,
                 "genre": "Indie Acoustic" ,
@@ -160,6 +167,14 @@
                 "coverArt": "../public/img/indie_acoustic/thecivilwars.jpeg"
             },
 {
+                "artist": "Muzak Makers",
+                "title": "Crunchy Granola" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kumbacha and a bag of homemade compost. This album contains hits such as  'Free Range Chicken' and 'Solar-Powered Toilets'",
+                "coverArt": "../public/img/indie_acoustic/"
+            },
+
+{
                 "artist": "Third Eye Blind",
                 "title": "Third Eye Blind" ,
                 "genre": "Alt Rock" ,
@@ -235,6 +250,13 @@
                 "genre": "Alt Rock" ,
                 "description": "Nirvana was a grunge band from Aberdeen, Washington. Their second album was released in 1991 and has all the classics like 'Smells Like Teen Spirit,' 'Lithium' and 'Come As You Are'",
                 "coverArt": "../public/img/alt_rock/nirvana.jpeg"
+            },
+{
+                "artist": "Muzak Makers",
+                "title": "Crt Alt Delete" ,
+                "genre": "Alt Rock " ,
+                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable whillistening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patricarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
+                "coverArt": "../public/img/alt_rock/"
             },
 
 
