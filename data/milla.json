@@ -14,7 +14,7 @@
                 "artist": "Dvicio",
                 "title": "Justo Ahora",
                 "genre": "Latin",
-                "description": "Justo Ahora is the debute studio album by Spanish group Dvicio. Dvicio was formed in Madrid, Spain in 2009 and was given a label with Sony Music. The band's first single, 'Paraíso' was released in March of 2014 followed by Justo Ahora which was released in September of 2014. This album features hit singles such as 'Paraíso', 'Enamorate', and 'Justo Ahora'.",
+                "description": "Justo Ahora is the debut studio album by Spanish group Dvicio. Dvicio was formed in Madrid, Spain in 2009 and was given a label with Sony Music. The band's first single, 'Paraíso' was released in March of 2014 followed by Justo Ahora which was released in September of 2014. This album features hit singles such as 'Paraíso', 'Enamorate', and 'Justo Ahora'.",
                 "coverArt": "../public/img/latin/Justo_Ahora.jpg"
             },
             {//3
@@ -42,7 +42,7 @@
                 "artist": "Elvis Crepo",
                 "title": "Suavamente",
                 "genre": "Latin",
-                "description": "Suavamente is debute studio album by American merenguero recording artist Elvis Crespo. It was released on on April 14, 1998 by Sony Music Latin. Its title song remains a staple at Latin music nightclubs and festivals, while Suavemente has been ranked among the most essential Latin albums of the past 50 years by Billboard magazine. This album features hit singles such as 'Suavamente' and 'Tu Sonrisa'.",
+                "description": "Suavamente is debut studio album by American merenguero recording artist Elvis Crespo. It was released on on April 14, 1998 by Sony Music Latin. Its title song remains a staple at Latin music nightclubs and festivals, while Suavemente has been ranked among the most essential Latin albums of the past 50 years by Billboard magazine. This album features hit singles such as 'Suavamente' and 'Tu Sonrisa'.",
                 "coverArt": "../public/img/latin/Suavamente.jpg"
             },
             {//7
@@ -81,13 +81,21 @@
                 "coverArt": "../public/img/latin/Amor_Prohibido.jpg"
             },
 
+            {//12
+                "artist": "Muzak Makers",
+                "title": "Relampago",
+                "genre":"Latin",
+                "desciption": "Relampago is the fifth studio album by American all-around genre band Muzak Makers and was released on March 26, 2016. Relampago is a lit album with a selection of tracks that cross the original latin roots with modern day ideas. This album features hit singles such as 'Fuego', 'Tormenta', and 'Iluminado'.",
+                "coverArt": ""
+            },
+
 
             //French
             {//1
                 "artist": "Louane",
                 "title": "Chambre 12",
                 "genre": "French",
-                "description": "Chambre 12 is the debute studio album by French singer and actress Louane and was released on March 2, 2015. At the end of 2015, it was announced as the second best-selling album of the year in France with 772,300 copies sold, and was certified Diamond. This album features hit singles 'Avenir', 'Jour 1', and 'Nos Secrets'.",
+                "description": "Chambre 12 is the debut studio album by French singer and actress Louane and was released on March 2, 2015. At the end of 2015, it was announced as the second best-selling album of the year in France with 772,300 copies sold, and was certified Diamond. This album features hit singles 'Avenir', 'Jour 1', and 'Nos Secrets'.",
                 "coverArt": "../public/img/french/Chambre_12.jpg"
             },
             {//2
@@ -101,14 +109,14 @@
                 "artist": "Stromae",
                 "title": "Cheese",
                 "genre": "French",
-                "description": "Cheese is the debute studio album by Belgian musician Stromae and was released on June 14, 2010. It peaked at number 1 for top Belgian albums and 6 for top French albums. This album features hit singles such as 'Alors on Danse', and 'House'llelujah'.",
+                "description": "Cheese is the debut studio album by Belgian musician Stromae and was released on June 14, 2010. It peaked at number 1 for top Belgian albums and 6 for top French albums. This album features hit singles such as 'Alors on Danse', and 'House'llelujah'.",
                 "coverArt": "../public/img/french/Cheese.jpg"
             },
             {//4
                 "artist": "Georgio",
                 "title": "Héra",
                 "genre": "French",
-                "description": "Héra is the second album released by French rapper Georgio. It was released on November 4, 2016 by Panenka Music. This album was released one year after his debute studio album Bleu Noir. This album features hit songs such as 'Héra' and 'On rêvait tous de s'envoler'.",
+                "description": "Héra is the second album released by French rapper Georgio. It was released on November 4, 2016 by Panenka Music. This album was released one year after his debut studio album Bleu Noir. This album features hit songs such as 'Héra' and 'On rêvait tous de s'envoler'.",
                 "coverArt": "../public/img/french/Hera.jpg"
             },
             {//5
@@ -143,7 +151,7 @@
                 "artist": "Vanessa Paradis",
                 "title": "M&J",
                 "genre": "French",
-                "description":  "M&J is the debute album from popular French singer and model Vanessa Paradis. The album was released on August 15, 1988 by Polydor and PolyGram Barclay Records. M&J is considered as one of the most successful French language debut albums in recording history. It features Paradis' hit single 'Joe le Taxi'.",
+                "description":  "M&J is the debut album from popular French singer and model Vanessa Paradis. The album was released on August 15, 1988 by Polydor and PolyGram Barclay Records. M&J is considered as one of the most successful French language debut albums in recording history. It features Paradis' hit single 'Joe le Taxi'.",
                 "coverArt": "../public/img/french/M&J.jpg"
             },
             {//10
@@ -159,6 +167,14 @@
                 "genre": "French",
                 "description": "Yseult is the debut studio album by French pop singer Yseult released on January 2014 by Polydor Records. Yseult was a runner-up on season 10 of the French music competition series Nouvelle Stars. This album features the songs 'Pour l’impossible', 'Bye Bye Bye', and 'Blanche'.",
                 "coverArt": "../public/img/french/Yseult.jpg"
+            },
+
+            {//12
+                "artist": "Muzak Makers",
+                "title":"Baguette? Bonjour",
+                "genre":"French",
+                "desciption": "Baguette? Bonjour is the debut studio album by American all-around genre band Muzak Makers and was released on July 10, 2008. Baguette? Bonjour is one of the top rated albums and was number 3 in America and 47 in France. This album features the hit songs 'Croissant', 'Ton Ton Pierre', and 'Franchement'.",
+                "coverArt": ""
             },
 
             //Soundtracks 
@@ -238,6 +254,12 @@
                 "genre": "Soundtrack",
                 "description": "Mamma Mia! is the soundtrack album for the 2008 musical film 'Mamma Mia!' and was released on July 8, 2008. The album was nominated for a Grammy Award for Best Compilation Soundtrack Album for Motion Picture, Television or Other Visual Media. This album includes the feature songs 'Dancing Queen', 'Money, Money, Money' and 'Lay All Your Love On Me'.", 
                 "coverArt": "../public/img/soundtracks/Mamma_Mia.jpg"
+            },
+            {
+                "artist": "Muzak Makers",
+                "title": "CDK: A Murder Mystery",
+                "genre": "Soundtrack",
+                "desciption": "CDK: A Murder Mystery is the eigth studio album by American all-around genre band Muzak Makers and was released on October 31, 2013. The album won the Golden Globe Award for Best Original Score at 100th Golden Globe Awards and has been noted for it's creative use of actual screams. This album features the songs 'I think Becky killed Adam', 'some1 help me', and 'It was in the free swag'."
             }
         ]
     }
