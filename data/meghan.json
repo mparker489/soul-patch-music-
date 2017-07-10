@@ -203,7 +203,7 @@
                 "artist":"Chance the Rapper",
                 "title":"Coloring Book",
                 "genre":"rap",
-                "description":"",
+                "description":"American rapper Chance the Rapper released his third mixtape, 'Coloring Book' in 2016. Considered a fusion of hip hop and goapel sounds (he took that chance!), Chance's album won Best Rap Album at the 2017 Grammy Awards. The album features songs like 'No Problem' and artists such as Kanye West and Justin Bieber.",
                 "cover-art":"..public/img/rap/coloring-book.jpg"
                  
             },
@@ -216,11 +216,11 @@
                  
             },
             {
-                "title":"good kid m.A.A.d city",
+                "title":"good kid, m.A.A.d city",
                 "artist":"Kendrick Lamar",
                 "genre":"rap",
                 "cover-art":"..public/img/rap/good-kid-maad-city.jpg",
-                "description":"",
+                "description":"'good kid, m.A.A.d city' is American rapper Kendrick Lamar's second studio album. Released in 2012, it reached number 2 on the Billboard 200 chart. With songs like 'Swimming Pools' and 'Poetic Justice', you'd be maad not to buy it! ",
                  
             },
             {
@@ -228,15 +228,15 @@
                 "artist":"Lupe Fiasco",
                 "genre":"rap",
                 "cover-art":"..public/img/rap/lupe-fiascos-food-&-liquor.jpg",
-                "description":"",
+                "description":"'Food & Liquor' is Lupe Fiasco's debut studio album, released in 2006. Despite none of the singles reaching the top 10 on the charts, the album was extremely popular and won the Best Rap Album at the 2007 Grammy Awards, creating quite the fiasco. Songs like 'Daydreamin' and 'Kick, Push' are festured on the album. ",
                  
             },
             {
-                "title":"Man on the Moon",
+                "title":"Man on the Moon: The End of Day",
                 "artist":"Kid Cudi",
                 "genre":"rap",
                 "cover-art":"..public/img/rap/man-on-the-moon.jpg",
-                "description":"",
+                "description":"Released in 2009, 'Man on the Moon' is American rapper Kid Cudi's first studio album. ALthough not very successful internationally, 'Man on the Moon' sold 104,000 copies in the first week in the US. The album features songs like 'Day 'n' Nite' and 'Pursuit of Happiness'. Be prepared to be sent to the moon.",
                  
             },
             {
@@ -244,7 +244,7 @@
                 "artist":"Missy Elliot",
                 "genre":"rap",
                 "cover-art":"..public/img/rap/miss-e-so-addictive.jpg",
-                "description":"",
+                "description":"In her third studio album, Missy Elliot delivers popular songs like 'Get Ur Freak On' and 'One Minute Man'. After being released in 2001, 'Miss E...So Addictive' ",
                  
             },
             {
