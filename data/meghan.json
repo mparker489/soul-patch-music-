@@ -86,25 +86,23 @@
                 "artist":"Marian Hill",
                 "title":"Act One",
                 "genre":"pop",
-                "description":"",
+                "description":"In 2016, the American songwriting duo Marian Hill released their debut album, 'Act One'. Truly being their first act, songs featured on the album like 'Down' and 'Back To Me' brought the group into the spotlight. With strong beats, this album will be sure to get you jammin'.",
                 "cover-art":"..public/img/pop/act-one.jpg"
                  
             },
             {
-                "title":"BANLANDS",
                 "artist":"Halsey",
+                "title":"BANLANDS",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/badlands.jpg",
-                "description":"",
-                 
+                "description":"In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
+                "cover-art":"..public/img/pop/badlands.jpg"
             },
             {
-                "title":"Born To Die",
                 "artist":"Lana Del Rey",
+                "title":"Born To Die",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/born-to-die.jpg",
-                "description":"",
-                 
+                "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. ",
+                "cover-art":"..public/img/pop/born-to-die.jpg"
             },
             {
                 "title":"Funk Way Bounces Vol.1",
@@ -208,60 +206,53 @@
                  
             },
             {
-                "title":"Future",
                 "artist":"Future",
+                "title":"Future",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/future.jpg",
-                "description":"",
-                 
+                "description":"'Future' is American rapper Future's fifth studi album. Although critics do not consider the album groundbreaking, it is a quality album that showcases the artist's talents. Released in 2017, listening to this album will transport you to the sound of the future.",
+                "cover-art":"..public/img/rap/future.jpg"
             },
             {
-                "title":"good kid, m.A.A.d city",
                 "artist":"Kendrick Lamar",
+                "title":"good kid, m.A.A.d city",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/good-kid-maad-city.jpg",
                 "description":"'good kid, m.A.A.d city' is American rapper Kendrick Lamar's second studio album. Released in 2012, it reached number 2 on the Billboard 200 chart. With songs like 'Swimming Pools' and 'Poetic Justice', you'd be maad not to buy it! ",
-                 
+                "cover-art":"..public/img/rap/good-kid-maad-city.jpg"
             },
             {
-                "title":"Lupe Fiasco's Food & Liquor",
                 "artist":"Lupe Fiasco",
+                "title":"Lupe Fiasco's Food & Liquor",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/lupe-fiascos-food-&-liquor.jpg",
                 "description":"'Food & Liquor' is Lupe Fiasco's debut studio album, released in 2006. Despite none of the singles reaching the top 10 on the charts, the album was extremely popular and won the Best Rap Album at the 2007 Grammy Awards, creating quite the fiasco. Songs like 'Daydreamin' and 'Kick, Push' are festured on the album. ",
-                 
+                "cover-art":"..public/img/rap/lupe-fiascos-food-&-liquor.jpg"
             },
             {
-                "title":"Man on the Moon: The End of Day",
                 "artist":"Kid Cudi",
+                "title":"Man on the Moon: The End of Day",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/man-on-the-moon.jpg",
                 "description":"Released in 2009, 'Man on the Moon' is American rapper Kid Cudi's first studio album. ALthough not very successful internationally, 'Man on the Moon' sold 104,000 copies in the first week in the US. The album features songs like 'Day 'n' Nite' and 'Pursuit of Happiness'. Be prepared to be sent to the moon.",
-                 
+                "cover-art":"..public/img/rap/man-on-the-moon.jpg"
             },
             {
-                "title":"Miss E...So Addictive",
                 "artist":"Missy Elliot",
+                "title":"Miss E...So Addictive",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/miss-e-so-addictive.jpg",
-                "description":"In her third studio album, Missy Elliot delivers popular songs like 'Get Ur Freak On' and 'One Minute Man'. After being released in 2001, 'Miss E...So Addictive' ",
-                 
+                "description":"In her third studio album, Missy Elliot delivers popular songs like 'Get Ur Freak On' and 'One Minute Man'. After being released in 2001, 'Miss E...So Addictive' recevied postive reviews from critics and fans alike. Warning: this album is addictive!",
+                "cover-art":"..public/img/rap/miss-e-so-addictive.jpg"
             },
             {
-                "title":"Take Care",
                 "artist":"Drake",
+                "title":"Take Care",
                 "genre":"rap",
-                "cover-art":"..public/img/rap/take-care.jpg",
-                "description":"",
-                 
+                "description":"'Take Care' is Drake's second studio album, relased in 2011. This CANADIAN rapper carefully crafted an album that balanced minimalist R&B elements with his vocals, and in the first week 631,000 copies were sold. Praised by critics, including songs ike 'Headlines' and 'Take Care', and featuring artists like Rihanna and Nicki Minaj, take care of yourself and jam to this album.",
+                "cover-art":"..public/img/rap/take-care.jpg"
             },
             {
-                "title":"All Of Me",
                 "artist":"Estelle",
+                "title":"All Of Me",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/all-of-me.jpg",
                 "description":"",
-                 
+                "cover-art":"..public/img/rnb/all-of-me.jpg"
             },
             {
                 "title":"Aquarius",
