@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-app.set('');
+app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-    res.send("Hell yes i did it!");
+    res.render('home-page');
 });
 
 app.get('/all-albums', (req, res) => {
