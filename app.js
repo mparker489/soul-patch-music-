@@ -10,15 +10,12 @@ app.set('view engine', 'pug');
 //routes
 
 const mainRoutes = require('./routes');
+const albumRoutes = require('./routes/album');
+const genreRoutes = require('./routes/genres');
+
 app.use(mainRoutes);
-
-app.get('/genres', (req, res) => {
-    res.render('genre-page');
-});
-
-app.get('/albums', (req, res) => {
-    res.render('album-body');
-});
+app.use('/album', albumRoutes);
+app.use('/genres', genreRoutes);
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
