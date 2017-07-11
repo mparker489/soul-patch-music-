@@ -334,6 +334,183 @@
                 "description":"",
                  
             }
+        ],
+        "country":[
+            {
+                "artist":"Shania Twain",
+                "title":"Come On Over",
+                "genre":"country",
+                "description":"Come On Over is Canadian singer Shania Twain's third studio album. Released in 1997, it became the best selling country album of a Candian artist. Features songs such as 'Man! I feel like a woman!' and 'That Don't Impress Me Much'. Team Canada!",
+                "cover-art":"..public/img/country/come-on-over.jpg"
+            },
+            {
+                "artist":"Luke Bryan",
+                "title":"Crash My Party",
+                "genre":"country",
+                "description":"Luke Brysn, American country artist, released Crash My Party in 2013. Featuring songs like 'Play It Again' and 'That's my Kind of Night', the album has been extremely popular despite mixed reviews from critics, showing critics aren't always right.",
+                "cover-art":"..public/img/country/crash-my-party.jpg"
+            },
+            {
+                "artist":"Miranda Lambert",
+                "title":"Four the Record",
+                "genre":"country",
+                "description":"Four the Record is Miranda Lambert's fourth studio record, and features songs like 'Mama's Broken Heart' and 'Over You', bringing the fiery passion that Lambert is known for. Released in 2011, Four the Record has sold over one million copies nad was praised by critics.",
+                "cover-art":"..public/img/country/four-the-record.jpg"
+                 
+            },
+            {
+                "artist":"Florida Georgia Line",
+                "title":"Here's to the Good Times",
+                "genre":"country",
+                "description":"In their debut album, Florida Georgia Line bring the heat with songs like 'Cruise' and 'Round Here'. Released in 2012, Here's to the Good Times became the 6th best selling album in the U.S. in 2013.",
+                "cover-art":"..public/img/country/heres-to-the-good-times.jpg"
+            },
+            {
+                "artist":"Hunter Hayes",
+                "title":"Hunter Huayes - Encore",
+                "genre":"country",
+                "description":"Hunter Hayes - Encore is American singer Hunter Hayes' debut studio album. The country cutie delivers smooth vocals and sick guitar riffs in this 2011 album. Featuring songs like 'Wanted' and 'I Want Crazy', this album is sure to get you jammin'.",
+                "cover-art":"..public/img/country/hunter-hayes-encore.jpg"
+                 
+            },
+            {
+                "artist":"Old Dominion",
+                "title":"Meat and Candy",
+                "genre":"country",
+                "description":"Old Dominion released their debut stuido album, Meat and Candy, in 2015. Since then, songs like 'Break Up with Him' and 'Snapback' have become popular with what critics call their catchy tunes and clever lyrics ",
+                "cover-art":"..public/img/country/meat-and-candy.jpg"
+            },
+            {
+                "artist":"Sam Hunt",
+                "title":"Montevallo",
+                "genre":"country",
+                "description":"In his 2014 debut studio album, Sam Hunt co-wrote every track, including songs such as 'House Party' and 'Break Up in a Small Town'. Montevallo was nominated for Best Country Album at the Grammy Awards in 2015. Unfortunately, this country singer is married but his album is still a hit.",
+                "cover-art":"..public/img/country/montevallo.jpg"
+            },
+            {
+                "artist":"Lady Antebellum",
+                "title":"Need You Now",
+                "genre":"country",
+                "description":"Need You Now is Lady Antebellum's second studio album. Released in 2010, the country album won the Grammy Award for Best Country Album in 2011. Including songs like 'Need You Now' and 'American Honey', this album will make you feel some kind of way.",
+                "cover-art":"..public/img/country/need-you-now.jpg"
+            },
+            {
+                "artist":"Carrie Underwood",
+                "title":"Some Hearts",
+                "genre":"country",
+                "description":"Carrie Underwood released her debut studio album, Some Hearts, in 2005. It rocked the world of country, with songs like 'Before He Cheats' which speaks of her revenge on a cheating boyfriend. With Underwood's powerful voice and even more powerful lyrics, Some Hearts became the best selling album of 2006 #tbt.",
+                "cover-art":"..public/img/country/some-hearts.jpg"
+            },
+            {
+                "artist":"Kenny Chesney",
+                "title":"The Big Revival",
+                "genre":"country",
+                "description":"In 2014, American country singer Kenney Chesney released his sixteenth studio album. You go Kenney! The Big Revival features songs like 'American Kids' and 'Save It for a Rainy Day'. Although not best seller, citcs loved Chesney's album, saying it was one of his best. After lsitening to the other fifteen, let us know what you think!",
+                "cover-art":"..public/img/country/the-big-revival.jpg"
+            },
+            {
+                "artist":"Josh Thompson",
+                "title":"Way Out Here",
+                "genre":"country",
+                "description":"Way Out Here is Josh Thompson's debut studio album, released in 2010. With smooth vocals and crafty lyrics (and lucious locks), Thompson's songs like 'Way Out Here' and 'Beer on the Table' were top 20 on the Billboard Hot Country Songs.",
+                "cover-art":"..public/img/country/way-out-here.jpg"
+                 
+            }
+        ],
+
+        "pop":[
+            {
+                "artist":"Marian Hill",
+                "title":"Act One",
+                "genre":"pop",
+                "description":"In 2016, the American songwriting duo Marian Hill released their debut album, 'Act One'. Truly being their first act, songs featured on the album like 'Down' and 'Back To Me' brought the group into the spotlight. With strong beats, this album will be sure to get you jammin'.",
+                "cover-art":"..public/img/pop/act-one.jpg"
+                 
+            },
+            {
+                "artist":"Halsey",
+                "title":"BANLANDS",
+                "genre":"pop",
+                "description":"In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
+                "cover-art":"..public/img/pop/badlands.jpg"
+            },
+            {
+                "artist":"Lana Del Rey",
+                "title":"Born To Die",
+                "genre":"pop",
+                "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. ",
+                "cover-art":"..public/img/pop/born-to-die.jpg"
+            },
+            {
+                "title":"Funk Way Bounces Vol.1",
+                "artist":"Calvin Harris",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/funk-way-bounces.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"I See You",
+                "artist":"The xx",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/i-see-you.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"In Return",
+                "artist":"ODEZA",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/in-return.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"Now That the Light is Fading",
+                "artist":"Maggie Rogers",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/now-that-the-light-is-fading.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"Oh Wonder",
+                "artist":"Oh Wonder",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/oh-wonder.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"+",
+                "artist":"Ed Sheeran",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/plus.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"Somewhere in Between",
+                "artist":"Vérité",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/somewhere-in-between.jpg",
+                "description":"",
+                 
+            },
+            {
+                "title":"Songs About Jane",
+                "artist":"Maroon 5",
+                "genre":"pop",
+                "cover-art":"..public/img/pop/songs-about-jane.jpg",
+                "description":"",
+                 
+            }
+        ],
+        "rap":[
+
+        ],
+        "rnb":[
+            
         ]
     }
 }
