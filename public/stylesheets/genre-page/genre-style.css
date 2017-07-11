@@ -14,17 +14,18 @@
 
 #genre-page{
     position:relative;
-    float:center;
 }
 #genre-page ul{
     border-top:5px solid #585858;
     padding-top:50px;
-    padding-left: 250px;
+    margin: auto;
+    padding-left: 0px;
 }
 
 #genre-page li{
     display:inline;
     list-style-type: none;
+    margin: auto;
 }
 
 #genre-page ul a{
@@ -33,8 +34,10 @@
 
 #genre-page img{
     visibility: visible;
-    width:20%;
+    width:25%;
     padding-bottom:50px;
+    padding-left: 2%;
+    padding-right: 2%
 }
 
 #myInput{
