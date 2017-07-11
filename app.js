@@ -29,6 +29,7 @@ app.use((err, req, res, next) => {
     res.render('error');
 });
 
+
 app.listen(1234, () => {
     console.log('The application is running on localhost:1234!')
 ;});
