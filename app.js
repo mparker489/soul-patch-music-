@@ -5,7 +5,6 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
-
 app.set('view engine', 'pug');
 
 //routes
@@ -19,6 +18,18 @@ app.get('/genres', (req, res) => {
 
 app.get('/albums', (req, res) => {
     res.render('album-body');
+});
+
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status=404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
 });
 
 app.listen(1234, () => {
