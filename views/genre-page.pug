@@ -1,9 +1,13 @@
 extends layout.pug
 
 block main
-  #genre-page
+  button#myBtn(onclick='topFunction()', title='Go to top')
+      i.fa.fa-caret-square-o-up(aria-hidden='true')
+
+  main#genre-page
     h1#genre-name  GENRE 
     input#myInput(type='text', onkeyup='myFunction()', placeholder='Search for albums..')
+    
     ul#myUL
       li
         img(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
@@ -41,6 +45,3 @@ block main
       li
         img(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
         a(href='')  Angyong 
-    
-    button#myBtn(onclick='topFunction()', title='Go to top')
-      i.fa.fa-caret-square-o-up(aria-hidden='true')
