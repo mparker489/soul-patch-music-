@@ -8,9 +8,9 @@ app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 //routes
-app.get('/', (req, res) => {
-    res.render('home-page');
-});
+
+const mainRoutes = require('./routes');
+app.use(mainRoutes);
 
 app.get('/genres', (req, res) => {
     res.render('genre-page');
