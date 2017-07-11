@@ -101,48 +101,43 @@
                 "artist":"Lana Del Rey",
                 "title":"Born To Die",
                 "genre":"pop",
-                "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. ",
+                "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past life and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. Including songs like 'Born To Die' nad 'Video Games', the popularity of the album never diminished because it sure wasn't born to die.",
                 "cover-art":"..public/img/pop/born-to-die.jpg"
             },
             {
-                "title":"Funk Way Bounces Vol.1",
                 "artist":"Calvin Harris",
+                "title":"Funk Way Bounces Vol.1",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/funk-way-bounces.jpg",
-                "description":"",
-                 
+                "description":"In his fifth studio album, Calvin Harris brings the heat of summer into his tunes. After it's release in 2017, 'Funk Way Bounces Vol.1' has received positive reviews due to its popular artists featured and careless vibe. This album includes songs like 'Slide' and 'Rollin', both of which will get you boucning in the club.",
+                "cover-art":"..public/img/pop/funk-way-bounces.jpg"
             },
             {
-                "title":"I See You",
                 "artist":"The xx",
+                "title":"I See You",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/i-see-you.jpg",
-                "description":"",
-                 
+                "description":"'I See You' is this English indie pop duo's third studio album. The xx manage to maintain their cool vibes in this album, while also trying something completely new. Featured on the album are songs like 'Dangerous' and 'On Hold'. Once again, The xx have produced an album that critics and fans both love.",
+                "cover-art":"..public/img/pop/i-see-you.jpg"
             },
             {
-                "title":"In Return",
                 "artist":"ODEZA",
+                "title":"In Return",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/in-return.jpg",
-                "description":"",
-                 
+                "description":"In 2014, the American electro music duo released their second album. 'In Return' reached number one on the Top Dance/Electronic Albums chart, with amazing songs like 'Sun Models' and 'Say My Name'. You pay us money and in return we will give you one of the hottest albums of the year 2014!",
+                "cover-art":"..public/img/pop/in-return.jpg"
             },
             {
-                "title":"Now That the Light is Fading",
                 "artist":"Maggie Rogers",
+                "title":"Now That the Light is Fading",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/now-that-the-light-is-fading.jpg",
-                "description":"",
-                 
+                "description":"Maggie Rogers, the American singer-songwriter, released her debut studio album in 2017. Featuring songs like 'Alaksa' and 'On+Off', Rogers has received praise from both critics and fans. The light of Maggie's career sure won't be fading soon, so keep an eye out for her!",
+                "cover-art":"..public/img/pop/now-that-the-light-is-fading.jpg"
             },
             {
-                "title":"Oh Wonder",
                 "artist":"Oh Wonder",
+                "title":"Oh Wonder",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/oh-wonder.jpg",
-                "description":"",
-                 
+                "description":"In Oh Wonder's debut stuido album, 'Oh Wonder', ",
+                "cover-art":"..public/img/pop/oh-wonder.jpg"
             },
             {
                 "title":"+",
