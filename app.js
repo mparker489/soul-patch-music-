@@ -16,6 +16,7 @@ const genreRoutes = require('./routes/genres');
 app.use(mainRoutes);
 app.use('/album', albumRoutes);
 app.use('/genres', genreRoutes);
+app.use(express.static('public'));
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
