@@ -1,7 +1,4 @@
 {
-    "indie":{
-        "label":"Indie Acoustic"
-    },
     "pop":{
         "label":"Pop"
     },
@@ -28,6 +25,9 @@
     },
     "alt":{
         "label":"Alt Rock"
+    },
+    "indie":{
+        "label":"Indie Acoustic"
     },
     "rnb":{
         "label":"R&B/Soul"
