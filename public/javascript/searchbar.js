@@ -3,7 +3,7 @@ function myFunction(){
   input= document.getElementById('myInput');
   filter= input.value.toUpperCase();
   ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
+  li = ul.getElementsByClassName('textGenre');
 
   for( i = 0; i < li.length; i++)
     {
