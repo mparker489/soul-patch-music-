@@ -85,6 +85,7 @@
                 "cover-art":"..public/img/pop/songs-about-jane.jpg"
             }
     },
+
     "rap":{
             "0438728100":{
                 "artist":"2Pac",
@@ -170,6 +171,7 @@
                 "cover-art":"..public/img/rap/take-care.jpg"
             }
     },
+
     "classical":{
             "0438728200":{
                 "artist": "Yo-Yo Ma",
@@ -206,7 +208,7 @@
                 "description": "Mozart Symphonies Nos. 39 & 40 is a combination of two Mozart symphonies performed by Belgian musician and composer, René Jacobs. This album was released in 2010 and includes all of symphonies No 39 and 40.",
                 "coverArt": "../public/img/classical/Rene_Jacobs.jpg"
             },
-            "0438728205":
+            "0438728205":{
                 "artist": "Vladimir Ashkenazy",
                 "title": "Bach: French Suites, BWV 812-817",
                 "genre": "Classical",
@@ -256,6 +258,7 @@
                 "coverArt": "" 
             }
     },
+
     "jazz":{
             "0438728300":{
                 "artist": "Kenny G",
@@ -342,6 +345,7 @@
                 "coverArt": "" 
             }
     },
+
     "folk":{
             "0438728400":{
                 "artist": "Pete Seeger ",
@@ -427,6 +431,7 @@
                 "coverArt": "../public/img/folk/"
             }
     },
+
     "country":{
             "0438728500":{
                 "artist":"Shania Twain",
@@ -515,6 +520,7 @@
                 "cover-art":"..public/img/country/way-out-here.jpg"
             }
     },
+
     "latin":{
             "0438728600":{
                 "artist": "Shakira",
@@ -602,6 +608,7 @@
                 "coverArt": ""
             }
     },
+
     "decades":{
             "0438728700":{
                 "artist": "Hall and Oates",
@@ -688,179 +695,181 @@
                 "coverArt": "" 
             }
     },
-    "alt":{
-        {
-                "artist": "Third Eye Blind",
-                "title": "Third Eye Blind" ,
-                "genre": "Alt Rock" ,
-                "description": "Thid Eye Blind are an alternative rock group from San Fransico that gained major popularity in the late 90s. This angsty debut album was produced in 1997 and contains hits like 'Semi-Charmed Life' and 'How's it Going to Be.''",
-                "coverArt": "../public/img/alt_rock/thirdeyeblind.jpeg"
-            },
-{
-                "artist": "Smashing Pumpkins",
-                "title": "Simease Dream" ,
-                "genre": "Alt Rock" ,
-                "description": "Smashing Pumpkins combine rock, punk, grunge, and psychedelia into all of their songs. Their second album was released in 1993 and contains some softer hits like 'Disarm' and 'Today.'",
-                "coverArt": "../public/img/alt_rock/smashingpumpkins.jpeg"
-            },
-{
-                "artist": "Radiohead",
-                "title": "OK Computer" ,
-                "genre": "Alt Rock" ,
-                "description": "Radio is a British group that took a softer and sweeter approach to the rock phase in the 90s. This album was relased in 1997 and contains hits like 'Karma Police' and 'No Surprises.'",
-                "coverArt": "../public/img/alt_rock/.radiohead.jpg"
-            },
-{
-                "artist": "R.E.M.",
-                "title": "Automatic For The People" ,
-                "genre": "Alt Rock" ,
-                "description": "R.E.M. is an American band that was popular during the 80s and 90s. This album in particular is one of their best combining acoustics and piano with their alternative vibe. This album produced in 1992 contains hits like 'Man On The Moon' and 'Everybody Hurts.'",
-                "coverArt": "../public/img/alt_rock/automaticforthepeople.jpg"
-            },
-{
-                "artist": "Offspring",
-                "title": "Americana" ,
-                "genre": "Alt Rock" ,
-                "description": "Offsrping is an edgy soft-punk band that was popular during the 90s. This album was produced in 1998 and contains hits like 'Why Don't You Get a Job?' and 'The Kids Aren't Alight.'",
-                "coverArt": "../public/img/alt_rock/offspring.jpeg"
-            },
-{
-                "artist": "Oasis",
-                "title": "(What's The Story) Morning Glory?" ,
-                "genre": "Alt Rock" ,
-                "description": "Oasis is British band that combined the likes of rock, angst, and punk but in a softer matter. This album was produced in 1995 and contains hits like 'Wonderwall' and 'Champagne Supernova.'",
-                "coverArt": "../public/img/alt_rock/oasis.jpeg"
-            },
-{
-                "artist": "Blink-182",
-                "title": "Enema Of The State" ,
-                "genre": "Alt Rock" ,
-                "description": "Blink-182 is a pop-punk group from California that is very similar to Green Day. This album was released in 1999 and has hits like'What's My Age Again' and 'All The Small Things.' ",
-                "coverArt": "../public/img/alt_rock/blink182.jpeg"
-            },
-{
-                "artist": "Green Day",
-                "title": "American Idiot" ,
-                "genre": "Alt Rock" ,
-                "description": "Green Day is a pop-punk band from California. This album, perhaps their most iconic was produced in 2004 and contains hits like 'Holiday' and 'Wake Me Up When September Ends.'",
-                "coverArt": "../public/img/alt_rock/greenday.jpeg"
-            },
-{
-                "artist": "Pearl Jam",
-                "title": "Ten" ,
-                "genre": "Alt Rock" ,
-                "description": "Pearl Jam is a rock band from Seattle that gained extreme popularity in the 90s. Their songs delt with very touchy subjects head on. This debut album was released in 1991 and has hits like: 'Even Flow' and 'Jeremy.'",
-                "coverArt": "../public/img/alt_rock/pearlja.jpeg"
-            },
-{
-                "artist": "Weezer",
-                "title": "Weezer" ,
-                "genre": "Alt Rock" ,
-                "description": "Weezer is a popular alternative rock group whose songs are both intense and catchy. This debut album was released in 1994 and contains classic like 'Say It Ain't So' and 'Buddy Holly.'",
-                "coverArt": "../public/img/alt_rock/weezer.png"
-            },
-{
-                "artist": "Nirvana ",
-                "title": "Nevermind " ,
-                "genre": "Alt Rock" ,
-                "description": "Nirvana was a grunge band from Aberdeen, Washington. Their second album was released in 1991 and has all the classics like 'Smells Like Teen Spirit,' 'Lithium' and 'Come As You Are'",
-                "coverArt": "../public/img/alt_rock/nirvana.jpeg"
-            },
-{
-                "artist": "Muzak Makers",
-                "title": "Crt Alt Delete" ,
-                "genre": "Alt Rock " ,
-                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable whillistening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patricarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
-                "coverArt": "../public/img/alt_rock/"
-            }
-    },
-    "indie":{
-        {
-                "artist": "The Staves",
-                "title": "Dead & Born & Grown" ,
-                "genre": "Indie Acoustic" ,
-                "description": "The Staves have a sweet folk-like tune that combines great harmonies and smooth beats. They are some of the chillest girls around. This album, produced in 2012, contains hits like 'Mexico' and 'Gone Tomorrow.'",
-                "coverArt": "../public/img/indie_acoustic/thestaves.jpeg"
-            },
-{
-                "artist": "Coeur de Pirate",
-                "title": "Coeur de Pirate" ,
-                "genre": "Indie Acoustic " ,
-                "description": "Coeur de Pirate is Quebecoise pianist and singer who writes sweet and touching songs in both English and French. This album was her debut and was produced in 2008. It contains both piano and piano and vocal pieces including: 'Comme des enfants' and 'Ensemble.' ",
-                "coverArt": "../public/img/indie_acoustic/coeurdepirate.jpeg"
-            },
-{
-                "artist": "The Lumineers",
-                "title": "Cleopatra" ,
-                "genre": "Indie Acoustic" ,
-                "description": "The Lumineers are perfect combination of modern indie artists combining the likes of rock and folk. Their newest album contains some sweet tunes such as: 'Angela' and 'Cleopatra.' ",
-                "coverArt": "../public/img/indie_acoustic/lunineers.jpeg"
-            },
-{
-                "artist": "Mumford and Sons",
-                "title": "Sigh No More" ,
-                "genre": "Indie Acoustic" ,
-                "description": "Mumfords and Sons are a very popular English modern-folk band that stick to traditional folk values. This debut album released in 2009 has 'The Cave' and 'Roll Away Your Stone.'",
-                "coverArt": "../public/img/indie_acoustic/mumfordandsons.jpg"
-            },
-{
-                "artist": "The Paper Kites",
-                "title": "Woodland - EP" ,
-                "genre": "Indie Acoustic" ,
-                "description": "The Paper Kites are a young indie-folk group from Australia. This EP was released in 2013 and contains smash hits such as 'Bloom' and 'Featherstone.'",
-                "coverArt": "../public/img/indie_acoustic/thepaperkites.jpeg"
-            },
-{
-                "artist": "Hozier",
-                "title": "Hozier" ,
-                "genre": "Indie Acoustic" ,
-                "description": "Hozier is young Irish man who mixes acoustic sounds with R&B beats. His debut and only album to date contains hits such as 'Take Me to Church,' 'Like Real People Do,' and 'Someone New.'",
-                "coverArt": "../public/img/indie_acoustic/hozier.jpeg"
-            },
-{
-                "artist": "Bon Iver",
-                "title": "For Emma, Forever Ago" ,
-                "genre": "Indie Acoustic " ,
-                "description": "Bon Iver is an American vocalist and guitar player. His sound is very earthy and light. This was Bon Iver's debut album and has songs 'Skinny Love' and 'Re:Stacks.'",
-                "coverArt": "../public/img/indie_acoustic/boniver.jpeg"
-            },
-{
-                "artist": "French For Rabbits",
-                "title": "Spirits" ,
-                "genre": "Indie Acoustic" ,
-                "description": "French For Rabbits are a New Zealand duo that have a light airy sound. This album was produced in 2014 and has hits 'Goat' and 'The Other Side.'",
-                "coverArt": "../public/img/indie_acoustic/frenchforrabbits.jpg"
-            },
-{
-                "artist": "George Ezra",
-                "title": "Wanted On Voyage" ,
-                "genre": "Indie Acoustic" ,
-                "description": "George Ezra is a British man that has a voice too deep for his age. His debut album was released in 2015 and contains hits like 'Budapest' and 'Barcelona.'",
-                "coverArt": "../public/img/indie_acoustic/georgeezra.jpeg"
-            },
-{
-                "artist": "Judah and the Lion",
-                "title": "Sweet Tennessee" ,
-                "genre": "Indie Acoustic " ,
-                "description": "Judah and the Lion are a folk-indie group from Tennessee who sing songs with banjos and mandolins. This debut EP contains sweet sweet tunes such as 'Our Love' and 'Southern Ground.'",
-                "coverArt": "../public/img/indie_acoustic/judahandthelion.jpg"
-            },
 
-{
-                "artist": "The Civil Wars",
-                "title": "Barton Hallow" ,
-                "genre": "Indie Acoustic" ,
-                "description": "The Civil Wars is a indie-folk duo whose songs are unique and dry. This debut EP was produced in 2011 and contains hits like 'Poison & Wine' and 'To Whom It May Concern.'",
-                "coverArt": "../public/img/indie_acoustic/thecivilwars.jpeg"
-            },
-{
-                "artist": "Muzak Makers",
-                "title": "Crunchy Granola" ,
-                "genre": "Indie Acoustic" ,
-                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kumbacha and a bag of homemade compost. This album contains hits such as  'Free Range Chicken' and 'Solar-Powered Toilets'",
-                "coverArt": "../public/img/indie_acoustic/"
-            }
+    "alt":{
+            "0438728800":{
+                "artist": "Third Eye Blind",
+                "title": "Third Eye Blind" ,
+                "genre": "Alt Rock" ,
+                "description": "Thid Eye Blind are an alternative rock group from San Fransico that gained major popularity in the late 90s. This angsty debut album was produced in 1997 and contains hits like 'Semi-Charmed Life' and 'How's it Going to Be.''",
+                "coverArt": "../public/img/alt_rock/thirdeyeblind.jpeg"
+            },
+            "0438728801":{
+                "artist": "Smashing Pumpkins",
+                "title": "Simease Dream" ,
+                "genre": "Alt Rock" ,
+                "description": "Smashing Pumpkins combine rock, punk, grunge, and psychedelia into all of their songs. Their second album was released in 1993 and contains some softer hits like 'Disarm' and 'Today.'",
+                "coverArt": "../public/img/alt_rock/smashingpumpkins.jpeg"
+            },
+            "0438728802":{
+                "artist": "Radiohead",
+                "title": "OK Computer" ,
+                "genre": "Alt Rock" ,
+                "description": "Radio is a British group that took a softer and sweeter approach to the rock phase in the 90s. This album was relased in 1997 and contains hits like 'Karma Police' and 'No Surprises.'",
+                "coverArt": "../public/img/alt_rock/.radiohead.jpg"
+            },
+            "0438728803":{
+                "artist": "R.E.M.",
+                "title": "Automatic For The People" ,
+                "genre": "Alt Rock" ,
+                "description": "R.E.M. is an American band that was popular during the 80s and 90s. This album in particular is one of their best combining acoustics and piano with their alternative vibe. This album produced in 1992 contains hits like 'Man On The Moon' and 'Everybody Hurts.'",
+                "coverArt": "../public/img/alt_rock/automaticforthepeople.jpg"
+            },
+            "0438728804":{
+                "artist": "Offspring",
+                "title": "Americana" ,
+                "genre": "Alt Rock" ,
+                "description": "Offsrping is an edgy soft-punk band that was popular during the 90s. This album was produced in 1998 and contains hits like 'Why Don't You Get a Job?' and 'The Kids Aren't Alight.'",
+                "coverArt": "../public/img/alt_rock/offspring.jpeg"
+            },
+            "0438728805":{
+                "artist": "Oasis",
+                "title": "(What's The Story) Morning Glory?" ,
+                "genre": "Alt Rock" ,
+                "description": "Oasis is British band that combined the likes of rock, angst, and punk but in a softer matter. This album was produced in 1995 and contains hits like 'Wonderwall' and 'Champagne Supernova.'",
+                "coverArt": "../public/img/alt_rock/oasis.jpeg"
+            },
+            "0438728806":{
+                "artist": "Blink-182",
+                "title": "Enema Of The State" ,
+                "genre": "Alt Rock" ,
+                "description": "Blink-182 is a pop-punk group from California that is very similar to Green Day. This album was released in 1999 and has hits like'What's My Age Again' and 'All The Small Things.' ",
+                "coverArt": "../public/img/alt_rock/blink182.jpeg"
+            },
+            "0438728807":{
+                "artist": "Green Day",
+                "title": "American Idiot" ,
+                "genre": "Alt Rock" ,
+                "description": "Green Day is a pop-punk band from California. This album, perhaps their most iconic was produced in 2004 and contains hits like 'Holiday' and 'Wake Me Up When September Ends.'",
+                "coverArt": "../public/img/alt_rock/greenday.jpeg"
+            },
+            "0438728808":{
+                "artist": "Pearl Jam",
+                "title": "Ten" ,
+                "genre": "Alt Rock" ,
+                "description": "Pearl Jam is a rock band from Seattle that gained extreme popularity in the 90s. Their songs delt with very touchy subjects head on. This debut album was released in 1991 and has hits like: 'Even Flow' and 'Jeremy.'",
+                "coverArt": "../public/img/alt_rock/pearlja.jpeg"
+            },
+            "0438728809":{
+                "artist": "Weezer",
+                "title": "Weezer" ,
+                "genre": "Alt Rock" ,
+                "description": "Weezer is a popular alternative rock group whose songs are both intense and catchy. This debut album was released in 1994 and contains classic like 'Say It Ain't So' and 'Buddy Holly.'",
+                "coverArt": "../public/img/alt_rock/weezer.png"
+            },
+            "0438728810":{
+                "artist": "Nirvana ",
+                "title": "Nevermind " ,
+                "genre": "Alt Rock" ,
+                "description": "Nirvana was a grunge band from Aberdeen, Washington. Their second album was released in 1991 and has all the classics like 'Smells Like Teen Spirit,' 'Lithium' and 'Come As You Are'",
+                "coverArt": "../public/img/alt_rock/nirvana.jpeg"
+            },
+            "0438728811":{
+                "artist": "Muzak Makers",
+                "title": "Crt Alt Delete" ,
+                "genre": "Alt Rock " ,
+                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable whillistening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patricarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
+                "coverArt": "../public/img/alt_rock/"
+            }
     },
+
+    "indie":{
+            "0438728900":{
+                "artist": "The Staves",
+                "title": "Dead & Born & Grown" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Staves have a sweet folk-like tune that combines great harmonies and smooth beats. They are some of the chillest girls around. This album, produced in 2012, contains hits like 'Mexico' and 'Gone Tomorrow.'",
+                "coverArt": "../public/img/indie_acoustic/thestaves.jpeg"
+            },
+            "0438728901":{
+                "artist": "Coeur de Pirate",
+                "title": "Coeur de Pirate" ,
+                "genre": "Indie Acoustic " ,
+                "description": "Coeur de Pirate is Quebecoise pianist and singer who writes sweet and touching songs in both English and French. This album was her debut and was produced in 2008. It contains both piano and piano and vocal pieces including: 'Comme des enfants' and 'Ensemble.' ",
+                "coverArt": "../public/img/indie_acoustic/coeurdepirate.jpeg"
+            },
+            "0438728902":{
+                "artist": "The Lumineers",
+                "title": "Cleopatra" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Lumineers are perfect combination of modern indie artists combining the likes of rock and folk. Their newest album contains some sweet tunes such as: 'Angela' and 'Cleopatra.' ",
+                "coverArt": "../public/img/indie_acoustic/lunineers.jpeg"
+            },
+            "0438728903":{
+                "artist": "Mumford and Sons",
+                "title": "Sigh No More" ,
+                "genre": "Indie Acoustic" ,
+                "description": "Mumfords and Sons are a very popular English modern-folk band that stick to traditional folk values. This debut album released in 2009 has 'The Cave' and 'Roll Away Your Stone.'",
+                "coverArt": "../public/img/indie_acoustic/mumfordandsons.jpg"
+            },
+            "0438728904":{
+                "artist": "The Paper Kites",
+                "title": "Woodland - EP" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Paper Kites are a young indie-folk group from Australia. This EP was released in 2013 and contains smash hits such as 'Bloom' and 'Featherstone.'",
+                "coverArt": "../public/img/indie_acoustic/thepaperkites.jpeg"
+            },
+            "0438728905":{
+                "artist": "Hozier",
+                "title": "Hozier" ,
+                "genre": "Indie Acoustic" ,
+                "description": "Hozier is young Irish man who mixes acoustic sounds with R&B beats. His debut and only album to date contains hits such as 'Take Me to Church,' 'Like Real People Do,' and 'Someone New.'",
+                "coverArt": "../public/img/indie_acoustic/hozier.jpeg"
+            },
+            "0438728906":{
+                "artist": "Bon Iver",
+                "title": "For Emma, Forever Ago" ,
+                "genre": "Indie Acoustic " ,
+                "description": "Bon Iver is an American vocalist and guitar player. His sound is very earthy and light. This was Bon Iver's debut album and has songs 'Skinny Love' and 'Re:Stacks.'",
+                "coverArt": "../public/img/indie_acoustic/boniver.jpeg"
+            },
+            "0438728907":{
+                "artist": "French For Rabbits",
+                "title": "Spirits" ,
+                "genre": "Indie Acoustic" ,
+                "description": "French For Rabbits are a New Zealand duo that have a light airy sound. This album was produced in 2014 and has hits 'Goat' and 'The Other Side.'",
+                "coverArt": "../public/img/indie_acoustic/frenchforrabbits.jpg"
+            },
+            "0438728908":{
+                "artist": "George Ezra",
+                "title": "Wanted On Voyage" ,
+                "genre": "Indie Acoustic" ,
+                "description": "George Ezra is a British man that has a voice too deep for his age. His debut album was released in 2015 and contains hits like 'Budapest' and 'Barcelona.'",
+                "coverArt": "../public/img/indie_acoustic/georgeezra.jpeg"
+                },
+            "0438728909":{
+                "artist": "Judah and the Lion",
+                "title": "Sweet Tennessee" ,
+                "genre": "Indie Acoustic " ,
+                "description": "Judah and the Lion are a folk-indie group from Tennessee who sing songs with banjos and mandolins. This debut EP contains sweet sweet tunes such as 'Our Love' and 'Southern Ground.'",
+                "coverArt": "../public/img/indie_acoustic/judahandthelion.jpg"
+                },
+            "0438728910":{
+                "artist": "The Civil Wars",
+                "title": "Barton Hallow" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Civil Wars is a indie-folk duo whose songs are unique and dry. This debut EP was produced in 2011 and contains hits like 'Poison & Wine' and 'To Whom It May Concern.'",
+                "coverArt": "../public/img/indie_acoustic/thecivilwars.jpeg"
+                },
+            "0438728911":{
+                "artist": "Muzak Makers",
+                "title": "Crunchy Granola" ,
+                "genre": "Indie Acoustic" ,
+                "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kumbacha and a bag of homemade compost. This album contains hits such as  'Free Range Chicken' and 'Solar-Powered Toilets'",
+                "coverArt": "../public/img/indie_acoustic/"
+                }
+    },
+
     "rnb":{
             "0438729000":{
                 "artist":"Estelle",
@@ -946,6 +955,7 @@
                 "cover-art":"..public/img/rnb/the-breakthrough.jpg"
             }
     },
+
     "french":{
             "0438729100":{
                 "artist": "Louane",
@@ -1033,6 +1043,7 @@
                 "coverArt": ""
             }
     },
+
     "soundtracks":{
             "0438729200":{
                 "artist": "Alexandre Desplat",
