@@ -57,7 +57,7 @@
                 "artist":"Muzak Makers",
                 "title":"My Wife, My Dog, My Truck",
                 "genre":"country",
-                "description":"Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the coutnry in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and '', this album will sure be a hit at your next backyard shindig.",
+                "description":"Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the coutnry in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and 'All My Ex's Live Next Door (Small Town Livin)', this album will sure be a hit at your next backyard shindig.",
                 "cover-art":"..public/img/country/my-wife-my-dog-my-truck.jpg"
             },
             {
@@ -205,7 +205,8 @@
             {
                 "artist":"Muzak Makers",
                 "title":"Coderz",
-                "genre"
+                "genre":"rap",
+                "descriptio":"In Muzak Makers sixteenth rap studio alubm, they really step up their rap game. 'Coderz' is a progressive album that expresses the groups wide range of emoitons. Including songs like 'All Handz on Keyz' and 'All I Do is Code', this album peaked at number 456 on Billboard 200. Come one, get ur code on!"
             },
             {
                 "artist":"Chance the Rapper",
@@ -298,6 +299,12 @@
                 "genre":"rnb",
                 "description":"In his fourth studio album, Usher mixed R&B and hip-hop, producing both ballads and up-temp songs. An instant commerical success, 'Confessions' topped the charts like its singles did. The album features songs such as 'Yeah! and 'My Boo'.",
                 "cover-art":"..public/img/rnb/confessions.jpg"
+            },
+            {
+                "artist":"Muzak Makers",
+                "title":"Git With It",
+                "genre":"rnb",
+                "description":"In Muzak Makers's fourth studio album, 'Git With It', their soulful beings truly shine. The album features sick vocals and smooth instrumentals, and includes songs like 'Push and Pull' and 'Gimme That Status'. Put on this record on, sit back, and git with the program."
             },
             {
                 "artist":"John Legend",
