@@ -1,6 +1,6 @@
 {
     "pop":{
-            "0438729000":{
+            "0438728000":{
                 "artist":"Marian Hill",
                 "title":"Act One",
                 "genre":"pop",
@@ -8,76 +8,76 @@
                 "cover-art":"..public/img/pop/act-one.jpg"
                  
             },
-            "0438729001":{
+            "0438728001":{
                 "artist":"Halsey",
                 "title":"BANLANDS",
                 "genre":"pop",
                 "description":"In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
                 "cover-art":"..public/img/pop/badlands.jpg"
             },
-            "0438729002":{
+            "0438728002":{
                 "artist":"Lana Del Rey",
                 "title":"Born To Die",
                 "genre":"pop",
                 "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past life and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. Including songs like 'Born To Die' nad 'Video Games', the popularity of the album never diminished because it sure wasn't born to die.",
                 "cover-art":"..public/img/pop/born-to-die.jpg"
             },
-            "0438729003":{
+            "0438728003":{
                 "artist":"Muzak Makers",
                 "title":"#coachellabound",
                 "genre":"pop",
                 "description":"In their debut pop ablum, Muzak Makers bring the heat of summer. Featuring hit singles 'Eyebrows on Fleek' and 'No Flower Crown, No Glitter, No Service', this album sure will get you in the mood to sit at home and look at pictures of celebrities at Coachella. #hipster"
             },
-            "0438729004":{
+            "0438728004":{
                 "artist":"Calvin Harris",
                 "title":"Funk Way Bounces Vol.1",
                 "genre":"pop",
                 "description":"In his fifth studio album, Calvin Harris brings the heat of summer into his tunes. After it's release in 2017, 'Funk Way Bounces Vol.1' has received positive reviews due to its popular artists featured and careless vibe. This album includes songs like 'Slide' and 'Rollin', both of which will get you boucning in the club.",
                 "cover-art":"..public/img/pop/funk-way-bounces.jpg"
             },
-            "0438729005":{
+            "0438728005":{
                 "artist":"The xx",
                 "title":"I See You",
                 "genre":"pop",
                 "description":"'I See You' is this English indie pop duo's third studio album. The xx manage to maintain their cool vibes in this album, while also trying something completely new. Featured on the album are songs like 'Dangerous' and 'On Hold'. Once again, The xx have produced an album that critics and fans both love.",
                 "cover-art":"..public/img/pop/i-see-you.jpg"
             },
-            "0438729006":{
+            "0438728006":{
                 "artist":"ODEZA",
                 "title":"In Return",
                 "genre":"pop",
                 "description":"In 2014, the American electro music duo released their second album. 'In Return' reached number one on the Top Dance/Electronic Albums chart, with amazing songs like 'Sun Models' and 'Say My Name'. You pay us money and in return we will give you one of the hottest albums of the year 2014!",
                 "cover-art":"..public/img/pop/in-return.jpg"
             },
-            "0438729007":{
+            "0438728007":{
                 "artist":"Maggie Rogers",
                 "title":"Now That the Light is Fading",
                 "genre":"pop",
                 "description":"Maggie Rogers, the American singer-songwriter, released her debut studio album in 2017. Featuring songs like 'Alaksa' and 'On+Off', Rogers has received praise from both critics and fans. The light of Maggie's career sure won't be fading soon, so keep an eye out for her!",
                 "cover-art":"..public/img/pop/now-that-the-light-is-fading.jpg"
             },
-            "0438729008":{
+            "0438728008":{
                 "artist":"Oh Wonder",
                 "title":"Oh Wonder",
                 "genre":"pop",
                 "description":"In Oh Wonder's debut stuido album, 'Oh Wonder',several singles released were combined to form one awe-inspiring album. Released in 2015, this album features songs like 'Drive' and 'Lose It'. Their creativity and talent will make you wonder.",
                 "cover-art":"..public/img/pop/oh-wonder.jpg"
             },
-            "0438729009":{
+            "0438728009":{
                 "artist":"Ed Sheeran",
                 "title":"+",
                 "genre":"pop",
                 "description":"Ed Sheeran's '+' (read: 'plus'), is this English singer-songwriter's debut album. After its release in 2011, Sheeran received some negative reviews from critics, but fans gobbled it up and his single 'The A Team' reached No.3 on the Billboard charts - what a plus!",
                 "cover-art":"..public/img/pop/plus.jpg"
             },
-            "0438729010":{
+            "0438728010":{
                 "artist":"Vérité",
                 "title":"Somewhere in Between",
                 "genre":"pop",
                 "description":"Released in 2017, Verité's debut studio album 'Somewhere In Between' has been a success! It features songs like her single 'When You're Gone' and 'Phase Me Out'. The American singer-songwriter shys away from labels on her music, and rather tends to be somewhere between indie pop and alternative pop (see what I did there).",
                 "cover-art":"..public/img/pop/somewhere-in-between.jpg"
             },
-            "0438729011":{
+            "0438728011":{
                 "artist":"Maroon 5",
                 "title":"Songs About Jane",
                 "genre":"pop",
@@ -86,7 +86,89 @@
             }
     },
     "rap":{
-        
+            "0438728100":{
+                "artist":"2Pac",
+                "title":"All Eyez On Me",
+                "genre":"rap",
+                "description":"'All Eyez On Me' is 2Pac's fourth studio album, and last one to be released before his death. Featuring songs like 'How Do U Want It' and 'Califronia Love', both of which reached number one on the Billboard Hot 100, all eyes were on 2Pac.",
+                "cover-art":"..public/img/rap/all-eyez-on-me.jpg"
+            },
+            "0438728101":{
+                "artist":"Khalid",
+                "title":"American Teen",
+                "genre":"rap",
+                "description":"'American Teen' is American rapper Khalid's debut studio album. Released in 2017, one of the featured songs 'Location' reached 16 on the Billboards Hot 100. Also included, is 'Young, Dumb, and Broke', which embodies the carefree attitude of the younger generations #yolo.",
+                "cover-art":"..public/img/rap/american-teen.jpg"
+            },
+            "0438728102":{
+                "artist":"Travis Scott",
+                "title":"Birds in the Trap Sing McKnight",
+                "genre":"rap",
+                "description":"Travis Scott's second studio album was released in 2016. 'Birds in the Trap Sing McKnight' features many popular rappers, like Kid Cudi and André 3000. With positive critical reviews and the success of songs like 'goosebumps', the hype was worth it.",
+                "cover-art":"..public/img/rap/birds-in-the-trap-sing-mcknight.jpg"
+            },
+            "0438728103":{
+                "artist":"J.Cole",
+                "title":"Born Sinner",
+                "genre":"rap",
+                "description":"As J.Cole's second studio album, 'Born Sinner', the album was number two on the Billboard 200 for two weeks, finally climbing to number one. Including songs like 'Power Trip' and 'Crooked Smile' and featuring artists such as Miguel and Kendrick Lamar, this album was a born winner.",
+                "cover-art":"..public/img/rap/born-sinner.jpg"
+            },
+            "0438728104":{
+                "artist":"Muzak Makers",
+                "title":"Coderz",
+                "genre":"rap",
+                "descriptio":"In Muzak Makers sixteenth rap studio alubm, they really step up their rap game. 'Coderz' is a progressive album that expresses the groups wide range of emoitons. Including songs like 'All Handz on Keyz' and 'All I Do is Code', this album peaked at number 456 on Billboard 200. Come one, get ur code on!"
+            },
+            "0438728105":{
+                "artist":"Chance the Rapper",
+                "title":"Coloring Book",
+                "genre":"rap",
+                "description":"American rapper Chance the Rapper released his third mixtape, 'Coloring Book' in 2016. Considered a fusion of hip hop and goapel sounds (he took that chance!), Chance's album won Best Rap Album at the 2017 Grammy Awards. The album features songs like 'No Problem' and artists such as Kanye West and Justin Bieber.",
+                "cover-art":"..public/img/rap/coloring-book.jpg"
+            },
+            "0438728106":{
+                "artist":"Future",
+                "title":"Future",
+                "genre":"rap",
+                "description":"'Future' is American rapper Future's fifth studi album. Although critics do not consider the album groundbreaking, it is a quality album that showcases the artist's talents. Released in 2017, listening to this album will transport you to the sound of the future.",
+                "cover-art":"..public/img/rap/future.jpg"
+            },
+            "0438728107":{
+                "artist":"Kendrick Lamar",
+                "title":"good kid, m.A.A.d city",
+                "genre":"rap",
+                "description":"'good kid, m.A.A.d city' is American rapper Kendrick Lamar's second studio album. Released in 2012, it reached number 2 on the Billboard 200 chart. With songs like 'Swimming Pools' and 'Poetic Justice', you'd be maad not to buy it! ",
+                "cover-art":"..public/img/rap/good-kid-maad-city.jpg"
+            },
+            "0438728108":{
+                "artist":"Lupe Fiasco",
+                "title":"Lupe Fiasco's Food & Liquor",
+                "genre":"rap",
+                "description":"'Food & Liquor' is Lupe Fiasco's debut studio album, released in 2006. Despite none of the singles reaching the top 10 on the charts, the album was extremely popular and won the Best Rap Album at the 2007 Grammy Awards, creating quite the fiasco. Songs like 'Daydreamin' and 'Kick, Push' are festured on the album. ",
+                "cover-art":"..public/img/rap/lupe-fiascos-food-&-liquor.jpg"
+            },
+            "0438728109":{
+                "artist":"Kid Cudi",
+                "title":"Man on the Moon: The End of Day",
+                "genre":"rap",
+                "description":"Released in 2009, 'Man on the Moon' is American rapper Kid Cudi's first studio album. ALthough not very successful internationally, 'Man on the Moon' sold 104,000 copies in the first week in the US. The album features songs like 'Day 'n' Nite' and 'Pursuit of Happiness'. Be prepared to be sent to the moon.",
+                "cover-art":"..public/img/rap/man-on-the-moon.jpg"
+            },
+            "0438728110":{
+                "artist":"Missy Elliot",
+                "title":"Miss E...So Addictive",
+                "genre":"rap",
+                "description":"In her third studio album, Missy Elliot delivers popular songs like 'Get Ur Freak On' and 'One Minute Man'. After being released in 2001, 'Miss E...So Addictive' recevied postive reviews from critics and fans alike. Warning: this album is addictive!",
+                "cover-art":"..public/img/rap/miss-e-so-addictive.jpg"
+            },
+            "0438728111":{
+                "artist":"Drake",
+                "title":"Take Care",
+                "genre":"rap",
+                "description":"'Take Care' is Drake's second studio album, relased in 2011. This CANADIAN rapper carefully crafted an album that balanced minimalist R&B elements with his vocals, and in the first week 631,000 copies were sold. Praised by critics, including songs ike 'Headlines' and 'Take Care', and featuring artists like Rihanna and Nicki Minaj, take care of yourself and jam to this album.",
+                "cover-art":"..public/img/rap/take-care.jpg"
+            }
     },
     "classical":{
        
