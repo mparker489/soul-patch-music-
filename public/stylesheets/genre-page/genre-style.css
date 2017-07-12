@@ -53,15 +53,19 @@
   bottom:90px;
   right:50px;
 }
-.containerImage{
+.containerGenre{
     position: relative;
     width: 20%;
     display: inline-block;
+    margin: 2%;
 }
 
-}
+
 .imageGenre {
   opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 
@@ -70,19 +74,19 @@
 .middleGenre {
   transition: .5s ease;
   opacity: 0;
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 
 }
 
-li:hover .imageGenre {
+.containerGenre:hover .imageGenre {
   opacity: 0.3;
 }
 
-li:hover .middleGenre {
+.containerGenre:hover .middleGenre {
   opacity: 1;
 
 }
