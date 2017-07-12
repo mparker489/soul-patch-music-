@@ -54,6 +54,13 @@
                 "cover-art":"..public/img/country/montevallo.jpg"
             },
             {
+                "artist":"Muzak Makers",
+                "title":"My Wife, My Dog, My Truck",
+                "genre":"country",
+                "description":"Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the coutnry in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and '', this album will sure be a hit at your next backyard shindig.",
+                "cover-art":"..public/img/country/my-wife-my-dog-my-truck.jpg"
+            },
+            {
                 "artist":"Lady Antebellum",
                 "title":"Need You Now",
                 "genre":"country",
@@ -103,6 +110,12 @@
                 "genre":"pop",
                 "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past life and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. Including songs like 'Born To Die' nad 'Video Games', the popularity of the album never diminished because it sure wasn't born to die.",
                 "cover-art":"..public/img/pop/born-to-die.jpg"
+            },
+            {
+                "artist":"Muzak Makers",
+                "title":"#coachellabound",
+                "genre":"pop",
+                "description":"In their debut pop ablum, Muzak Makers bring the heat of summer. Featuring hit singles 'Eyebrows on Fleek' and 'No Flower Crown, No Glitter, No Service', this album sure will get you in the mood to sit at home and look at pictures of celebrities at Coachella. #hipster"
             },
             {
                 "artist":"Calvin Harris",
@@ -188,6 +201,11 @@
                 "genre":"rap",
                 "description":"As J.Cole's second studio album, 'Born Sinner', the album was number two on the Billboard 200 for two weeks, finally climbing to number one. Including songs like 'Power Trip' and 'Crooked Smile' and featuring artists such as Miguel and Kendrick Lamar, this album was a born winner.",
                 "cover-art":"..public/img/rap/born-sinner.jpg"
+            },
+            {
+                "artist":"Muzak Makers",
+                "title":"Coderz",
+                "genre"
             },
             {
                 "artist":"Chance the Rapper",
@@ -292,33 +310,29 @@
                 "artist":"Brandy",
                 "title":"Never Say Never",
                 "genre":"rnb",
-                "description":"",
-                "cover-art":"..public/img/rnb/never-say-never.jpg",
-                 
+                "description":"American singer Brandy released her second studio album in 1998. 'Never Say Never' is what most critics call a new. more confident Brandy. Featuring songs like 'The Boy is Mine' and 'Have You Ever?', the album was a hit and boosted her career into the 2000s.",
+                "cover-art":"..public/img/rnb/never-say-never.jpg"
             },
             {
-                "title":"Sail Out",
                 "artist":"Jhené Aiko",
+                "title":"Sail Out",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/sail-out.jpg",
-                "description":"",
-                 
+                "description":"'Sail Out' is American recording artist Jhene Aiko's debut EP, released in 2013. The album features well-known artists like Childish Gambino in her son 'Bed Peace', and her single 'The Worst' rose to number 43 on the Billboard 100 chart.",
+                "cover-art":"..public/img/rnb/sail-out.jpg"
             },
              {
-                "title":"Starboy",
                 "artist":"The Weeknd",
+                "title":"Starboy",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/starboy.jpg",
-                "description":"",
-                 
+                "description":"Canadian singer The Weeknd released his third studio album, 'Starboy', in 2016. This album introduces more electronic vibes than his earlier works, and although there were some criticisms, the album debuted at number on Billboard 200. The album features songs like 'Starboy' and 'I Feel It Coming', both which topped charts. ",
+                "cover-art":"..public/img/rnb/starboy.jpg"
             },
              {
-                "title":"The Breakthrough",
                 "artist":"Mary J. Blige",
+                "title":"The Breakthrough",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/the-breakthrough.jpg",
-                "description":"",
-                 
+                "description":"'The Breakthrough' is American singer Mary J. Blige's seventh studio album (wow!). It was released in 2005, and critics have praised it for displaying all of Blige's emoitons. It may not have been what critics call her breakthrough album, but it topped the Billboard 200 charts and rocked the world.",
+                "cover-art":"..public/img/rnb/the-breakthrough.jpg"
             }
         ]
     }
