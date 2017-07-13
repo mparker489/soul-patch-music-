@@ -1,46 +1,69 @@
 extends layout.pug
-  block main
-    button#myBtn(onclick="topFunction()", title="Go to Top")
-      i.fa.fa-caret-square-o-up(aria-hidden="true")
 
-    main#genre-page
-      h1#genre-name GENRE
-      input#myInput(type="text", onkeyup="myFunction()", placeholder="Search for albums..")
-
-      ul#myUL
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
-        li
-          a(href"")
-          img(src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jp")
+block main
+  button#myBtn(onclick='topFunction()', title='Go to top')
+      i.fa.fa-caret-square-o-up(aria-hidden='true')
+  main#genre-page
+    h1#genre-name  GENRE
+    input#myInput(type='text', onkeyup='myFunction()', placeholder='Search for albums..')
+    ul#myUL
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Meghan
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Milla
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Lucile
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Buster
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Julia
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre Michael
+      li.containerGenre
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        a(href='')
+        .middleGenre
+          .textGenre George Michael
+      li.containerGenre
+        a(href='')
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        .middleGenre
+          .textGenre GOB
+      li.containerGenre
+        a(href='')
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        .middleGenre
+          .textGenre Tobias
+      li.containerGenre
+        a(href='')
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        .middleGenre
+          .textGenre Maeby
+      li.containerGenre
+        a(href='')
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        .middleGenre
+          .textGenre Lyndsey
+      li.containerGenre
+        a(href='')
+        img.imageGenre(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        .middleGenre
+          .textGenre Angyong

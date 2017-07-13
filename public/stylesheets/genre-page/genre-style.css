@@ -53,54 +53,8 @@
   bottom:90px;
   right:50px;
 }
-.containerGenre{
-    position: relative;
-    width: 20%;
-    display: inline-block;
-    margin: 2%;
-}
 
 
-.imageGenre {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-
-.middleGenre {
-  transition: .5s ease;
-  opacity: 0;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-.containerGenre:hover .imageGenre {
-  opacity: 0.3;
-}
-
-.containerGenre:hover .middleGenre {
-  opacity: 1;
-
-}
-.textGenre{
-  background-color: #6f796e;
-  color: #e7e6e6;
-  font-size: 1rem;
-  padding-left: 25px;
-  padding-right: 25px;
-  width:auto;
-  padding-top:9px;
-  text-align: center;
-  font-family: 'Amatic SC';
-}
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
