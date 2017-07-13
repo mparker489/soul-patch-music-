@@ -3,6 +3,7 @@
 @import url(home-page/home-style.css);
 @import url(footer.css);
 @import url(header-nav.css);
+@import url(error-page/error-page.css);
 
 *{
   box-sizing:border-box;
