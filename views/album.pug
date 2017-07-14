@@ -1,63 +1,20 @@
-doctype html
-html(lang="en")
-    head 
-        title ALBUM PAGE
-        link(rel='stylesheet', type='text/css', href='../public/stylesheets/stylesheet.css')
-        link(href='https://fonts.googleapis.com/css?family=Amatic+SC', rel='stylesheet')
+extends layout.pug
 
-    body
-        header
-            nav
-                ul.navigation
-                    h1#brand Soul Patch Music
-                    li 
-                        img(src='../public/img/soulpatch.png')
-                    li ALL ALBUMS
-                    li POP
-                    li RAP/HIP HOP
-                    li CLASSICAL 
-                    li JAZZ
-                    li FOLK
-                    li COUNTRY 
-                    li LATIN 
-                    .dropdown 
-                        li.dropdown-button MORE GENRES 
-                        ul.dropdown-content
-                            li DECADES  
-                            li ALT ROCK
-                            li ACOUSTIC INDIE
-                            li R&B/SOUL 
-                            li FRENCH
-                            li SOUNDTRACKS
-        
-        main
-            #complete
-                #photo 
-                    img.albumBodyAlbum(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
-                #description 
-                    h1.albumBodyTitle Romantic Works by Keaton Henson
-                    p.albumBodyDescription.
-                        Romantic Works is the 3rd album by British musician Keaton Henson. This album was written to be completely instrumental and features cellist Ren Ford. It was released in 2014 and features tracks such as "Earnestly Yours" and "Healah Dancing"
+block content
+    #complete
+        #photo 
+            img.albumBodyAlbum(src='https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg')
+        #description 
+            h1.albumBodyTitle Romantic Works by Keaton Henson
+            p.albumBodyDescription.
+                Romantic Works is the 3rd album by British musician Keaton Henson. This album was written to be completely instrumental and features cellist Ren Ford. It was released in 2014 and features tracks such as "Earnestly Yours" and "Healah Dancing"
 
-            aside
-                ul.navigation
-                    .dropdown
-                        li.dropdown-button Platform:
-                        ul.dropdown-contentAlbum.albumBodyLink(style)
-                            li.albumBodyLink Vinyl: $9.99
-                            li.albumBodyLink Cassette: $2.00
-                            li.albumBodyLink CD: $2.00
-                            li.albumBodyLink Digital: Free
-        footer.footer
-            script(src='https://use.fontawesome.com/a404a9b8d8.js')
-            p.footerText COPYRIGHT 2017
-                i(class='fa fa-copyright', aria-hidden='true')
-            p.socialMedia
-                a(href='https://www.facebook.com/andrewchalkley')
-                    i(class='fa fa-facebook-square', aria-hidden='true')
-                a(href='https://www.pinterest.com/juliabmarshall/')
-                    i(class='fa fa-pinterest-square', aria-hidden='true')
-                a(href='https://twitter.com/chalkers?lang=en')
-                    i(class='fa fa-twitter-square', aria-hidden='true')
-                a(href='https://www.instagram.com/juliabmarshall/')
-                    i(class='fa fa-instagram', aria-hidden='true')
+    aside
+        ul.navigation
+            .dropdown
+                li.dropdown-button Platform:
+                ul.dropdown-contentAlbum.albumBodyLink
+                    li.albumBodyLink Vinyl: $9.99
+                    li.albumBodyLink Cassette: $2.00
+                    li.albumBodyLink CD: $2.00
+                    li.albumBodyLink Digital: Free
