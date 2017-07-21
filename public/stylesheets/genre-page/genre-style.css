@@ -37,7 +37,8 @@
     width:25%;
     padding-bottom:50px;
     padding-left: 2%;
-    padding-right: 2%
+    padding-right: 2%;
+    display: inline-block;
 }
 
 #myInput{
@@ -52,6 +53,7 @@
   bottom:90px;
   right:50px;
 }
+
 
 #myBtn {
     display: none; /* Hidden by default */

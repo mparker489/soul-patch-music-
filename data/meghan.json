@@ -54,6 +54,13 @@
                 "cover-art":"..public/img/country/montevallo.jpg"
             },
             {
+                "artist":"Muzak Makers",
+                "title":"My Wife, My Dog, My Truck",
+                "genre":"country",
+                "description":"Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the coutnry in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and 'All My Ex's Live Next Door (Small Town Livin)', this album will sure be a hit at your next backyard shindig.",
+                "cover-art":"..public/img/country/my-wife-my-dog-my-truck.jpg"
+            },
+            {
                 "artist":"Lady Antebellum",
                 "title":"Need You Now",
                 "genre":"country",
@@ -105,6 +112,12 @@
                 "cover-art":"..public/img/pop/born-to-die.jpg"
             },
             {
+                "artist":"Muzak Makers",
+                "title":"#coachellabound",
+                "genre":"pop",
+                "description":"In their debut pop ablum, Muzak Makers bring the heat of summer. Featuring hit singles 'Eyebrows on Fleek' and 'No Flower Crown, No Glitter, No Service', this album sure will get you in the mood to sit at home and look at pictures of celebrities at Coachella. #hipster"
+            },
+            {
                 "artist":"Calvin Harris",
                 "title":"Funk Way Bounces Vol.1",
                 "genre":"pop",
@@ -136,32 +149,29 @@
                 "artist":"Oh Wonder",
                 "title":"Oh Wonder",
                 "genre":"pop",
-                "description":"In Oh Wonder's debut stuido album, 'Oh Wonder', ",
+                "description":"In Oh Wonder's debut stuido album, 'Oh Wonder',several singles released were combined to form one awe-inspiring album. Released in 2015, this album features songs like 'Drive' and 'Lose It'. Their creativity and talent will make you wonder.",
                 "cover-art":"..public/img/pop/oh-wonder.jpg"
             },
             {
-                "title":"+",
                 "artist":"Ed Sheeran",
+                "title":"+",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/plus.jpg",
-                "description":"",
-                 
+                "description":"Ed Sheeran's '+' (read: 'plus'), is this English singer-songwriter's debut album. After its release in 2011, Sheeran received some negative reviews from critics, but fans gobbled it up and his single 'The A Team' reached No.3 on the Billboard charts - what a plus!",
+                "cover-art":"..public/img/pop/plus.jpg"
             },
             {
-                "title":"Somewhere in Between",
                 "artist":"Vérité",
+                "title":"Somewhere in Between",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/somewhere-in-between.jpg",
-                "description":"",
-                 
+                "description":"Released in 2017, Verité's debut studio album 'Somewhere In Between' has been a success! It features songs like her single 'When You're Gone' and 'Phase Me Out'. The American singer-songwriter shys away from labels on her music, and rather tends to be somewhere between indie pop and alternative pop (see what I did there).",
+                "cover-art":"..public/img/pop/somewhere-in-between.jpg"
             },
             {
-                "title":"Songs About Jane",
                 "artist":"Maroon 5",
+                "title":"Songs About Jane",
                 "genre":"pop",
-                "cover-art":"..public/img/pop/songs-about-jane.jpg",
-                "description":"",
-                 
+                "description":"In their debut studio album, Maroon 5 test their smooth jams sound. Including popular sogns like 'Harder To Breathe', 'This Love, and 'She Will Be Loved', the album was favorable with fans, selling almost 2.7 million copies after just 18 months.",
+                "cover-art":"..public/img/pop/songs-about-jane.jpg"
             },
             {
                 "artist":"2Pac",
@@ -191,6 +201,12 @@
                 "genre":"rap",
                 "description":"As J.Cole's second studio album, 'Born Sinner', the album was number two on the Billboard 200 for two weeks, finally climbing to number one. Including songs like 'Power Trip' and 'Crooked Smile' and featuring artists such as Miguel and Kendrick Lamar, this album was a born winner.",
                 "cover-art":"..public/img/rap/born-sinner.jpg"
+            },
+            {
+                "artist":"Muzak Makers",
+                "title":"Coderz",
+                "genre":"rap",
+                "descriptio":"In Muzak Makers sixteenth rap studio alubm, they really step up their rap game. 'Coderz' is a progressive album that expresses the groups wide range of emoitons. Including songs like 'All Handz on Keyz' and 'All I Do is Code', this album peaked at number 456 on Billboard 200. Come one, get ur code on!"
             },
             {
                 "artist":"Chance the Rapper",
@@ -246,266 +262,85 @@
                 "artist":"Estelle",
                 "title":"All Of Me",
                 "genre":"rnb",
-                "description":"",
+                "description":"'All of Me' is the third studio album of Enghgish R&B artist Estelle. With Estelle's beautiful voice amd the addition of other popular artists, the album was extremely successful. Featuring songs such as 'Thank You' and 'Break My Heart', this album truly captures all of Estelle.",
                 "cover-art":"..public/img/rnb/all-of-me.jpg"
             },
             {
-                "title":"Aquarius",
                 "artist":"Tinashe",
+                "title":"Aquarius",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/aquarius.jpg",
-                "description":"",
-                 
+                "description":"Released in 2014, 'Aquarius' is the debut studio album of R&B singer-songwriter Tinashe. The album was very popular, especially after the promotion of it throigh the release of singels like '2 On'. Although Tinashe is an aqaurius, it isn't a requirement to listen to the album!",
+                "cover-art":"..public/img/rnb/aquarius.jpg"
             },
             {
-                "title":"As I Am",
                 "artist":"Alicia Keys",
+                "title":"As I Am",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/as-i-am.jpg",
-                "description":"",
-                 
+                "description":"Alicia Keys released 'As I Am' in 2007 as her third studio album. The singer-songwriter's beautiful voice and powerful lyrics bring emoitions to listeners that they have never felt before. The album feeatures on of Keys's most popular songs, 'No One'. ",
+                "cover-art":"..public/img/rnb/as-i-am.jpg"
             },
             {
-                "title":"Awaken My Love",
                 "artist":"Childish Gambino",
+                "title":"Awaken My Love",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/awaken-my-love.jpg",
-                "description":"",
-                 
+                "description":"'Awaken My Love' is American rapper-singer Childish Gambino's third studio album. In this album, Childish Gambino departs from his past hip-hop style, and enters into an R&B/soul vibe. The album contains his famous single, 'Redbone' which soared on the charts to number 14, an all time high for Childish Gambino.",
+                "cover-art":"..public/img/rnb/awaken-my-love.jpg"
             },
             {
-                "title":"channel ORANGE",
                 "artist":"Frank Ocean",
+                "title":"channel ORANGE",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/channel-orange.jpg",
-                "description":"",
-                 
+                "description":"'channel ORANGE' is American singer-songwriter Frank Ocean's 2012 debut album. Using vivid imagery, Ocean is able to produce an album that speaks to several issues, drugs, love, and class. Featuring songs like 'Thinkin Bout You' and 'Super Rish Kids', Ocean's album recieved praise from both cirtics and fans, quite a feat.",
+                "cover-art":"..public/img/rnb/channel-orange.jpg"
             },
             {
-                "title":"Confessions",
                 "artist":"Usher",
+                "title":"Confessions",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/confessions.jpg",
-                "description":"",
-                 
+                "description":"In his fourth studio album, Usher mixed R&B and hip-hop, producing both ballads and up-temp songs. An instant commerical success, 'Confessions' topped the charts like its singles did. The album features songs such as 'Yeah! and 'My Boo'.",
+                "cover-art":"..public/img/rnb/confessions.jpg"
             },
             {
-                "title":"Love in the Future",
+                "artist":"Muzak Makers",
+                "title":"Git With It",
+                "genre":"rnb",
+                "description":"In Muzak Makers's fourth studio album, 'Git With It', their soulful beings truly shine. The album features sick vocals and smooth instrumentals, and includes songs like 'Push and Pull' and 'Gimme That Status'. Put on this record on, sit back, and git with the program."
+            },
+            {
                 "artist":"John Legend",
+                "title":"Love in the Future",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/love-in-the-future.jpg",
-                "description":"",
-                 
+                "description":"As the fourth studio album of American singer John Legend, 'Love in the Future' features songs like 'All of Me' and 'You & I'. Generally recieved positively by critics, the album was also popular with consumers, as it debuted at number 4 on the Billboard 200 charts. You will love this album now, and in the future.",
+                "cover-art":"..public/img/rnb/love-in-the-future.jpg"
             },
             {
-                "title":"Never Say Never",
                 "artist":"Brandy",
+                "title":"Never Say Never",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/never-say-never.jpg",
-                "description":"",
-                 
+                "description":"American singer Brandy released her second studio album in 1998. 'Never Say Never' is what most critics call a new. more confident Brandy. Featuring songs like 'The Boy is Mine' and 'Have You Ever?', the album was a hit and boosted her career into the 2000s.",
+                "cover-art":"..public/img/rnb/never-say-never.jpg"
             },
             {
-                "title":"Sail Out",
                 "artist":"Jhené Aiko",
+                "title":"Sail Out",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/sail-out.jpg",
-                "description":"",
-                 
+                "description":"'Sail Out' is American recording artist Jhene Aiko's debut EP, released in 2013. The album features well-known artists like Childish Gambino in her son 'Bed Peace', and her single 'The Worst' rose to number 43 on the Billboard 100 chart.",
+                "cover-art":"..public/img/rnb/sail-out.jpg"
             },
              {
-                "title":"Starboy",
                 "artist":"The Weeknd",
+                "title":"Starboy",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/starboy.jpg",
-                "description":"",
-                 
+                "description":"Canadian singer The Weeknd released his third studio album, 'Starboy', in 2016. This album introduces more electronic vibes than his earlier works, and although there were some criticisms, the album debuted at number on Billboard 200. The album features songs like 'Starboy' and 'I Feel It Coming', both which topped charts. ",
+                "cover-art":"..public/img/rnb/starboy.jpg"
             },
              {
-                "title":"The Breakthrough",
                 "artist":"Mary J. Blige",
+                "title":"The Breakthrough",
                 "genre":"rnb",
-                "cover-art":"..public/img/rnb/the-breakthrough.jpg",
-                "description":"",
-                 
+                "description":"'The Breakthrough' is American singer Mary J. Blige's seventh studio album (wow!). It was released in 2005, and critics have praised it for displaying all of Blige's emoitons. It may not have been what critics call her breakthrough album, but it topped the Billboard 200 charts and rocked the world.",
+                "cover-art":"..public/img/rnb/the-breakthrough.jpg"
             }
-        ],
-        "country":[
-            {
-                "artist":"Shania Twain",
-                "title":"Come On Over",
-                "genre":"country",
-                "description":"Come On Over is Canadian singer Shania Twain's third studio album. Released in 1997, it became the best selling country album of a Candian artist. Features songs such as 'Man! I feel like a woman!' and 'That Don't Impress Me Much'. Team Canada!",
-                "cover-art":"..public/img/country/come-on-over.jpg"
-            },
-            {
-                "artist":"Luke Bryan",
-                "title":"Crash My Party",
-                "genre":"country",
-                "description":"Luke Brysn, American country artist, released Crash My Party in 2013. Featuring songs like 'Play It Again' and 'That's my Kind of Night', the album has been extremely popular despite mixed reviews from critics, showing critics aren't always right.",
-                "cover-art":"..public/img/country/crash-my-party.jpg"
-            },
-            {
-                "artist":"Miranda Lambert",
-                "title":"Four the Record",
-                "genre":"country",
-                "description":"Four the Record is Miranda Lambert's fourth studio record, and features songs like 'Mama's Broken Heart' and 'Over You', bringing the fiery passion that Lambert is known for. Released in 2011, Four the Record has sold over one million copies nad was praised by critics.",
-                "cover-art":"..public/img/country/four-the-record.jpg"
-                 
-            },
-            {
-                "artist":"Florida Georgia Line",
-                "title":"Here's to the Good Times",
-                "genre":"country",
-                "description":"In their debut album, Florida Georgia Line bring the heat with songs like 'Cruise' and 'Round Here'. Released in 2012, Here's to the Good Times became the 6th best selling album in the U.S. in 2013.",
-                "cover-art":"..public/img/country/heres-to-the-good-times.jpg"
-            },
-            {
-                "artist":"Hunter Hayes",
-                "title":"Hunter Huayes - Encore",
-                "genre":"country",
-                "description":"Hunter Hayes - Encore is American singer Hunter Hayes' debut studio album. The country cutie delivers smooth vocals and sick guitar riffs in this 2011 album. Featuring songs like 'Wanted' and 'I Want Crazy', this album is sure to get you jammin'.",
-                "cover-art":"..public/img/country/hunter-hayes-encore.jpg"
-                 
-            },
-            {
-                "artist":"Old Dominion",
-                "title":"Meat and Candy",
-                "genre":"country",
-                "description":"Old Dominion released their debut stuido album, Meat and Candy, in 2015. Since then, songs like 'Break Up with Him' and 'Snapback' have become popular with what critics call their catchy tunes and clever lyrics ",
-                "cover-art":"..public/img/country/meat-and-candy.jpg"
-            },
-            {
-                "artist":"Sam Hunt",
-                "title":"Montevallo",
-                "genre":"country",
-                "description":"In his 2014 debut studio album, Sam Hunt co-wrote every track, including songs such as 'House Party' and 'Break Up in a Small Town'. Montevallo was nominated for Best Country Album at the Grammy Awards in 2015. Unfortunately, this country singer is married but his album is still a hit.",
-                "cover-art":"..public/img/country/montevallo.jpg"
-            },
-            {
-                "artist":"Lady Antebellum",
-                "title":"Need You Now",
-                "genre":"country",
-                "description":"Need You Now is Lady Antebellum's second studio album. Released in 2010, the country album won the Grammy Award for Best Country Album in 2011. Including songs like 'Need You Now' and 'American Honey', this album will make you feel some kind of way.",
-                "cover-art":"..public/img/country/need-you-now.jpg"
-            },
-            {
-                "artist":"Carrie Underwood",
-                "title":"Some Hearts",
-                "genre":"country",
-                "description":"Carrie Underwood released her debut studio album, Some Hearts, in 2005. It rocked the world of country, with songs like 'Before He Cheats' which speaks of her revenge on a cheating boyfriend. With Underwood's powerful voice and even more powerful lyrics, Some Hearts became the best selling album of 2006 #tbt.",
-                "cover-art":"..public/img/country/some-hearts.jpg"
-            },
-            {
-                "artist":"Kenny Chesney",
-                "title":"The Big Revival",
-                "genre":"country",
-                "description":"In 2014, American country singer Kenney Chesney released his sixteenth studio album. You go Kenney! The Big Revival features songs like 'American Kids' and 'Save It for a Rainy Day'. Although not best seller, citcs loved Chesney's album, saying it was one of his best. After lsitening to the other fifteen, let us know what you think!",
-                "cover-art":"..public/img/country/the-big-revival.jpg"
-            },
-            {
-                "artist":"Josh Thompson",
-                "title":"Way Out Here",
-                "genre":"country",
-                "description":"Way Out Here is Josh Thompson's debut studio album, released in 2010. With smooth vocals and crafty lyrics (and lucious locks), Thompson's songs like 'Way Out Here' and 'Beer on the Table' were top 20 on the Billboard Hot Country Songs.",
-                "cover-art":"..public/img/country/way-out-here.jpg"
-                 
-            }
-        ],
-
-        "pop":[
-            {
-                "artist":"Marian Hill",
-                "title":"Act One",
-                "genre":"pop",
-                "description":"In 2016, the American songwriting duo Marian Hill released their debut album, 'Act One'. Truly being their first act, songs featured on the album like 'Down' and 'Back To Me' brought the group into the spotlight. With strong beats, this album will be sure to get you jammin'.",
-                "cover-art":"..public/img/pop/act-one.jpg"
-                 
-            },
-            {
-                "artist":"Halsey",
-                "title":"BANLANDS",
-                "genre":"pop",
-                "description":"In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
-                "cover-art":"..public/img/pop/badlands.jpg"
-            },
-            {
-                "artist":"Lana Del Rey",
-                "title":"Born To Die",
-                "genre":"pop",
-                "description":"'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite ciriticism about her past and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. ",
-                "cover-art":"..public/img/pop/born-to-die.jpg"
-            },
-            {
-                "title":"Funk Way Bounces Vol.1",
-                "artist":"Calvin Harris",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/funk-way-bounces.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"I See You",
-                "artist":"The xx",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/i-see-you.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"In Return",
-                "artist":"ODEZA",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/in-return.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"Now That the Light is Fading",
-                "artist":"Maggie Rogers",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/now-that-the-light-is-fading.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"Oh Wonder",
-                "artist":"Oh Wonder",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/oh-wonder.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"+",
-                "artist":"Ed Sheeran",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/plus.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"Somewhere in Between",
-                "artist":"Vérité",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/somewhere-in-between.jpg",
-                "description":"",
-                 
-            },
-            {
-                "title":"Songs About Jane",
-                "artist":"Maroon 5",
-                "genre":"pop",
-                "cover-art":"..public/img/pop/songs-about-jane.jpg",
-                "description":"",
-                 
-            }
-        ],
-        "rap":[
-
-        ],
-        "rnb":[
-            
         ]
     }
 }
