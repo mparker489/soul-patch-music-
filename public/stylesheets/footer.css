@@ -14,10 +14,12 @@
   font-size: 3em;
   letter-spacing: 10px;
 }
-.socialMedia i
+.socialMedia a
 {
   color: #585858;
+  text-decoration: none;
 }
-.socialMedia i:hover{
+.socialMedia a:hover{
   color: #f2ddde;
 }
+
