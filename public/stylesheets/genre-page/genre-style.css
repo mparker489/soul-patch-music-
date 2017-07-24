@@ -9,7 +9,7 @@
 }
 
 #genre-name:hover{
-    color:#585858;
+    color:pink;
 }
 
 #genre-page{
@@ -27,9 +27,11 @@
     list-style-type: none;
     margin: auto;
 }
-
-#genre-page ul a{
+.name{
     display:none;
+}
+#genre-page a{
+    text-decoration: none;
 }
 
 #genre-page img{
