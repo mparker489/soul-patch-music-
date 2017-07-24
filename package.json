@@ -25,7 +25,6 @@
     "handlebars-layout": "^0.1.4",
     "less": "^2.7.2",
     "less-middleware": "^2.2.0",
-    "nodemailer-express-handlebars": "^2.0.0",
     "pug": "^2.0.0-rc.2"
   },
   "devDependencies": {}
