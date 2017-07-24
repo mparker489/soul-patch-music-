@@ -1,19 +1,19 @@
 const express = require('express');
-const exphbs  = require('express-handlebars');
-const path = require('path');
+// const exphbs  = require('express-handlebars');
+// const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
 
-var hbs = exphbs.create({
-    defaultLayout: 'default',
-    layoutsDir: path.join(__dirname, 'views'),
-});
+// var hbs = exphbs.create({
+//     defaultLayout: 'default',
+//     layoutsDir: path.join(__dirname, 'views'),
+// });
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+// app.engine('handlebars', hbs.engine);
+app.set('view engine', 'pug');
 
 //routes
 

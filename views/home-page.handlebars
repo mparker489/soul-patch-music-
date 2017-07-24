@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+{{!-- <head>
     <title> HOME PAGE </title>
     <link rel="icon" href="../public/img/soulpatch.png">
     <link type="text/css" , rel="stylesheet" , href="../public/stylesheets/stylesheet.css" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" />
 </head>
 
-<body>
+
     <header>
         <nav>
             <ul class = "navigation">
@@ -35,8 +35,10 @@
                 </div>
             </ul>
         </nav>
-    </header>
+    </header> --}}
 
+{{#extend "views/default.handlebars" foo = "bar"}}
+<body> 
     <main class = "homePage">
         <h2> NEW RELEASES </h2>
         <div class="explore">
@@ -201,7 +203,7 @@
         </div>
     </main>
 
-    <footer class="footer">
+    {{!-- <footer class="footer">
         <script src="https://use.fontawesome.com/a404a9b8d8.js"></script>
         <p class="footerText"> COPYRIGHT 2017 <i class="fa fa-copyright" aria-hidden="true"></i>
         </p>
@@ -211,7 +213,9 @@
             <a href="https://twitter.com/chalkers?lang=en" /> <i class="fa fa-twitter-square" aria-hidden="true"></a></i>
             <a href="https://www.instagram.com/juliabmarshall/" /> <i class="fa fa-instagram" aria-hidden="true"></a></i>
         </p>
-    </footer>
+    </footer> --}}
 </body>
+{{/extend}}
+
 
 </html>
