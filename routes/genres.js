@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
         res.render('genres', {data:data.data[genre].albums, genreTitle: data.data[genre].genreName});
     }
     else if(genre != ""){
-        res.render('error');
+        res.render('not-found');
     }
     else{
         var all = [];
