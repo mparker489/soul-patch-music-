@@ -4,14 +4,21 @@ const {data} = require("../data/albums.json");
 const {pop} = data;
 const{rap} = data;
 
-var genre = [];
-for(var i = 0; i < data.length; i++){
-    genre.push(data[i]._id)
+var genre = new Array();
+
+for(var i = 0; i < data.length; i++)
+{
+    // genre[i] = new Array();
+    genre.push(data[i]._id);
 }
 
-router.get('/', (req, res) => {
-    res.render('genres', {rap});
+// var albums = new Array();
+// for(var x = 0; x < genre[)
 
+// console.log(genre);
+
+router.get('/', (req, res) => {
+    res.render('genres', {pop});
 });
 
 module.exports = router;

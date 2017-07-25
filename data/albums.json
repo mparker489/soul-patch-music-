@@ -1,7 +1,6 @@
 {
     "data": [
         {
-            "_id": "pop",
             "pop": [
                 {
                     "artist": "Marian Hill",
@@ -90,7 +89,6 @@
             ]
         },
         {
-            "_id": "rap",
             "rap": [
                 {
                     "artist": "2Pac",
@@ -179,7 +177,6 @@
             ]
         },
         {
-            "_id": "classical",
             "classical": [
                 {
                     "artist": "Yo-Yo Ma",
@@ -268,7 +265,6 @@
             ]
         },
         {
-            "_id": "jazz",
             "jazz": [
                 {
                     "artist": "Kenny G",
