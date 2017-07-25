@@ -56,6 +56,9 @@ header img
     color: #dfdada;
     text-decoration: none;
 }
+.navigation li a{
+    color: #dfdada;
+}
 .navigation li  a:hover{
   color: #f2ddde;
 }

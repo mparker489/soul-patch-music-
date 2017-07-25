@@ -255,7 +255,7 @@
                 "title": "Issa Wig Symphony in C#",
                 "genre": "Classical",
                 "description": "Inspired by the art of powdered wigs and the world-famous meme, the Muzak Makers created this artfully composed symphony only from the sounds wigs could produce. A creative edition to all of the classics, some have compared it to the symphonies of Bach and Beethoven. This symphony includes pieces such as \"Your Hair Changes all the Time in F#\" and \"YOU GOT BANGS?! in D Minor\"",
-                "coverArt": ""
+                "coverArt": "img/pop/placeholder.jpg"
             }]
       },
         "jazz": {"genreName": "Jazz", "albums": [
@@ -341,7 +341,7 @@
                 "title": "Smooth HTML",
                 "genre": "Jazz",
                 "description": "The Muzak Makers are back at it again with their 45th studio album under the record label Emo-Bois. In Smooth HTML the Muzak Makers use their genius coding skills to create the worlds most amazing album yet featuring the sweet sounds of saxophone and futuristic elements. Some say this album has changed the future of jazz music forever. Smooth HTML features smash hits such as \"Divs to the Heart\" and \"Too Many Li’s Comin Out Your Mouth\"",
-                "coverArt": ""
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "folk": {"genreName": "Folk", "albums": [
@@ -427,7 +427,7 @@
                 "title": "wtf (What the Folk)",
                 "genre": "Folk",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is one of their oldest, it was released in 1901 but was an instant best-seller because it was the first folk-album ever released and the incoroporation of EDM and Folk music. It features singles such as, 'My banjo and Turntables' and 'Old Yesler Tearing Up the Forest'",
-                "coverArt": "img/folk/"
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "country": {"genreName": "Country", "albums": [
@@ -485,7 +485,7 @@
                 "title": "My Wife, My Dog, My Truck",
                 "genre": "country",
                 "description": "Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the coutnry in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and 'All My Ex's Live Next Door (Small Town Livin)', this album will sure be a hit at your next backyard shindig.",
-                "coverArt": "img/country/my-wife-my-dog-my-truck.jpg"
+                "coverArt": "img/pop/placeholder.jpg"
             },
             {
                 "artist": "Lady Antebellum",
@@ -599,7 +599,7 @@
                 "title": "Relampago",
                 "genre": "Latin",
                 "desciption": "Relampago is the fifth studio album by American all-around genre band Muzak Makers and was released on March 26, 2016. Relampago is a lit album that fans have cited as the spiciest album of the ages. This album features hit singles such as 'Andy Es Mi Corazón', 'HTMLoco', and 'Iluminado'.",
-                "coverArt": ""
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "decades":{"genreName": "Decades", "albums": [
@@ -685,7 +685,7 @@
                 "title": "The Dream of the 90's is Alive in PDX",
                 "genre": "Decades",
                 "description": "Your favorite decade is making a comeback, especially in the new Muzak Makers album, The Dream of the 90’s is Alive in Portland. Made in the city that is always weird, the Muzak Makers crafted the songs to capture the vibe of the 90’s. Even though many told them \"Ugh as if!\" they stuck with the idea. The album climbed the charts and produced some of their most famous songs, including \"What’s the 4-1-1\" and \"That’s my Name, Don’t Wear It Out\".",
-                "coverArt": ""
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "alt": {"genreName": "Alt Rock", "albums": [
@@ -708,7 +708,7 @@
                 "title": "OK Computer",
                 "genre": "Alt Rock",
                 "description": "Radio is a British group that took a softer and sweeter approach to the rock phase in the 90s. This album was relased in 1997 and contains hits like 'Karma Police' and 'No Surprises.'",
-                "coverArt": "img/alt_rock/.radiohead.jpg"
+                "coverArt": "img/alt_rock/radiohead.jpg"
             },
             {
                 "artist": "R.E.M.",
@@ -771,7 +771,7 @@
                 "title": "Crtl Alt Delete",
                 "genre": "Alt Rock ",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable whillistening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patricarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
-                "coverArt": "img/alt_rock/"
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "indie": {"genreName": "Acoustic Indie", "albums": [
@@ -857,7 +857,7 @@
                 "title": "Crunchy Granola",
                 "genre": "Indie Acoustic",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kumbacha and a bag of homemade compost. This album contains hits such as  'Free Range Chicken' and 'Solar-Powered Toilets'",
-                "coverArt": "img/indie_acoustic/"
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "rnb": {"genreName": "R&B/Soul", "albums": [
@@ -873,7 +873,7 @@
                 "title": "Aquarius",
                 "genre": "rnb",
                 "description": "Released in 2014, 'Aquarius' is the debut studio album of R&B singer-songwriter Tinashe. The album was very popular, especially after the promotion of it throigh the release of singels like '2 On'. Although Tinashe is an aqaurius, it isn't a requirement to listen to the album!",
-                "coverArt": "img/rnb/aquarius.jpg"
+                "coverArt": "img/rnb/aquarius.png"
             },
             {
                 "artist": "Alicia Keys",
@@ -907,7 +907,8 @@
                 "artist": "Muzak Makers",
                 "title": "Git With It",
                 "genre": "rnb",
-                "description": "In Muzak Makers's fourth studio album, 'Git With It', their soulful beings truly shine. The album features sick vocals and smooth instrumentals, and includes songs like 'Push and Pull' and 'Gimme That Status'. Put on this record on, sit back, and git with the program."
+                "description": "In Muzak Makers's fourth studio album, 'Git With It', their soulful beings truly shine. The album features sick vocals and smooth instrumentals, and includes songs like 'Push and Pull' and 'Gimme That Status'. Put on this record on, sit back, and git with the program.",
+                "coverArt": "img/pop/placeholder.jpg"
             },
             {
                 "artist": "John Legend",
@@ -1028,7 +1029,7 @@
                 "title": "Baguette? Bonjour",
                 "genre": "French",
                 "desciption": "Baguette? Bonjour is the 50th studio album by American all-around genre band Muzak Makers and was released on July 10, 2008. Baguette? Bonjour is one of the top rated albums and is known for creatively using the sounds of a crushed baguette in each song. This album features the hit songs 'Croissant', 'Ton Ton Pierre', and 'Franchement'.",
-                "coverArt": ""
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           },
         "soundtracks": {"genreName": "Soundtracks", "albums": [
@@ -1086,7 +1087,7 @@
                 "title": "Sing Street",
                 "genre": "Soundtrack",
                 "description": "Sing Street is the soundtrack album for the 2016 film 'Sing Street' and was released on March 18, 2016 by Decca Records. The album features music of the period from The Cure, A-ha, Duran Duran, The Clash, Hall & Oates, Spandau Ballet, and The Jam. This album includes the feature songs 'Steppin' Out', 'Maneater', and 'Rio'.",
-                "coverArt": "img/soundtracks/Sing Street.jpg"
+                "coverArt": "img/soundtracks/Sing_Street.jpg"
             },
             {
                 "artist": "Michael Giacchino",
@@ -1113,7 +1114,8 @@
                 "artist": "Muzak Makers",
                 "title": "CDK: A Murder Mystery",
                 "genre": "Soundtrack",
-                "desciption": "CDK: A Murder Mystery is the 88th studio album by American all-around genre band Muzak Makers and was released on October 31, 2013. The album won the Golden Globe Award for Best Original Score at 100th Golden Globe Awards and has been noted for it's intriguing use of actual screams. This album features the songs 'I think Kyle killed Adam', 'some1 help me', and 'It was in the free swag'."
+                "desciption": "CDK: A Murder Mystery is the 88th studio album by American all-around genre band Muzak Makers and was released on October 31, 2013. The album won the Golden Globe Award for Best Original Score at 100th Golden Globe Awards and has been noted for it's intriguing use of actual screams. This album features the songs 'I think Kyle killed Adam', 'some1 help me', and 'It was in the free swag'.",
+                "coverArt": "img/pop/placeholder.jpg"
             }]
           }
     }
