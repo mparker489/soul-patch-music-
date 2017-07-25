@@ -1,24 +1,22 @@
 const express = require('express');
 const router = express.Router();
-const {data} = require("../data/albums.json");
-const {pop} = data;
-const{rap} = data;
-
-var genre = new Array();
-
-for(var i = 0; i < data.length; i++)
-{
-    // genre[i] = new Array();
-    genre.push(data[i]._id);
-}
-
-// var albums = new Array();
-// for(var x = 0; x < genre[)
-
-// console.log(genre);
+const data = require("../data/albums.json");
 
 router.get('/', (req, res) => {
-    res.render('genres', {pop});
+    const genre = req.query.genre || "";
+    if(genre != "" && data && data.data && data.data[genre]){
+        res.render('genres', {data:data.data[genre].albums, genreTitle: data.data[genre].genreName});
+    }
+    else if(genre != ""){
+        res.render('error');
+    }
+    else{
+        var all = [];
+        Object.keys(data.data).forEach(function(key){
+            all = all.concat(data.data[key].albums);
+        })
+        res.render('genres', {data:all, genreTitle: "All Albums"});
+    }
 });
 
 module.exports = router;

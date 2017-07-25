@@ -3,11 +3,11 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></button>
 
 <main id="genre-page">
-    <h1 id="genre-name"> Pop </h1>
+    <h1 id="genre-name"> {{genreTitle}} </h1>
     <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for albums.."> 
     
     <ul id="myUL">
-    {{#each pop}}
+    {{#each data}}
     <li>
         <a href="/album">
             <img src="{{coverArt}}"/>
@@ -17,7 +17,7 @@
     {{/each}}
     </ul> 
 
-    <ul id="myUL">
+    {{!-- <ul id="myUL">
         <li>
             <a href="/album"><img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg"/>
                 <span class ="name">Meghan</span>
@@ -78,7 +78,7 @@
                 <span class ="name">Angyong</span>
             </a>
         </li>
-    </ul> 
+    </ul>  --}}
 </main>
 
 </html>
