@@ -1,6 +1,6 @@
 {
     "data": {
-        "pop": {"genreName": "dslkfjaslkd", "albums": [
+        "pop": {"genreName": "Pop", "albums": [
             {
                 "artist": "Marian Hill",
                 "title": "Act One",
@@ -86,7 +86,7 @@
                 "coverArt": "img/pop/songs-about-jane.jpg"
             }
         ]},
-        "rap": [
+        "rap": {"genreName": "Rap/Hip Hop", "albums": [
             {
                 "artist": "2Pac",
                 "title": "All Eyez On Me",
@@ -170,9 +170,9 @@
                 "genre": "rap",
                 "description": "'Take Care' is Drake's second studio album, relased in 2011. This CANADIAN rapper carefully crafted an album that balanced minimalist R&B elements with his vocals, and in the first week 631,000 copies were sold. Praised by critics, including songs ike 'Headlines' and 'Take Care', and featuring artists like Rihanna and Nicki Minaj, take care of yourself and jam to this album.",
                 "coverArt": "img/rap/take-care.jpg"
-            }
-        ],
-        "classical": [
+            }]
+          },
+        "classical": {"genreName": "Classical", "albums": [
             {
                 "artist": "Yo-Yo Ma",
                 "title": "Songs From the Arc of Life",
@@ -256,9 +256,9 @@
                 "genre": "Classical",
                 "description": "Inspired by the art of powdered wigs and the world-famous meme, the Muzak Makers created this artfully composed symphony only from the sounds wigs could produce. A creative edition to all of the classics, some have compared it to the symphonies of Bach and Beethoven. This symphony includes pieces such as \"Your Hair Changes all the Time in F#\" and \"YOU GOT BANGS?! in D Minor\"",
                 "coverArt": ""
-            }
-        ],
-        "jazz": [
+            }]
+      },
+        "jazz": {"genreName": "Jazz", "albums": [
             {
                 "artist": "Kenny G",
                 "title": "Ultimate Kenny G",
@@ -342,9 +342,9 @@
                 "genre": "Jazz",
                 "description": "The Muzak Makers are back at it again with their 45th studio album under the record label Emo-Bois. In Smooth HTML the Muzak Makers use their genius coding skills to create the worlds most amazing album yet featuring the sweet sounds of saxophone and futuristic elements. Some say this album has changed the future of jazz music forever. Smooth HTML features smash hits such as \"Divs to the Heart\" and \"Too Many Li’s Comin Out Your Mouth\"",
                 "coverArt": ""
-            }
-        ],
-        "folk": [
+            }]
+          },
+        "folk": {"genreName": "Folk", "albums": [
             {
                 "artist": "Pete Seeger ",
                 "title": "American Ballads",
@@ -428,9 +428,9 @@
                 "genre": "Folk",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is one of their oldest, it was released in 1901 but was an instant best-seller because it was the first folk-album ever released and the incoroporation of EDM and Folk music. It features singles such as, 'My banjo and Turntables' and 'Old Yesler Tearing Up the Forest'",
                 "coverArt": "img/folk/"
-            }
-        ],
-        "country": [
+            }]
+          },
+        "country": {"genreName": "Country", "albums": [
             {
                 "artist": "Shania Twain",
                 "title": "Come On Over",
@@ -514,9 +514,9 @@
                 "genre": "country",
                 "description": "Way Out Here is Josh Thompson's debut studio album, released in 2010. With smooth vocals and crafty lyrics (and lucious locks), Thompson's songs like 'Way Out Here' and 'Beer on the Table' were top 20 on the Billboard Hot Country Songs.",
                 "coverArt": "img/country/way-out-here.jpg"
-            }
-        ],
-        "latin": [
+            }]
+          },
+        "latin": {"genreName": "Latin", "albums": [
             {
                 "artist": "Shakira",
                 "title": "El Dorado",
@@ -600,9 +600,9 @@
                 "genre": "Latin",
                 "desciption": "Relampago is the fifth studio album by American all-around genre band Muzak Makers and was released on March 26, 2016. Relampago is a lit album that fans have cited as the spiciest album of the ages. This album features hit singles such as 'Andy Es Mi Corazón', 'HTMLoco', and 'Iluminado'.",
                 "coverArt": ""
-            }
-        ],
-        "decades": [
+            }]
+          },
+        "decades":{"genreName": "Decades", "albums": [
             {
                 "artist": "Hall and Oates",
                 "title": "The Very Best of Hall and Oates",
@@ -686,9 +686,9 @@
                 "genre": "Decades",
                 "description": "Your favorite decade is making a comeback, especially in the new Muzak Makers album, The Dream of the 90’s is Alive in Portland. Made in the city that is always weird, the Muzak Makers crafted the songs to capture the vibe of the 90’s. Even though many told them \"Ugh as if!\" they stuck with the idea. The album climbed the charts and produced some of their most famous songs, including \"What’s the 4-1-1\" and \"That’s my Name, Don’t Wear It Out\".",
                 "coverArt": ""
-            }
-        ],
-        "alt": [
+            }]
+          },
+        "alt": {"genreName": "Alt Rock", "albums": [
             {
                 "artist": "Third Eye Blind",
                 "title": "Third Eye Blind",
@@ -772,9 +772,9 @@
                 "genre": "Alt Rock ",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable whillistening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patricarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
                 "coverArt": "img/alt_rock/"
-            }
-        ],
-        "indie": [
+            }]
+          },
+        "indie": {"genreName": "Acoustic Indie", "albums": [
             {
                 "artist": "The Staves",
                 "title": "Dead & Born & Grown",
@@ -858,9 +858,9 @@
                 "genre": "Indie Acoustic",
                 "description": "The Muzak Makers have won the most grammy's in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kumbacha and a bag of homemade compost. This album contains hits such as  'Free Range Chicken' and 'Solar-Powered Toilets'",
                 "coverArt": "img/indie_acoustic/"
-            }
-        ],
-        "rnb": [
+            }]
+          },
+        "rnb": {"genreName": "R&B/Soul", "albums": [
             {
                 "artist": "Estelle",
                 "title": "All Of Me",
@@ -943,9 +943,9 @@
                 "genre": "rnb",
                 "description": "'The Breakthrough' is American singer Mary J. Blige's seventh studio album (wow!). It was released in 2005, and critics have praised it for displaying all of Blige's emoitons. It may not have been what critics call her breakthrough album, but it topped the Billboard 200 charts and rocked the world.",
                 "coverArt": "img/rnb/the-breakthrough.jpg"
-            }
-        ],
-        "french": [
+            }]
+          },
+        "french": {"genreName": "French", "albums": [
             {
                 "artist": "Louane",
                 "title": "Chambre 12",
@@ -1029,9 +1029,9 @@
                 "genre": "French",
                 "desciption": "Baguette? Bonjour is the 50th studio album by American all-around genre band Muzak Makers and was released on July 10, 2008. Baguette? Bonjour is one of the top rated albums and is known for creatively using the sounds of a crushed baguette in each song. This album features the hit songs 'Croissant', 'Ton Ton Pierre', and 'Franchement'.",
                 "coverArt": ""
-            }
-        ],
-        "soundtracks": [
+            }]
+          },
+        "soundtracks": {"genreName": "Soundtracks", "albums": [
             {
                 "artist": "Alexandre Desplat",
                 "title": "The Danish Girl",
@@ -1114,7 +1114,7 @@
                 "title": "CDK: A Murder Mystery",
                 "genre": "Soundtrack",
                 "desciption": "CDK: A Murder Mystery is the 88th studio album by American all-around genre band Muzak Makers and was released on October 31, 2013. The album won the Golden Globe Award for Best Original Score at 100th Golden Globe Awards and has been noted for it's intriguing use of actual screams. This album features the songs 'I think Kyle killed Adam', 'some1 help me', and 'It was in the free swag'."
-            }
-        ]
+            }]
+          }
     }
 }
