@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     var track = "";
     Object.keys(data.data).forEach(function (key) {
         for (var i = 0; i < data.data[key].albums.length; i++) {
-            if (album.toLowerCase() == data.data[key].albums[i].title.toLowerCase()) {
+            if (album == data.data[key].albums[i].id) {
                 track = data.data[key].albums[i];
             }
         }
