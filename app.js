@@ -1,7 +1,7 @@
 const express = require('express');
 const handlebars  = require('express-handlebars');
 const bodyParser = require('body-parser');
-
+var lessMiddleware = require('less-middleware');
 
 const app = express();
 
@@ -20,6 +20,7 @@ app.use(mainRoutes);
 app.use('/album', albumRoutes);
 app.use('/genres', genreRoutes);
 app.use(express.static('public'));
+app.use(lessMiddleware(__dirname + '/public', {force: true}));
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
