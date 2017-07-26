@@ -13,7 +13,7 @@
             },
             {
                 "artist": "Halsey",
-                "title": "BANLANDS",
+                "title": "BADLANDS",
                 "id": "0438728001",
                 "description": "In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
                 "coverArt": "img/pop/badlands.jpg",
@@ -27,7 +27,7 @@
                 "id": "0438728002",
                 "description": "'Born To Die' is American singer and songwriter Lana Del Rey's second studio album. Despite criticism about her past life and her somber tunes, Lana Del Rey rose to popularity after the 2012 release of her album. Including songs like 'Born To Die' and 'Video Games', the popularity of the album never diminished because it sure wasn't born to die.",
                 "coverArt": "img/pop/born-to-die.jpg",
-                "newRelease": true,
+                "newRelease": false,
                 "mostPopular": true,
                 "staffPicks": false
             },

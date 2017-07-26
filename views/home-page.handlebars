@@ -3,12 +3,14 @@
         <h2> NEW RELEASES </h2>
         <div class="explore">
             <div class="albums">
-              {{#each data}}
+              {{#each releases}}
                 <div class="container">
-                    <img src="{{coverArt}}" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">{{title}}</div>
-                    </div>
+                    <a href="/album?album={{id}}">
+                        <img src="{{coverArt}}" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text">{{title}} by {{artist}}</div>
+                        </div>
+                    </a>
                 </div>
                 {{/each}}
             </div>
@@ -17,108 +19,32 @@
         <h2> MOST POPULAR </h2>
         <div class="explore">
             <div class="albums">
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
+                {{#each popular}}
+                    <div class="container">
+                        <a href="/album?album={{id}}">
+                            <img src="{{coverArt}}" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="text">{{title}} by {{artist}}</div>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
 
         <h2> $T@FF P!CKZ </h2>
         <div class="explore">
             <div class="albums">
+                {{#each staff}}
                 <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
+                    <a href="/album?album={{id}}">
+                        <img src="{{coverArt}}" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text">{{title}} by {{artist}}</div>
+                        </div>
+                    </a>
                 </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
-                <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
     </main>
