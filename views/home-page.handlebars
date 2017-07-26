@@ -3,12 +3,14 @@
         <h2> NEW RELEASES </h2>
         <div class="explore">
             <div class="albums">
+              {{#each data}}
                 <div class="container">
-                    <img src="https://i.ytimg.com/vi/Ln3BmBHAJ-c/maxresdefault.jpg" class="image" style="width:100%">
+                    <img src="{{coverArt}}" class="image" style="width:100%">
                     <div class="middle">
-                        <div class="text">Romantic Works by Keaton Henson</div>
+                        <div class="text">{{title}}</div>
                     </div>
                 </div>
+                {{/each}}
             </div>
         </div>
 
