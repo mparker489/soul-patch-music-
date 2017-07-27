@@ -8,7 +8,6 @@ const app = express();
 app.engine('handlebars', handlebars({extname: 'handlebars', defaultLayout: 'layout', layoutsDir: __dirname + '/views'}));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(lessMiddleware(__dirname + '/public', {force: true}));
-app.use('/static', express.static('public'));
 app.set('view engine', 'handlebars');
 
 //routes
