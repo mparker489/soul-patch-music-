@@ -1,0 +1,95 @@
+header {
+    background-color: #6f796e;
+    font-family: 'Amatic SC';
+    color: #dfdada;
+    img
+    {
+        width: 100px;
+        display: block;
+        text-align:left;
+        padding-top: 0px; 
+        padding-bottom: 0px;
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+}
+
+.navigation {
+    text-align: center; 
+    padding-top: 0px;
+    margin-top:0px;
+    li {
+        list-style: none;
+        display: inline-block;
+        font-size: 2rem;
+        padding-left: 25px; 
+        padding-right: 25px;
+        padding-top: 0px;
+        margin-top:0px;
+    }
+    li a {
+        text-decoration: none;
+        color: #dfdada;
+        &:hover {
+            color: #f2ddde;
+        }
+        
+    }
+}
+
+#brand {
+    padding-top: 50px; 
+    padding-bottom: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    text-align:center;
+    font-size: 4rem;
+    color: #dfdada;
+    a {
+        text-decoration: none;
+        &:hover {
+            color: #f2ddde;
+        }
+        &:visited {
+            color: #dfdada;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.dropdown-pages, .dropdown-button{
+    list-style-type:none;
+    display:inline-block;
+    text-align:center;
+    text-decoration:none;
+}
+
+.dropdown{
+    display:inline-block;
+    position: relative;
+
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index:1;
+    width:100%;
+    padding-right:1%;
+    padding-left:1%;
+    background-color: #6f796e;
+    li {
+        display:block;
+        text-align:left;
+        font-size: 2rem;
+        margin:0;
+        padding:0;
+    }
+}
+
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
