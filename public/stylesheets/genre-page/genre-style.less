@@ -12,20 +12,22 @@
 
 }
 
-
-
 #genre-page{
     position:relative;
+
+
     ul{
         border-top:5px solid #585858;
         padding-top:50px;
         margin: auto;
         padding-left: 0px;
+
     }
     li{
         display:inline;
         list-style-type: none;
         margin: auto;
+
     }
     a{
         text-decoration: none;
@@ -40,6 +42,19 @@
     }
 }
 
+@media only screen and (max-width: 800px)
+{
+  #genre-page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    img{
+        width: 400px;
+
+    }
+
+}
+}
 
 
 .name{
