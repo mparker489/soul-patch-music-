@@ -6,6 +6,8 @@
     left:10%;
     overflow:hidden;
     max-width:500px;
+    color: red;
+
 }
 
 #genre-name:hover{
