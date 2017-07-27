@@ -1,9 +1,62 @@
-.error-message{
-    font-size: 2rem;
+.error-page{
+    display:flex;
+    font-size:2rem;
+    flex-direction:column;
+    h1{
+        font-size:1.5rem;
+        align-self:center;
+    }
+    img{
+        align-self:center;
+    }
+    h2{
+        font-size:3rem;
+        align-self:center;
+        text-align:center;
+    }
+    .error-buttons{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        .return-to-home, .return-to-albums{
+            text-decoration:none;
+            color:#585858;
+            background-color:#e7e6e6;
+            border:2px solid #dfdada;
+            height:3.5rem;
+            align-self:flex-end;
+            margin:15px;
+            padding:10px;
+            &:hover{
+                background-color:#dfdada;
+            }
+        }
+        .return-to-albums-mobile, .return-to-home-mobile{
+            display:none;
+        }
+        
+    }
+    @media only screen and (max-width: 913px) {
+        .error-buttons{
+            display:flex;
+             .return-to-albums, .return-to-home{
+                display:none !important;
+            }
+            .return-to-albums-mobile, .return-to-home-mobile{
+                display:flex;
+                text-decoration:none;
+                color:#585858;
+                background-color:#e7e6e6;
+                border:2px solid #dfdada;
+                height:3.5rem;
+                align-self:flex-end;
+                margin:15px;
+                padding:10px;
+                &:hover{
+                    background-color:#dfdada;
+                }
+            }
+        }
+    }
 }
-.error-greeting{
-    font-size: 2rem;
-}
-.return-to-home{
-    font-size: 2rem;
-}
+
