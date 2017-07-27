@@ -1,44 +1,38 @@
-@pink: #f2ddde;
-@light-grey: #e7e6e6;
-@medium-grey: #dfdada;
-@dark-grey: #585858;
-@green: #6f796e;
-
 .homePage{
     text-decoration: none;
-    background-color: @light-grey;
     font-family: 'Amatic SC';
-    // position: relative;
     h2{
         font-size: 2rem;
     }
     .explore{
-        position: relative;             
-        overflow-x:scroll;
-        overflow-y:hidden;
-        white-space:nowrap;
-        .container {
-            position: relative;
-            width: 20%;
+        position: relative; 
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        .container{
+            position: relative; 
+            width: 20%; 
+            height: 20%;
             display: inline-block;
-            background-color: @pink;
-            margin:3px;
-            .image{                        
+            background-color: #f2ddde;
+            margin: 3px;
+            &:hover .middle{
+                opacity: 1;
+            } 
+            &:hover .image{
+                opacity: 0.3;
+            }
+            .image{
                 position: relative;
-                width: 20%;
-                height: 20%;
-                display: inline-block;
+                display: inline-block;   
                 opacity: 1;
                 display: block;
                 width: 100%;
                 height: auto;
                 transition: .5s ease;
                 backface-visibility: hidden;
-                &:hover{
-                    opacity: 0.3;
-                }
             }
-            .middle {
+            .middle{
                 width:100%;
                 transition: .5s ease;
                 opacity: 0;
@@ -47,12 +41,9 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
-                &:hover{
-                    opacity: 1;
-                }
                 .text{
-                    background-color: @green;
-                    color: @light-grey;
+                    background-color: #6f796e;
+                    color: #e7e6e6;
                     font-size: 1rem;
                     padding-left: 2%;
                     padding-right: 2%;
