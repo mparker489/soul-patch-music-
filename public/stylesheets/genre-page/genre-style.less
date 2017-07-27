@@ -41,21 +41,28 @@
         display: inline-block;
     }
 }
-
-@media only screen and (max-width: 800px)
+@media only screen and (min-width: 500px) and (max-width: 900px)
 {
-  #genre-page{
+  #myUL{
+  display: flex;
+  flex-wrap: wrap;
+img{
+      width: 200px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 500px)
+{
+  #myUL{
     display: flex;
     flex-wrap: wrap;
-    
-
-    img{
-        width: 400px;
-
+  img{
+        width: 300px;
+      }
     }
-
-}
-}
+  }
 
 
 .name{
