@@ -4,6 +4,7 @@
 @import url(genre-page/genre-style.css);
 @import url(home-page/home-style.css);
 @import url(error-page/error-page.css);
+@import url(error-page/not-found-page.css);
 @import url(styles.css);
 
 *{
