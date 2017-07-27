@@ -7,6 +7,7 @@ const app = express();
 
 app.engine('handlebars', handlebars({extname: 'handlebars', defaultLayout: 'layout', layoutsDir: __dirname + '/views'}));
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(lessMiddleware(__dirname + '/public', {force: true}));
 app.use('/static', express.static('public'));
 app.set('view engine', 'handlebars');
 
@@ -19,8 +20,10 @@ const genreRoutes = require('./routes/genres');
 app.use(mainRoutes);
 app.use('/album', albumRoutes);
 app.use('/genres', genreRoutes);
+
+
 app.use(express.static('public'));
-app.use(lessMiddleware(__dirname + '/public', {force: true}));
+
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
