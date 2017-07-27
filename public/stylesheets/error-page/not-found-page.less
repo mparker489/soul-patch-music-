@@ -12,6 +12,10 @@
     h2{
         font-size:2.5rem;
         align-self:center;
+        text-align:center;
+    }
+    .return-to-home-mobile{
+        display:none;
     }
     .error-buttons{
         display:flex;
@@ -30,6 +34,13 @@
                 background-color:#dfdada;
             }
         }
-        
     }
+   @media only screen and (max-width:545px){
+       .return-to-home{
+           display:none;
+       }
+        .return-to-home-mobile{
+            display:flex;
+        }
+   }
 }
