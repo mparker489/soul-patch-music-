@@ -2,109 +2,87 @@ header{
     background-color: #6f796e;
     font-family: 'Amatic SC';
     color: #dfdada;
-    // height:450px;
-    .navigation{
-        text-align: center; 
-        padding-top: 0px;
-        margin-top:0px;
-        // display:flex;
-        // justify-content:center;
-        // flex-direction:column;
-        #brand {
-            // align-self:center;
-            padding-top: 50px; 
-            padding-bottom: 0px;
-            margin-top:0px;
-            margin-bottom: 0px;
-            text-align:center;
-            font-size: 4rem;
-            color: #dfdada;
+    nav{
+        li, #brand{
+            list-style-type:none;
             a{
-                text-decoration: none;
+                color:#dfdada;
+                text-decoration:none;
                 &:hover{
-                    color: #f2ddde !important;
-                }
-                &:visited {
-                    color: #dfdada;
-                    text-decoration: none;
+                    color:#f2ddde;
                 }
             }
         }
-        .meghan-is-losing-it{
-            // flex-direction:row;
-            // display:flex;
-            // align-items:flex-end;
-            img{
-                width: 100px;
-                display: block;
-                text-align:left;
-                padding-top: 0px; 
-                padding-bottom: 0px;
-                margin-top:0px;
-                margin-bottom: 0px;
-            }
-            li {
-                list-style: none;
-                display: inline-block;
-                font-size: 2rem;
-                padding-left: 25px; 
-                padding-right: 25px;
+        #brand{
+            font-size:4rem;
+            text-align:center;
+            padding-top: 50px;
+            padding-bottom:50px;
+            margin:0px; 
+        }
+        .navigation-bar{
+            display:flex;
+            align-items:flex-end;
+            justify-content:space-between;
+            #logo img{
+                width:100px;
                 padding-top: 0px;
-                margin-top:0px;
+                padding-bottom: 0px;
+                margin:0px 50px;
             }
-            li a {
-                text-decoration: none;
-                color: #dfdada;
-                &:hover {
-                    color: #f2ddde;
+            .navigation{
+                text-align:center;
+                display:flex;
+                flex-direction:row;
+                padding:0px;
+                width:1000px;
+                li{
+                    font-size:2rem;
+                    padding-left: 25px;
+                    padding-right: 25px;
                 }
-                
-            }
-            .dropdown{
-                display:inline-block;
-                position: relative;
-                .dropdown-pages, .dropdownbutton{
-                    list-style-type:none;
+                .dropdown{
                     display:inline-block;
-                    text-align:center;
-                    text-decoration:none;
-                }
-                .dropdown-content{
-                    // flex-direction:column;
-                    display:none;
-                    position:absolute;
-                    z-index:1;
-                    width:100%;
-                    padding-right:5%;
-                    padding-left:5%;
-                    margin:0;
-                    background-color: #6f796e;
-                    li {
-                        text-align:left;
-                        font-size: 1.7rem;
-                        margin:0;
-                        padding:0;
+                    position:relative;
+                    &:hover .dropdown-content{
+                        display:flex;
+                        flex-direction:column;
                     }
+                    .dropdown-content{
+                        display:none;
+                        position:absolute;
+                        text-align:center;
+                        z-index:5;
+                        padding:10px;
+                        li{
+                            margin:0;
+                            background-color:#6f796e;
+                            font-size:1.7rem;
+                        }
+                    }
+                    
                 }
-                &:hover .dropdown-content{
-                    display:block;
-                    // display:flex;
-                    li{
-                        display:block;
+            }
+            .navigation-mobile{
+                display:none;
+            }
+        }
+    }
+    @media only screen and (max-width:1216px){
+        .navigation-bar{
+            .navigation{
+                .pages{
+                    font-size:1.5rem;
+                }
+                .dropdown{
+                    .dropdown-content{
+                        padding:5000px;
+                        .dropdown-pages{
+                            font-size:1.3rem;
+                        }
                     }
                 }
             }
         }
     }
-    // @media only screen and (max-width:1590px){
-    //     .meghan-is-losing-it li a{
-    //         font-size:1.5rem;
-    //     }
-    //     .dropdownbutton span{
-    //         font-size:1.5rem;
-    //     }
-    //     .dropdown-content li{
-    //         font-size:1.2rem;
-    //     }
-    // }
 }
