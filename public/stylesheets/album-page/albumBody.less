@@ -1,5 +1,6 @@
- #albumPage{
-    height:1100px;
+
+#albumPage{
+    width: 100%;
 } 
 .albumBodyAlbum
 {
@@ -33,7 +34,10 @@
   color:#585858;
   text-align: left;
     &:hover{
-    color: #6f796e;
+        color: #6f796e;
+    }
+    li {
+        list-style: none;
     }
 }
 
@@ -48,6 +52,7 @@
     background-color: 	#f2ddde;
     width: 250px; 
     text-align: center;
+    list-style: none;
 }
 .dropdown-contentAlbum{
     display:none;
@@ -59,9 +64,19 @@
     background-color:#e7e6e6;
     width: 250px;
     background-color: 	#f2ddde;
+    list-style: none;
+}
+.dropdown {
+    font-size: 2rem;
 }
 .dropdown:hover .dropdown-contentAlbum{
     display:block;
+}
+
+.album-dropdown {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
 }
 @media only screen and (max-width: 768px) {
     #complete {
@@ -82,5 +97,28 @@
     }
     #photo {
         margin: 6%;
+    }
+    .albumBodyDescription {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .albumBodyTitle {
+        font-size: 1.3rem;
+    }
+    .albumBodyDescription {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .dropdown-button {
+        font-size: 1rem;
+        width: 130px;
+    }
+    .albumBodyLink {
+        font-size: 1rem;
+    }
+    .dropdown-contentAlbum {
+        width: 130px;
     }
 }
