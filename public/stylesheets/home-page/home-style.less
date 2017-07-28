@@ -14,13 +14,14 @@
             width: 330px; 
             height: 330px;
             display: inline-block;
-            background-color: #f2ddde;
+            
             margin: 3px;
             &:hover .middle{
                 opacity: 1;
             } 
             &:hover .image{
                 opacity: 0.3;
+                background-color: #f2ddde;
             }
             .image{
                 position: relative;
@@ -54,10 +55,26 @@
                 }
             }
         }
-    }
-    @media only screen and (max-width: 900) {
-        .homePage{
-            color: blue;
+    }  
+}
+
+@media only screen and (max-width: 1024px) {
+    .homePage{
+        // background-color: blue;
+        .container{
+            display: none;
+            max-width: 250px;
+            max-height: 250px;
+            img{
+                max-width: 250px;
+                max-height: 250px;
+            }
+            .middle{
+                display: none;
+            }
+            .image{
+                display: none;
+            }
         }
-    }   
+    }
 }
