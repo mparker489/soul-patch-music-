@@ -1,6 +1,7 @@
 .homePage{
     text-decoration: none;
     font-family: 'Amatic SC'; 
+    height: auto;
     h2{
         font-size: 2rem;
     }
@@ -14,8 +15,8 @@
             width: 330px; 
             height: 330px;
             display: inline-block;
-            
             margin: 3px;
+            background-color: #f2ddde;
             &:hover .middle{
                 opacity: 1;
             } 
@@ -42,13 +43,15 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
+                max-width: 330px;
+                min-width: 160px;  
                 .text{
                     background-color: #6f796e;
                     color: #e7e6e6;
                     font-size: 1rem;
                     padding-left: 2%;
                     padding-right: 2%;
-                    width:auto;
+                    max-width:330px;
                     height: 48px;
                     padding-top:9px;
                     text-align:center;
@@ -60,7 +63,6 @@
 
 @media only screen and (max-width: 1024px) {
     .homePage{
-        // background-color: blue;
         .container{
             display: none;
             max-width: 250px;
@@ -70,10 +72,53 @@
                 max-height: 250px;
             }
             .middle{
-                display: none;
+                max-width: 250px !important; 
+                .text{
+                    font-size: 0.8rem !important;
+                }
             }
-            .image{
-                display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .homePage{
+        .container{
+            max-width: 190px;
+            max-height: 190px;
+            img{
+                max-width: 190px;
+                max-height: 190px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .homePage{
+        h2{
+            font-size: 1.6rem;
+        }
+        .container{
+            max-height: 250px;
+            max-width: 250px;
+            img{
+                max-width: 250px;
+                max-height: 250px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 380px){
+    .homePage{
+        .container{
+            max-height: 200px; 
+            max-width: 200px; 
+            img{
+                max-height: 200px; 
+                max-width: 200px;
             }
         }
     }
