@@ -19,8 +19,13 @@
     ul{
         border-top:5px solid #585858;
         padding-top:50px;
-        margin: auto;
-        padding-left: 0px;
+        margin: 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+
 
     }
     li{
@@ -28,13 +33,14 @@
         list-style-type: none;
         margin: auto;
 
+
     }
     a{
         text-decoration: none;
     }
     img{
         visibility: visible;
-        width:400px;
+        width:330px;
         padding-bottom:50px;
         padding-left: 2%;
         padding-right: 2%;
@@ -57,20 +63,46 @@
   border: 1px solid #585858;
   color: #585858;
   font-size: 1rem;
-  margin-left: 10%;
   float:right;
   position:relative;
   bottom:90px;
   right:50px;
 }
-@media only screen and (max-width: 600px)
-{
-
-    #myInput{
-      bottom: 40px;
-      right: ;
-    }
-}
+// @media only screen and (min-width: 1200px) and (max-width: 1630px)
+// {
+//   #genre-page{
+//     background-color: red;
+//   }
+//   img{
+//     margin-left: 2%;
+//   }
+// }
+//
+//
+// @media only screen and (max-width:1200px) and (min-width: 880px)
+//   {
+//     #genre-page{
+//       background-color: green;
+//     }
+//
+//     img{
+//       margin-left: 3%;
+//     }
+//   }
+// @media only screen and (max-width: 880px)
+// {
+//   #genre-page{
+//     background-color: blue;
+//   }
+//     #myInput{
+//       bottom: 40px;
+//       right: 200px;;
+//     }
+//     img{
+//       margin-left: 2%;
+//     }
+//
+// }
 
 #myBtn {
     display: none; /* Hidden by default */
