@@ -2,21 +2,21 @@ header{
     background-color: #6f796e;
     font-family: 'Amatic SC';
     color: #dfdada;
-    height:450px;
+    // height:450px;
     .navigation{
-        // text-align: center; 
-        // padding-top: 0px;
-        // margin-top:0px;
-        display:flex;
-        justify-content:center;
-        flex-direction:column;
+        text-align: center; 
+        padding-top: 0px;
+        margin-top:0px;
+        // display:flex;
+        // justify-content:center;
+        // flex-direction:column;
         #brand {
-            align-self:center;
-            // padding-top: 50px; 
-            // padding-bottom: 0px;
-            // margin-top:0px;
-            // margin-bottom: 0px;
-            // text-align:center;
+            // align-self:center;
+            padding-top: 50px; 
+            padding-bottom: 0px;
+            margin-top:0px;
+            margin-bottom: 0px;
+            text-align:center;
             font-size: 4rem;
             color: #dfdada;
             a{
@@ -31,13 +31,13 @@ header{
             }
         }
         .meghan-is-losing-it{
-            flex-direction:row;
-            display:flex;
-            align-items:flex-end;
+            // flex-direction:row;
+            // display:flex;
+            // align-items:flex-end;
             img{
                 width: 100px;
-                // display: block;
-                // text-align:left;
+                display: block;
+                text-align:left;
                 padding-top: 0px; 
                 padding-bottom: 0px;
                 margin-top:0px;
@@ -45,7 +45,7 @@ header{
             }
             li {
                 list-style: none;
-                // display: inline-block;
+                display: inline-block;
                 font-size: 2rem;
                 padding-left: 25px; 
                 padding-right: 25px;
@@ -61,16 +61,16 @@ header{
                 
             }
             .dropdown{
-                // display:inline-block;
+                display:inline-block;
                 position: relative;
                 .dropdown-pages, .dropdownbutton{
                     list-style-type:none;
-                    // display:inline-block;
+                    display:inline-block;
                     text-align:center;
                     text-decoration:none;
                 }
                 .dropdown-content{
-                    flex-direction:column;
+                    // flex-direction:column;
                     display:none;
                     position:absolute;
                     z-index:1;
@@ -87,20 +87,24 @@ header{
                     }
                 }
                 &:hover .dropdown-content{
-                    display:flex;
+                    display:block;
+                    // display:flex;
+                    li{
+                        display:block;
+                    }
                 }
             }
         }
     }
-    @media only screen and (max-width:1590px){
-        .meghan-is-losing-it li a{
-            font-size:1.5rem;
-        }
-        .dropdownbutton span{
-            font-size:1.5rem;
-        }
-        .dropdown-content li{
-            font-size:1.2rem;
-        }
-    }
+    // @media only screen and (max-width:1590px){
+    //     .meghan-is-losing-it li a{
+    //         font-size:1.5rem;
+    //     }
+    //     .dropdownbutton span{
+    //         font-size:1.5rem;
+    //     }
+    //     .dropdown-content li{
+    //         font-size:1.2rem;
+    //     }
+    // }
 }
