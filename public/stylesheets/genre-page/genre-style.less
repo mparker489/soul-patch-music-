@@ -18,11 +18,10 @@
 
     ul{
         border-top:5px solid #585858;
-        padding-top:50px;
-        margin-right: 0px;
+        padding: 50px;
+        margin: 3rem;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         justify-content: space-around;
 
 
@@ -46,7 +45,7 @@
         .name{
           max-width: 330px;
           text-align: center;
-          margin-bottom: 15px;
+          padding-bottom: 20px;
         }
     }
     img{
@@ -75,7 +74,7 @@
   float:right;
   position:relative;
   bottom: 90px;
-  right: 90px;
+  right: 162px;
 }
 // @media only screen and (min-width: 1200px) and (max-width: 1630px)
 // {
@@ -88,35 +87,48 @@
 // }
 //
 //
-// @media only screen and (max-width:1200px) and (min-width: 880px)
-//   {
-//     #genre-page{
-//       background-color: green;
-//     }
-//
-//     img{
-//       margin-left: 3%;
-//     }
-//   }
-@media only screen and (max-width: 880px)
+@media only screen and (max-width:1005px) and (min-width: 420px)
+  {
+    #genre-page{
+      ul{
+        li{
+          a{
+              img{
+                width: 300px;
+              }
+          div{
+            width: 300px;
+          }
+
+          }
+
+    }
+    }
+}
+}
+@media only screen and (max-width: 419px)
 {
     #myInput{
       bottom: 40px;
       right: 180px;;
     }
+      ul{
+        margin-left: 150px;
+        li{
+          a{
+            img{
+              width: 330px;
+            }
+            div{
+              width: 330px;
+            }
+          }
+        }
+      }
 
 }
 
-// @media only screen and (max-width: 525){
-// #genre-page{
-//   ul{
-//     li{
-//       position: fixed;
-//     }
-//   }
-// }
-//
-// }
+
 
 #myBtn {
     display: none; /* Hidden by default */
