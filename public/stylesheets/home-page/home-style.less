@@ -16,13 +16,13 @@
             height: 330px;
             display: inline-block;
             margin: 3px;
-            background-color: #f2ddde;
+            // background-color: #f2ddde;
             &:hover .middle{
                 opacity: 1;
             } 
             &:hover .image{
-                opacity: 0.3;
-                background-color: #f2ddde;
+                opacity: 1;
+                // background-color: #f2ddde;
             }
             .image{
                 position: relative;
@@ -67,32 +67,37 @@
             display: none;
             max-width: 250px;
             max-height: 250px;
+            opacity: 1; 
             img{
                 max-width: 250px;
                 max-height: 250px;
             }
+            // &:hover .image{
+            //     opacity: 1; 
+            // }
             .middle{
-                max-width: 250px !important; 
+                display:none;
                 .text{
-                    font-size: 0.8rem !important;
+                    color: black;
+                    font-size: 0.8rem;
                 }
             }
         }
     }
 }
 
-@media only screen and (max-width: 600px){
-    .homePage{
-        .container{
-            max-width: 190px;
-            max-height: 190px;
-            img{
-                max-width: 190px;
-                max-height: 190px;
-            }
-        }
-    }
-}
+// @media only screen and (max-width: 600px){
+//     .homePage{
+//         .container{
+//             max-width: 190px;
+//             max-height: 190px;
+//             img{
+//                 max-width: 190px;
+//                 max-height: 190px;
+//             }
+//         }
+//     }
+// }
 
 @media only screen and (max-width: 415px){
     .homePage{
