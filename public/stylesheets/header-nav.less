@@ -133,8 +133,59 @@ header{
         nav{
             display:flex;
             flex-wrap:wrap;
+            flex-direction:column;
             #brand{
-                font-size:2rem;;
+                display:flex;
+                justify-content:flex-end;
+                padding-right:35px;
+                font-size:2.5rem;
+            }
+            .navigation-bar{
+                display:flex;
+                flex-direction:row;
+                #logo{
+                    top:40px;
+                    position:absolute;
+                    img{
+                        width:75px;
+                    }
+                }
+                .navigation-mobile{
+                    justify-content:center;
+                    li{
+                        font-size:1.8rem;
+                    }
+                    .dropdown{
+                        .dropdown-content{
+                            li{
+                                font-size:1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width:480px){
+        nav{
+            display:flex;
+            flex-wrap:wrap;
+            flex-direction:column;
+            #brand h1{
+                justify-content:center;
+                padding-bottom:none; 
+            }
+            .navigation-bar{
+                display:flex;
+                flex-direction:column;
+                #logo{
+                    position:relative;
+                    justify-content:center;
+                    display:flex;
+                }
+                .navigation-mobile{
+                    justify-content:center;
+                }
             }
         }
     }
