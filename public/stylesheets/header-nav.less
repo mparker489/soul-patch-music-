@@ -2,112 +2,83 @@ header{
     background-color: #6f796e;
     font-family: 'Amatic SC';
     color: #dfdada;
+    li, #brand{
+        list-style-type:none;
+        a{
+            color:#dfdada;
+            text-decoration:none;
+            &:hover{
+                color:#f2ddde;
+            }
+        }
+    }
+    #brand{
+        font-size:4rem;
+        text-align:center;
+        padding-top: 50px;
+        padding-bottom:25px;
+        margin:0px; 
+    }
+    nav.desktop{
+        display:flex;
+    }
+    nav.mobile{
+        display:none;
+    }
     nav{
-        li, #brand{
-            list-style-type:none;
-            a{
-                color:#dfdada;
-                text-decoration:none;
-                &:hover{
-                    color:#f2ddde;
-                }
-            }
+        align-items:flex-end;
+        justify-content:space-between;
+        #logo img{
+            width:100px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin:0px 50px;
         }
-        #brand{
-            font-size:4rem;
+        .navigation{
             text-align:center;
-            padding-top: 50px;
-            padding-bottom:50px;
-            margin:0px; 
-        }
-        .navigation-bar{
             display:flex;
-            align-items:flex-end;
-            justify-content:space-between;
-            #logo img{
-                width:100px;
-                padding-top: 0px;
-                padding-bottom: 0px;
-                margin:0px 50px;
+            flex-direction:row;
+            padding:0px;
+            width:1000px;
+            li{
+                font-size:2rem;
+                padding-left: 25px;
+                padding-right: 25px;
             }
-            .navigation{
-                text-align:center;
-                display:flex;
-                flex-direction:row;
-                padding:0px;
-                width:1000px;
-                li{
-                    font-size:2rem;
-                    padding-left: 25px;
-                    padding-right: 25px;
+            .dropdown{
+                display:inline-block;
+                position:relative;
+                &:hover .dropdown-content{
+                    display:flex;
+                    flex-direction:column;
                 }
-                .dropdown{
-                    display:inline-block;
-                    position:relative;
-                    &:hover .dropdown-content{
-                        display:flex;
-                        flex-direction:column;
-                    }
-                    .dropdown-content{
-                        display:none;
-                        position:absolute;
-                        text-align:center;
-                        z-index:5;
-                        padding:10px;
-                        li{
-                            margin:0;
-                            background-color:#6f796e;
-                            font-size:1.7rem;
-                        }
-                    }
-                    
-                }
-            }
-            .navigation-mobile{
-                display:none;
-                text-align:center;
-                flex-direction:row-reverse;
-                justify-content:flex-start;
-                padding:0px;
-                width:1000px;                    
-                li{
-                    font-size:1.7rem;
-                    padding-left: 50px;
-                    padding-right: 50px;
-                }
-                .dropdown{
-                    display:inline-block;                        
-                    position:relative;
-                    &:hover .dropdown-content{
-                        display:flex;
-                        flex-direction:column;
-                    }
-                    .dropdown-content{                        
-                        display:none;
-                        position:absolute;
-                        text-align:center;
-                        z-index:5;
-                        padding:10px;
-                        li{
-                            margin:0;                                
-                            background-color:#6f796e;
-                            font-size:1.4rem;
-                            padding:0px 25px;
-                        }
+                .dropdown-content{
+                    display:none;
+                    position:absolute;
+                    text-align:center;
+                    z-index:5;
+                    padding:10px;
+                    li{
+                        margin:0;
+                        background-color:#6f796e;
+                        font-size:1.7rem;
                     }
                 }
             }
         }
     }
+
     @media only screen and (max-width:1216px){
-        .navigation-bar{
+        .desktop{
+            display:flex;
             .navigation{
+                justify-content:flex-end;
                 .pages{
                     font-size:1.5rem;
                 }
                 .dropdown{
                     .dropdown-content{
-                        padding:5000px;
+                        padding:5px;
                         .dropdown-pages{
                             font-size:1.3rem;
                         }
@@ -117,76 +88,18 @@ header{
         }
     }
     @media only screen and (max-width:1054px){
-        nav{
-            .navigation-bar{
-                display:flex;
-                .navigation{
-                    display:none;
-                }
-                .navigation-mobile{
-                    display:flex;
-                }
+        nav.desktop{
+            display:none;
+        }
+        nav.mobile{
+            display:flex;
+            .navigation{
+                justify-content:flex-end;
+
             }
         }
     }
     @media only screen and (max-width:620px){
-        nav{
-            display:flex;
-            flex-wrap:wrap;
-            flex-direction:column;
-            #brand{
-                display:flex;
-                justify-content:flex-end;
-                padding-right:35px;
-                font-size:2.5rem;
-            }
-            .navigation-bar{
-                display:flex;
-                flex-direction:row;
-                #logo{
-                    top:40px;
-                    position:absolute;
-                    img{
-                        width:75px;
-                    }
-                }
-                .navigation-mobile{
-                    justify-content:center;
-                    li{
-                        font-size:1.8rem;
-                    }
-                    .dropdown{
-                        .dropdown-content{
-                            li{
-                                font-size:1.6rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    @media only screen and (max-width:480px){
-        nav{
-            display:flex;
-            flex-wrap:wrap;
-            flex-direction:column;
-            #brand h1{
-                justify-content:center;
-                padding-bottom:none; 
-            }
-            .navigation-bar{
-                display:flex;
-                flex-direction:column;
-                #logo{
-                    position:relative;
-                    justify-content:center;
-                    display:flex;
-                }
-                .navigation-mobile{
-                    justify-content:center;
-                }
-            }
-        }
+
     }
 }
