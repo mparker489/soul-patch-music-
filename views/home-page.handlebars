@@ -1,5 +1,22 @@
 <html lang="en">
 <main class="homePage">
+
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="slide1.jpg"/>
+            </li>
+            <li>
+                <img src="slide2.jpg"/>
+            </li>
+            <li>
+                <img src="slide3.jpg"/>
+            </li>
+            <li>
+                <img src="slide4.jpg"/>
+            </li>
+        </ul>
+    </div>
     
     <h2> NEW RELEASES </h2>
     <div class="explore">
@@ -27,7 +44,9 @@
                 <img src="{{coverArt}}" class="image">
                 <div class="middle">
                     <div class="text">
-                        {{title}} by {{artist}}
+                        <p id = "title">{{title}}</p> 
+                        <p id = "artist">by {{artist}}</p>
+                        <p id="price-range">Prices Range $2.00-$9.99</p>
                     </div>
                 </div>
             </a>
@@ -43,7 +62,9 @@
                 <img src="{{coverArt}}" class="image">
                 <div class="middle">
                     <div class="text">
-                        {{title}} by {{artist}}
+                        <p id = "title">{{title}}</p> 
+                        <p id = "artist">by {{artist}}</p>
+                        <p id="price-range">Prices Range $2.00-$9.99</p>
                     </div>
                 </div>
             </a>
