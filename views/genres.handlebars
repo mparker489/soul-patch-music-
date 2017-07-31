@@ -4,18 +4,18 @@
 
 <main id="genre-page">
     <h1 id="genre-name"> {{genreTitle}} </h1>
-    <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for albums.."> 
-    
+    <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for albums..">
+
     <ul id="myUL">
     {{#each data}}
     <li>
         <a href="/album?album={{id}}">
             <img src="{{coverArt}}"/>
-            <span class="name">{{title}} by {{artist}}</span>
+            <div class="name">{{title}} by {{artist}}</div>
         </a>
     </li>
     {{/each}}
-    </ul> 
+    </ul>
 </main>
 
 </html>

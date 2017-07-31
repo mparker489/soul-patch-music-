@@ -34,9 +34,20 @@
         margin: auto;
 
 
+
     }
     a{
         text-decoration: none;
+        color: #585858;
+        text-align: center;
+        &:hover{
+          color: #6f796e;
+        }
+        .name{
+          max-width: 330px;
+          text-align: center;
+          margin-bottom: 15px;
+        }
     }
     img{
         visibility: visible;
@@ -44,15 +55,13 @@
         padding-bottom:50px;
         padding-left: 2%;
         padding-right: 2%;
-        display: inline-block;
+        display: block;
     }
 }
 
 
 
-.name{
-    
-}
+
 
 
 
@@ -97,6 +106,17 @@
     }
 
 }
+
+// @media only screen and (max-width: 525){
+// #genre-page{
+//   ul{
+//     li{
+//       position: fixed;
+//     }
+//   }
+// }
+//
+// }
 
 #myBtn {
     display: none; /* Hidden by default */
