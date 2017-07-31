@@ -78,25 +78,42 @@
     justify-content: center;
     padding-bottom: 5%;
 }
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 1325px) {
     #complete {
         flex-direction: column;
     }
+    #photo {
+        margin: 6%;
+        padding: 4%;
+        align-self: center;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
     .albumBodyAlbum {
+        max-width: 700px;
         width: 100%;
         height: auto;
     }
     #description {
-        width: 100%;
+        width: 80%;
         margin: 0;
-        padding: 3%;
+        padding: 0;
+        align-self: center;
     }
+}
+
+@media only screen and (max-width: 800px) {
     .cooler-dropdown {
         justify-content: center;
         margin-bottom: 30px;
     }
+    #description {
+        width: 100%;
+        padding: 3%;
+    }
     #photo {
-        margin: 6%;
+        padding: 0;
     }
     .albumBodyDescription {
         font-size: 2rem;
