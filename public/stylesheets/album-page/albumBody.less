@@ -28,20 +28,9 @@
     font-size: 3rem;
     text-align: center;
 }
-.albumBodyDescription
-{
+.albumBodyDescription {
     font-size: 2rem;
     text-align: left;
-}
-.albumBodyLink{
-  color:#585858;
-  text-align: left;
-    &:hover{
-        color: #6f796e;
-    }
-    li {
-        list-style: none;
-    }
 }
 
 .album-dropdown {
@@ -58,6 +47,16 @@
     font-family: 'Amatic SC';
     font-size: 2rem;
     margin: 2%;
+    a {
+        text-decoration: none;
+        color: #585858;
+        &:hover {
+            color: #dfdada;
+        }
+    }
+    &:hover {
+        background-color: #6f796e;
+    }
 }
 
 @media only screen and (max-width: 1325px) {
@@ -88,10 +87,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .cooler-dropdown {
-        justify-content: center;
-        margin-bottom: 30px;
-    }
     #description {
         width: 100%;
         padding: 3%;
@@ -102,7 +97,7 @@
     .albumBodyTitle {
         font-size: 2.5rem;
     }
-    .dropdown-button {
+    .buyButton{
         font-size: 2rem;
     }
     .albumBodyLink {
@@ -121,7 +116,7 @@
     .albumBodyTitle {
         font-size: 2.1rem;
     }
-    .dropdown-button {
+    .buyButton {
         font-size: 1.6rem;
     }
     .albumBodyLink {
@@ -137,14 +132,10 @@
         font-size: 1rem;
         text-align: center;
     }
-    .dropdown-button {
+    .buyButton {
         font-size: 1rem;
-        width: 130px;
     }
     .albumBodyLink {
         font-size: 1rem;
-    }
-    .dropdown-contentAlbum {
-        width: 130px;
     }
 }

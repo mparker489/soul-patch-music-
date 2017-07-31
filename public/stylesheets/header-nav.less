@@ -106,7 +106,49 @@ header{
             }
         }
     }
-    @media only screen and (max-width:620px){
-
+    @media only screen and (max-width:600px){
+        #brand{
+            font-size:2.5rem;
+            display:flex;
+            justify-content:flex-end;
+            padding-right:30px;
+        }
+        nav.mobile{
+            display:flex;
+            #logo img{
+                width:75px;
+                position:absolute;
+                top:40px;
+                left:20px;
+            }
+            .navigation{
+                width:600px;
+                justify-content:space-around;
+            }
+        }
+    }
+    @media only screen and (max-width:500px){
+        #brand{
+            display:flex;
+            justify-content:center;
+        }
+        nav.mobile{
+            display:flex;
+            flex-direction:column;
+            #logo img{
+                width:100px;
+                position:relative;
+                display:flex;
+                top:0;
+                left:0;
+            }
+            .navigation{
+                width:400px;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-around;
+                margin-right:0;
+            }
+        }
     }
 }
