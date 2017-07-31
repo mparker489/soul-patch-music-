@@ -11,6 +11,8 @@
         overflow-y: hidden;
         white-space: nowrap;
         .container{
+            display: flex; 
+            flex-direction: column;
             position: relative;
             width: 330px; 
             height: 330px;
@@ -43,8 +45,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
-                max-width: 330px;
-                min-width: 160px;  
+                width: 330px;  
                 .text{
                     background-color: #6f796e;
                     color: #e7e6e6;
@@ -55,6 +56,14 @@
                     height: 48px;
                     padding-top:9px;
                     text-align:center;
+                    p{
+                        margin:0;
+                        padding: 0;
+                        display: inline-block;
+                    }
+                    #price-range{
+                        display: none;
+                    }
                 }
             }
         }
@@ -66,15 +75,40 @@
         .explore {
             .container{
                 max-width: 250px;
-                max-height: 250px;
+                a{
+                    text-decoration: none;
+                }
                 img{
                     max-width: 250px;
                     max-height: 250px;
+                    position: absolute;
                 }
                 .middle{
+                    opacity: 1;
+                    background-color: #e7e6e6;
+                    position: static;
+                    display: block;
+                    transform: translate(0%, 0%);
+                    -ms-transform: translate(0%, 0%);
+                    max-width: 250px;
+                    max-height: 2rem;
                     .text{
-                        color: red;
-                    }   
+                        background-color: #e7e6e6;
+                        color: #585858;
+                        text-align: center;
+                        padding: 10px 0; 
+                        margin: 0;
+                        font-weight: bold;
+                        white-space: normal;
+                        p{
+                            padding: 0;
+                            margin: 0;
+                            display: block;
+                        }
+                        #price-range{
+                            display: initial;
+                        }
+                    }
                 }
             }
         }
