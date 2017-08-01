@@ -111,7 +111,7 @@ header{
             font-size:2.5rem;
             display:flex;
             justify-content:flex-end;
-            padding-right:30px;
+            padding-right:40px;
         }
         nav.mobile{
             display:flex;
@@ -129,8 +129,10 @@ header{
     }
     @media only screen and (max-width:500px){
         #brand{
+            padding-right:0;
             display:flex;
             justify-content:center;
+            text-align:center;
         }
         nav.mobile{
             display:flex;
@@ -152,10 +154,22 @@ header{
                 display:flex;
                 justify-content:center;
                 margin:auto;
+                .dropdown{
+                    .dropdown-content{
+                        justify-content:center;
+                        top:51px;
+                        li{
+                            font-size:1.4rem; 
+                        }
+                        &:hover{
+                            display:flex;
+                        }
+                    }
+                }
             }
         }
     }
-    @media only screen and (max-width:350px){
+    @media only screen and (max-width:360px){
         nav.mobile{
             #brand{
                 text-align:center;
@@ -165,6 +179,19 @@ header{
                 width:300px;
                 li{
                     font-size:1.4rem;
+                }
+                .dropdown{
+                    .dropdown-content{
+                        justify-content:center;
+                        top:30px;
+                        right:-20px;
+                        li{
+                            font-size:1.3rem; 
+                        }
+                        &:hover{
+                            display:flex;
+                        }
+                    }
                 }
             }
         }

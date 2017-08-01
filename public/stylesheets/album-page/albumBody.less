@@ -4,8 +4,9 @@
 } 
 .albumBodyAlbum
 {
-    height: 700px;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
 }
 #complete{
     display: flex;
@@ -13,7 +14,6 @@
 #photo
 {
     justify-content: flex-start;
-    max-height: 700px;
     margin-top: 5%;
     margin-bottom:5%;
 }
@@ -43,7 +43,6 @@
     background-color:#f2ddde;
     text-align: center;
     list-style: none;
-    color: #585858;
     font-family: 'Amatic SC';
     font-size: 2rem;
     margin: 2%;
@@ -66,23 +65,19 @@
     #photo {
         margin: 6%;
         margin-top: 3%;
+        margin-bottom: 0;
         padding: 4%;
         padding-top: 2%;
         align-self: center;
-        margin-bottom: 0;
-        height: 700px;
-        width:700px;
-    }
-    .albumBodyAlbum {
-        max-width: 700px;
-        width: 100%;
-        height: 100%;
-    }
+    } 
     #description {
         width: 80%;
         margin: 0;
         padding: 0;
         align-self: center;
+    }
+    .albumBodyDescription {
+        text-align: center;
     }
 }
 
@@ -102,10 +97,6 @@
     }
     .albumBodyLink {
         font-size: 2rem;
-    }
-    #photo {
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -130,7 +121,6 @@
     }
     .albumBodyDescription {
         font-size: 1rem;
-        text-align: center;
     }
     .buyButton {
         font-size: 1rem;
