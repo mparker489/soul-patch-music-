@@ -2,6 +2,8 @@ header{
     background-color: #6f796e;
     font-family: 'Amatic SC';
     color: #dfdada;
+    display:flex;
+    flex-direction:column;
     li, #brand{
         list-style-type:none;
         a{
@@ -12,12 +14,19 @@ header{
             }
         }
     }
-    #brand{
-        font-size:4rem;
-        text-align:center;
-        padding-top: 50px;
-        padding-bottom:25px;
-        margin:0px; 
+    .header-logo{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        height:200px;
+        #brand{
+            font-size:4.5rem; 
+        }
+        #logo img{
+            width:100px;
+            margin:20px;
+        }
     }
     nav.desktop{
         display:flex;
@@ -26,20 +35,14 @@ header{
         display:none;
     }
     nav{
-        align-items:flex-end;
-        justify-content:space-between;
-        #logo img{
-            width:100px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-            margin:0px 50px;
-        }
+        height:100px;
+        align-items:center;
+        justify-content:space-around;
         .navigation{
-            text-align:center;
+            padding-left:0;
             display:flex;
             flex-direction:row;
-            padding:0px;
-            width:1000px;
+            justify-content:center;
             li{
                 font-size:2rem;
                 padding-left: 25px;
@@ -47,7 +50,6 @@ header{
             }
             .dropdown{
                 display:inline-block;
-                position:relative;
                 &:hover .dropdown-content{
                     display:flex;
                     flex-direction:column;
@@ -55,145 +57,110 @@ header{
                 .dropdown-content{
                     display:none;
                     position:absolute;
-                    text-align:center;
+                    text-align:left;
                     z-index:5;
-                    padding:10px;
+                    padding:15px;
                     li{
-                        margin:0;
                         background-color:#6f796e;
                         font-size:1.7rem;
+                        margin:0;
+                        border-top:2px solid #dfdada;
                     }
                 }
             }
         }
     }
-
-    @media only screen and (max-width:1216px){
-        .desktop{
-            display:flex;
+    @media only screen and (max-width:1055px){
+        nav{
+            height:90px;
             .navigation{
-                justify-content:flex-end;
-                .pages{
-                    font-size:1.5rem;
+                li{
+                    font-size:1.7rem;
+                    padding-left:15px;
+                    padding-right:15px;
                 }
                 .dropdown{
                     .dropdown-content{
-                        padding:5.6px;
-                        .dropdown-pages{
-                            font-size:1.3rem;
+                        li{
+                            font-size:1.4rem;
                         }
                     }
                 }
             }
         }
     }
-    @media only screen and (max-width:1054px){
+    @media only screen and (max-width:780px){
+        .header-logo{
+            #brand{
+                font-size:4.2rem;
+            }
+            #logo{
+                img{
+                    width:75px;
+                }
+            }
+        }
         nav.desktop{
             display:none;
         }
         nav.mobile{
             display:flex;
+        }
+        nav{
+            height:90px;
             .navigation{
-                justify-content:flex-end;
-                margin-right:40px;
-                .dropdown{
-                    .dropdown-content{
-                        li{
-                            padding:0px 8.6px;
-                        }
-                    }
+                height:90px;
+                li{
+                    font-size:2rem;
+                    padding-right:25px;
+                    padding-left:25px;
+                }
+            }
+            .dropdown-content{
+                li{
+                    font-size:1.7rem;
                 }
             }
         }
     }
-    @media only screen and (max-width:600px){
-        #brand{
-            font-size:2.5rem;
-            display:flex;
-            justify-content:flex-end;
-            padding-right:40px;
-        }
-        nav.mobile{
-            display:flex;
-            #logo img{
-                width:75px;
-                position:absolute;
-                top:40px;
-                left:20px;
+    @media only screen and (max-width:630px){
+        .header-logo{
+            #brand{
+                font-size:3.6rem;
             }
-            .navigation{
-                width:600px;
-                justify-content:space-around;
-            }
-        }
-    }
-    @media only screen and (max-width:500px){
-        #brand{
-            padding-right:0;
-            display:flex;
-            justify-content:center;
-            text-align:center;
-        }
-        nav.mobile{
-            display:flex;
-            flex-direction:column;
-            span#logo{
-                display:flex;
-                justify-content:center;
-                margin:auto;
+            #logo{
                 img{
-                    width:100px;
-                    position:relative;
-                    top:0;
-                    left:0;
+                    width:60px;
                     margin:10px;
                 }
             }
-            .navigation{
-                width:350px;
-                display:flex;
-                justify-content:center;
-                margin:auto;
-                .dropdown{
-                    .dropdown-content{
-                        justify-content:center;
-                        top:51px;
-                        li{
-                            font-size:1.4rem; 
-                        }
-                        &:hover{
-                            display:flex;
-                        }
-                    }
+        }
+    }
+    @media only screen and (max-width:530px){
+        .header-logo{
+            height:140px;
+            #brand{
+                font-size:2.6rem;
+            }
+            #logo{
+                img{
+                    width:40px;
                 }
             }
         }
-    }
-    @media only screen and (max-width:360px){
-        nav.mobile{
-            #brand{
-                text-align:center;
-                font-size:1rem;
-            }
+        nav{
+            height:50px;
             .navigation{
-                width:300px;
                 li{
                     font-size:1.4rem;
                 }
-                .dropdown{
-                    .dropdown-content{
-                        justify-content:center;
-                        top:30px;
-                        right:-20px;
-                        li{
-                            font-size:1.3rem; 
-                        }
-                        &:hover{
-                            display:flex;
-                        }
-                    }
+            .dropdown-content{
+                li{
+                    font-size:1rem;
                 }
             }
+            }
+            
         }
     }
 }
