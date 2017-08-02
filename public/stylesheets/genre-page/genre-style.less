@@ -1,9 +1,8 @@
 #genre-name{
-    margin-top:40px;
-    margin-bottom:40px;
+    margin: 0px;
     position:relative;
-    font-size:3em;
-    left:10%;
+    font-size:5em;
+    left:5%;
     overflow:hidden;
     max-width:500px;
     &:hover{
@@ -18,12 +17,12 @@
 
     ul{
         border-top:5px solid #585858;
-        padding: 50px;
+        padding: 23px;
         margin: 3rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
+        margin-top: 40px;
 
 
     }
@@ -31,6 +30,7 @@
         display:inline;
         list-style-type: none;
         margin: auto;
+
 
 
 
@@ -43,9 +43,11 @@
           color: #6f796e;
         }
         .name{
-          max-width: 330px;
+          width: 330px;
           text-align: center;
-          padding-bottom: 49px;
+          margin-bottom: 7px;
+          display: block;
+          padding: 0;
         }
     }
     img{
@@ -67,9 +69,10 @@
   font-size: 1rem;
   float:right;
   position:relative;
-  bottom: 90px;
-  right: 162px;
+  bottom: 14px;
+  right: 74px
 }
+
 // @media only screen and (min-width: 1200px) and (max-width: 1630px)
 // {
 //   #genre-page{
@@ -109,15 +112,15 @@
     }
   }
 }
-@media only screen and (max-width: 680px)
+@media only screen and (max-width: 510px)
 {
   #myInput{
-    bottom: 40px;
-    right: 180px;;
+    bottom: 5px;
+    right: 200px;
   }
     #genre-page{
       ul{
-        
+
         li{
           a{
             img{
@@ -137,27 +140,4 @@
   #myInput {
     right: 110px;
   }
-}
-
-
-
-
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #585858; /* Set a background color */
-    color: #e7e6e6; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 1.5rem;
-    &:hover {
-        background-color: #555; /* Add a dark-grey background on hover */
-    }
 }

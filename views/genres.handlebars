@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></button>
+{{!-- <a href="javascript:" id="return-to-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a> --}}
 
 <main id="genre-page">
     <h1 id="genre-name"> {{genreTitle}} </h1>
@@ -11,7 +11,9 @@
     <li>
         <a href="/album?album={{id}}">
             <img src="{{coverArt}}"/>
-            <div class="name">{{title}} by {{artist}}</div>
+            <div class="name">{{title}}</div>
+            <div class="name">by {{artist}}</div>
+            <div class="name"> Price Range $2.00-$9.99 </div>
         </a>
     </li>
     {{/each}}
