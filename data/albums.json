@@ -29,7 +29,7 @@
                 "coverArt": "img/pop/born-to-die.jpg",
                 "newRelease": false,
                 "mostPopular": true,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Muzak Makers",
@@ -131,7 +131,7 @@
                 "coverArt": "img/rap/all-eyez-on-me.jpg",
                 "newRelease": false,
                 "mostPopular": true,
-                "staffPicks": false
+                "staffPicks": true
 
             },
             {
@@ -142,7 +142,7 @@
                 "coverArt": "img/rap/american-teen.jpg",
                 "newRelease": true,
                 "mostPopular": true,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Travis Scott",
@@ -334,7 +334,7 @@
                 "coverArt": "img/classical/Alessandro_Taverna.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "National Philharmonic Orchestra",
@@ -344,7 +344,7 @@
                 "coverArt": "img/classical/Nutcracker.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "André Previn",
@@ -354,7 +354,7 @@
                 "coverArt": "img/classical/Swan_Lake.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Muzak Makers",
@@ -437,7 +437,7 @@
                 "coverArt": "img/jazz/Louis_Armstrong.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Jamie Cullum",
@@ -447,7 +447,7 @@
                 "coverArt": "img/jazz/Jamie_Cullum.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Glenn Miller",
@@ -468,7 +468,7 @@
                 "coverArt": "img/jazz/Nat_King_Cole.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Ella Fitzgerald",
@@ -478,7 +478,7 @@
                 "coverArt": "img/jazz/Ella_Fitzgerald.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Muzak Makers",
@@ -488,7 +488,7 @@
                 "coverArt": "img/pop/placeholder.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             }]
           },
         "folk": {"genreName": "Folk", "albums": [
@@ -520,7 +520,7 @@
                 "coverArt": "img/folk/jonimitchell.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "John Denver",
@@ -530,7 +530,7 @@
                 "coverArt": "img/folk/johndenver.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
 
             },
             {
@@ -551,7 +551,7 @@
                 "coverArt": "img/folk/bobdylan.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "The Kingston Trio",
@@ -663,7 +663,7 @@
                 "coverArt": "img/country/hunter-hayes-encore.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Old Dominion",
@@ -755,7 +755,7 @@
                 "coverArt": "img/latin/Justo_Ahora.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Marc Anthony",
@@ -771,11 +771,11 @@
                 "artist": "Shakira",
                 "title": "Donde Estan Los Ladrones",
                 "id": "0438728603",
-                "description": "Donde Estan Los Ladrones is the fourth studio album by Colombian singer Shakira. It was released on September 29, 1998 by Columbia Records and Sony Music Latin. It was nominated for a Grammy Award in 1999 for Best Latin Rock Album. This album features singles such as 'Ojos Así', 'No Creo', and '¿Donde están los ladrones?'.",
+                "description": "Dónde Están Los Ladrones is the fourth studio album by Colombian singer Shakira. It was released on September 29, 1998 by Columbia Records and Sony Music Latin. It was nominated for a Grammy Award in 1999 for Best Latin Rock Album. This album features singles such as 'Ojos Así', 'Ciega, Sordomuda', and '¿Dónde Están los Ladrones?'.",
                 "coverArt": "img/latin/Donde_Estan_Los_Ladrones.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Selena",
@@ -815,7 +815,7 @@
                 "coverArt": "img/latin/Que_Seas_Muy_Feliz.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Gloria Estefan",
@@ -864,7 +864,7 @@
                 "coverArt": "img/decades/Hall_and_Oates.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Michael Jackson",
@@ -874,7 +874,7 @@
                 "coverArt": "img/decades/Michael_Jackson.png",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Billy Joel",
@@ -884,7 +884,7 @@
                 "coverArt": "img/decades/Billy_Joel.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Spice Girls",
@@ -934,7 +934,7 @@
                 "coverArt": "img/decades/Elton_John.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Queen",
@@ -986,7 +986,7 @@
                 "coverArt": "img/alt_rock/thirdeyeblind.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Smashing Pumpkins",
@@ -1016,7 +1016,7 @@
                 "coverArt": "img/alt_rock/automaticforthepeople.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Offspring",
@@ -1026,7 +1026,7 @@
                 "coverArt": "img/alt_rock/offspring.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Oasis",
@@ -1056,7 +1056,7 @@
                 "coverArt": "img/alt_rock/greenday.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Pearl Jam",
@@ -1066,7 +1066,7 @@
                 "coverArt": "img/alt_rock/pearlja.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Weezer",
@@ -1076,7 +1076,7 @@
                 "coverArt": "img/alt_rock/weezer.png",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Nirvana ",
@@ -1086,17 +1086,17 @@
                 "coverArt": "img/alt_rock/nirvana.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Muzak Makers",
-                "title": "Crtl Alt Delete",
+                "title": "Ctrl Alt Delete",
                 "id": "0438728811",
                 "description": "This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable while listening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patriarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
                 "coverArt": "img/pop/placeholder.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             }]
           },
         "indie": {"genreName": "Acoustic Indie", "albums": [
@@ -1138,7 +1138,7 @@
                 "coverArt": "img/indie_acoustic/mumfordandsons.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "The Paper Kites",
@@ -1158,7 +1158,7 @@
                 "coverArt": "img/indie_acoustic/hozier.jpeg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Bon Iver",
@@ -1267,7 +1267,7 @@
                 "coverArt": "img/rnb/channel-orange.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Usher",
@@ -1287,7 +1287,7 @@
                 "coverArt": "img/pop/placeholder.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "John Legend",
@@ -1359,7 +1359,7 @@
                 "coverArt": "img/french/Racine_Carree.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Stromae",
@@ -1471,7 +1471,7 @@
                 "coverArt": "img/soundtracks/The_Danish_Girl.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Michael Giacchino",
@@ -1491,7 +1491,7 @@
                 "coverArt": "img/soundtracks/Mulan.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Various Artists",
@@ -1512,7 +1512,7 @@
                 "coverArt": "img/soundtracks/Rent.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             },
             {
                 "artist": "Various Artists",
@@ -1529,7 +1529,10 @@
                 "title": "Guardians of the Galaxy",
                 "id": "0438729206",
                 "description": "Guardians of the Galaxy is the soundtrack album for the 2014 Marvel film 'Guardians of the Galaxy' and was released on July 29, 2014. The soundtrack album reached number one on the US Billboard 200 chart, becoming the first soundtrack album in history consisting entirely of previously released songs to top the chart. This album includes the featured songs 'Hooked on a Feeling', 'Ain't No Mountain High Enough', 'Escape', and 'Come and Get Your Love'.",
-                "coverArt": "img/soundtracks/Guardians_Of_The_Galaxy.jpg"
+                "coverArt": "img/soundtracks/Guardians_Of_The_Galaxy.jpg",
+                "newRelease": false,
+                "mostPopular": false,
+                "staffPicks": true
             },
             {
                 "artist": "Various Artists",
@@ -1579,7 +1582,7 @@
                 "coverArt": "img/pop/placeholder.jpg",
                 "newRelease": false,
                 "mostPopular": false,
-                "staffPicks": false
+                "staffPicks": true
             }]
           }
     }
