@@ -3,7 +3,7 @@
   #genre-name{
     margin: 0px;
     position:relative;
-    font-size:5em;
+    font-size:5rem;
     left:5%;
     overflow:hidden;
     max-width:500px;
@@ -63,6 +63,13 @@
 @media only screen and (max-width:1010px)
   {
     #genre-page{
+      #genre-name{
+        font-size: 4rem;
+      }
+      #myInput{
+        font-size: 1.5rem;
+        top: 35px;
+      }
       ul{
         li{
           a{
@@ -81,6 +88,12 @@
 }
 @media only screen and (max-width: 947px){
   #genre-page{
+    #myInput{
+      width: 250px;
+      font-size: 1rem;
+      top: 45px;
+      right: 30px;
+    }
     ul{
       max-width: 900px;
       width: 100%;
@@ -91,8 +104,8 @@
 @media only screen and (max-width: 510px)
 {
   #myInput{
-    bottom: 5px;
-    right: 200px;
+    width: 160px;
+    top: 60px; 
   }
     #genre-page{
       ul{
@@ -112,8 +125,28 @@
 
 }
 
+@media only screen and (max-width: 410px){
+  #genre-page{
+    #myInput{
+      right: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #genre-page{
+    #genre-name{
+      margin-bottom: 60px; 
+    }
+    #myInput{
+      top: 125px;
+    }
+  }
+}
+
 @media only screen and (max-width: 320px){
   #myInput {
+    
     right: 110px;
   }
 }
