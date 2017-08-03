@@ -28,13 +28,8 @@ header{
             margin:20px;
         }
     }
-    nav.desktop{
-        display:flex;
-    }
-    nav.mobile{
-        display:none;
-    }
     nav{
+        display:flex;
         height:100px;
         align-items:center;
         justify-content:space-around;
@@ -66,9 +61,18 @@ header{
                         margin:0;
                         border-top:2px solid #dfdada;
                     }
+                    .mobile-pages{
+                        display:none;
+                    }
                 }
             }
         }
+    }
+    .pop-out{
+       display:none;
+    }
+    .close{
+        display:none;
     }
     @media only screen and (max-width:1055px){
         nav{
@@ -100,12 +104,6 @@ header{
                 }
             }
         }
-        nav.desktop{
-            display:none;
-        }
-        nav.mobile{
-            display:flex;
-        }
         nav{
             height:90px;
             .navigation{
@@ -115,10 +113,19 @@ header{
                     padding-right:25px;
                     padding-left:25px;
                 }
+                .desktop-pages{
+                    display:none;
+                }
+                .desktop-drop-list{
+                    display:none;
+                }
                 .dropdown{
                     .dropdown-content{
                         li{
                             font-size:1.7rem;
+                        }
+                        .mobile-pages{
+                            display:flex;
                         }
                     }
                 }
@@ -175,10 +182,60 @@ header{
         }
         nav{
             .navigation{
-                li{
-                    font-size:1reml
+                .dropdown{
+                    &:hover .dropdown-content{
+                        display:none;
+                    }
                 }
             }
+        }
+        .pop-out{
+            display:flex;
+            justify-content:flex-end;
+            position:fixed;
+            z-index:20;
+            width:100%;
+            height:100%;
+            .left-side{
+                width:100%;
+                background-color:#6f796e;
+                opacity:0.7; 
+            }
+            .right-side{
+                width:450px;
+                background-color:#6f796e;
+                opacity:1;
+                #list-top{
+                    display:flex;
+                    flex-direction: row;
+                    align-items:center;
+                    justify-content:space-around;
+                    border-bottom:2px solid #585858;
+                    padding-top:20px;
+                    padding-bottom:5px;
+                    h1{
+                        margin-bottom:0;
+                        margin-top:0;
+                    }
+                    span {
+                        &:hover{
+                            color:#f2ddde;
+                        }
+                    }
+                    }
+                ul{
+                    li{
+                        font-size:1.1rem;
+                        &:hover{
+                            color:#f2ddde;
+                        }
+                    }
+                }
+            }
+
+        }
+        .close{
+            display:none;
         }
     }
 }
