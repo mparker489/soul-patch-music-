@@ -16,17 +16,22 @@
         <span id="logo"><a href="/"><img src="img/soulpatch.png" /></a></span>
         <h1 id="brand"><a href="/">Soul Patch Music</a></h1>
     </div>
-    <nav class="desktop">
+    <nav class="nav">
         <ul class="navigation">
             <li class="pages"><a href="/genres">ALL ALBUMS</a></li>
-            <li class="pages"><a href="/genres?genre=pop">POP</a></li>
-            <li class="pages"><a href="/genres?genre=jazz">JAZZ</a></li>
-            <li class="pages"><a href="/genres?genre=folk">FOLK</a></li>
-            <li class="pages"><a href="/genres?genre=country">COUNTRY</a></li>
-            <li class="pages"><a href="/genres?genre=latin">LATIN</a></li>
+            <li class="pages desktop-pages"><a href="/genres?genre=pop">POP</a></li>
+            <li class="pages desktop-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
+            <li class="pages desktop-pages"><a href="/genres?genre=folk">FOLK</a></li>
+            <li class="pages desktop-pages"><a href="/genres?genre=country">COUNTRY</a></li>
+            <li class="pages desktop-pages"><a href="/genres?genre=latin">LATIN</a></li>
             <div class="dropdown">
-                <li class="dropdownbutton pages"><span>MORE GENRES</span></li>
+                <li id="dropdown-button" class="pages"><span class="desktop-drop-list drop-list">MORE </span><span class="drop-list">GENRES</span></li>
                 <ul class="dropdown-content">
+                    <li class="pages mobile-pages"><a href="/genres?genre=pop">POP</a></li>
+                    <li class="pages mobile-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
+                    <li class="pages mobile-pages"><a href="/genres?genre=folk">FOLK</a></li>
+                    <li class="pages mobile-pages"><a href="/genres?genre=country">COUNTRY</a></li>
+                    <li class="pages mobile-pages"><a href="/genres?genre=latin">LATIN</a></li>
                     <li class="dropdown-pages"><a href="/genres?genre=rap">RAP/HIP HOP</a></li>
                     <li class="dropdown-pages"><a href="/genres?genre=classical">CLASSICAL</a></li>
                     <li class="dropdown-pages"><a href="/genres?genre=decades">DECADES</a></li>
@@ -39,29 +44,31 @@
             </div>
         </ul>
     </nav>
-    <nav class="mobile">
-        <ul class="navigation">
-            <li class="pages"><a href="/genres">ALL ALBUMS</a></li>
-            <div class="dropdown">
-                <li class="dropdownbutton pages"><span>GENRES</span></li>
-                <ul class="dropdown-content">
-                    <li class="dropdown-pages"><a href="/genres?genre=pop">POP</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=folk">FOLK</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=country">COUNTRY</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=latin">LATIN</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=rap">RAP/HIP HOP</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=classical">CLASSICAL</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=decades">DECADES</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=alt">ALT ROCK</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=indie">INDIE</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=rnb">R&B/SOUL</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=french">FRENCH</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=soundtracks">SOUNDTRACKS</a></li>
-                </ul>
-            </div>
-        </ul>
-    </nav>
+    <div class="pop-out close">
+        <div class="left-side"></div>
+        <div class="right-side">
+            <div id="list-top">
+                <h1>Genres</h1>
+                <span id="close-button"class="fa fa-remove" aria-hidden="true"></span>
+               </div> 
+            <ul id="pop-out-genres">
+                <li class="pop-out-page"><a href="/genres?genre=pop">POP</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=jazz">JAZZ</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=folk">FOLK</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=country">COUNTRY</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=latin">LATIN</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=rap">RAP/HIP HOP</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=classical">CLASSICAL</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=decades">DECADES</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=alt">ALT ROCK</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=indie">INDIE</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=rnb">R&B/SOUL</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=french">FRENCH</a></li>
+                <li class="pop-out-page"><a href="/genres?genre=soundtracks">SOUNDTRACKS</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="javascript/genres-popout.js"></script> 
 </header>
 
 <body>
