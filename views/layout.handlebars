@@ -4,47 +4,50 @@
 <head>
     <title> Soul Patch Music </title>
     <link rel="icon" href="../public/img/soulpatch.png" />
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" , rel="stylesheet" , type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" , rel="stylesheet" , type="text/css" />
     <script src="https://use.fontawesome.com/a404a9b8d8.js"></script>
-    <link rel="stylesheet" , type="text/css" href="/stylesheets/stylesheet.css"/>
+    <link rel="stylesheet" , type="text/css" href="/stylesheets/stylesheet.css" />
+
     <script src="javascript/searchbar.js"></script>
     <script src="javascript/top-button.js"></script>
-    <meta name="media" content="width=device-width"/>
+    <script src="javascript/genres-popout.js"></script>
+    <meta name="media" content="width=device-width" />
 </head>
 
-<header>
-    <div class="header-logo">
-        <span id="logo"><a href="/"><img src="img/soulpatch.png" /></a></span>
-        <h1 id="brand"><a href="/">Soul Patch Music</a></h1>
-    </div>
-    <nav class="nav">
-        <ul class="navigation">
-            <li class="pages"><a href="/genres">ALL ALBUMS</a></li>
-            <li class="pages desktop-pages"><a href="/genres?genre=pop">POP</a></li>
-            <li class="pages desktop-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
-            <li class="pages desktop-pages"><a href="/genres?genre=folk">FOLK</a></li>
-            <li class="pages desktop-pages"><a href="/genres?genre=country">COUNTRY</a></li>
-            <li class="pages desktop-pages"><a href="/genres?genre=latin">LATIN</a></li>
-            <div class="dropdown">
-                <li id="dropdown-button" class="pages"><span class="desktop-drop-list drop-list">MORE </span><span class="drop-list">GENRES</span></li>
-                <ul class="dropdown-content">
-                    <li class="pages mobile-pages"><a href="/genres?genre=pop">POP</a></li>
-                    <li class="pages mobile-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
-                    <li class="pages mobile-pages"><a href="/genres?genre=folk">FOLK</a></li>
-                    <li class="pages mobile-pages"><a href="/genres?genre=country">COUNTRY</a></li>
-                    <li class="pages mobile-pages"><a href="/genres?genre=latin">LATIN</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=rap">RAP/HIP HOP</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=classical">CLASSICAL</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=decades">DECADES</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=alt">ALT ROCK</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=indie">INDIE</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=rnb">R&B/SOUL</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=french">FRENCH</a></li>
-                    <li class="dropdown-pages"><a href="/genres?genre=soundtracks">SOUNDTRACKS</a></li>
-                </ul>
-            </div>
-        </ul>
-    </nav>
+<body>
+    <header>
+        <div class="header-logo">
+            <span id="logo"><a href="/"><img src="img/soulpatch.png" /></a></span>
+            <h1 id="brand"><a href="/">Soul Patch Music</a></h1>
+        </div>
+        <nav class="nav">
+            <ul class="navigation">
+                <li class="pages"><a href="/genres">ALL ALBUMS</a></li>
+                <li class="pages desktop-pages"><a href="/genres?genre=pop">POP</a></li>
+                <li class="pages desktop-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
+                <li class="pages desktop-pages"><a href="/genres?genre=folk">FOLK</a></li>
+                <li class="pages desktop-pages"><a href="/genres?genre=country">COUNTRY</a></li>
+                <li class="pages desktop-pages"><a href="/genres?genre=latin">LATIN</a></li>
+                <div class="dropdown">
+                    <li id="dropdown-button" class="pages"><span class="desktop-drop-list drop-list">MORE </span><span class="drop-list">GENRES</span></li>
+                    <ul class="dropdown-content">
+                        <li class="pages mobile-pages"><a href="/genres?genre=pop">POP</a></li>
+                        <li class="pages mobile-pages"><a href="/genres?genre=jazz">JAZZ</a></li>
+                        <li class="pages mobile-pages"><a href="/genres?genre=folk">FOLK</a></li>
+                        <li class="pages mobile-pages"><a href="/genres?genre=country">COUNTRY</a></li>
+                        <li class="pages mobile-pages"><a href="/genres?genre=latin">LATIN</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=rap">RAP/HIP HOP</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=classical">CLASSICAL</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=decades">DECADES</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=alt">ALT ROCK</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=indie">INDIE</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=rnb">R&B/SOUL</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=french">FRENCH</a></li>
+                        <li class="dropdown-pages"><a href="/genres?genre=soundtracks">SOUNDTRACKS</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
     <div class="pop-out close">
         <div class="left-side"></div>
         <div class="right-side">
@@ -69,32 +72,30 @@
             </ul>
         </div>
     </div>
-    <script src="javascript/genres-popout.js"></script>
 </header>
 
-<body>
     {{{ body }}}
-</body>
 
-<footer class="footer">
-    <p class="socialMedia">
-        <a href="https://www.facebook.com/KennyG/">
+
+    <footer class="footer">
+        <p class="socialMedia">
+            <a href="https://www.facebook.com/KennyG/">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
-        <a href="https://www.pinterest.com/juliabmarshall/">
+            <a href="https://www.pinterest.com/juliabmarshall/">
                 <i class="fa fa-pinterest-square" aria-hidden="true"></i>
             </a>
-        <a href="https://twitter.com/chalkers?lang=en">
+            <a href="https://twitter.com/chalkers?lang=en">
                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
             </a>
-        <a href="https://www.instagram.com/juliabmarshall/">
+            <a href="https://www.instagram.com/juliabmarshall/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
-    </p>
-    <p class="footerText"> <i class="fa fa-copyright" aria-hidden="true"></i>
-      2017 COPYRIGHT
+        </p>
+        <p class="footerText"> <i class="fa fa-copyright" aria-hidden="true"></i> 2017 COPYRIGHT
 
-    </p>
-</footer>
+        </p>
+    </footer>
+</body>
 
 </html>
