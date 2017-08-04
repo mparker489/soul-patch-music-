@@ -1,9 +1,9 @@
-.error-page{
+.error-page, .not-found{
     display:flex;
     font-size:2rem;
     flex-direction:column;
     h1{
-        font-size:1.5rem;
+        font-size:2.5rem;
         align-self:center;
     }
     img{
@@ -18,7 +18,7 @@
         display:flex;
         flex-direction:row;
         justify-content:center;
-        .return-to-home, .return-to-albums{
+        a{
             text-decoration:none;
             color:#585858;
             background-color:#e7e6e6;
@@ -33,9 +33,9 @@
         }
         .return-to-albums-mobile, .return-to-home-mobile{
             display:none;
-        }
-        
+        } 
     }
+
     @media only screen and (max-width: 913px) {
         .error-buttons{
             display:flex;
@@ -58,11 +58,22 @@
             }
         }
     }
+    
+    @media only screen and (max-width:545px){
+       .return-to-home{
+           display:none;
+       }
+        .return-to-home-mobile{
+            display:flex;
+        }
+    }
 
     @media only screen and (max-width: 420px){
+        h1{
+            font-size: 2rem;
+        }
         img{
             width: 100px;
         }
     }
 }
-
