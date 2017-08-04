@@ -5,7 +5,9 @@
     <button onclick="topFunction()" id="myBtn"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></button>
 
     <h1 id="genre-name"> {{genreTitle}} </h1>
-    <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for albums..">
+    <div id="buttonHolder">
+        <input id="myInput" type="text" onkeyup="myFunction()" placeholder="Search for albums..">
+    </div>
 
     <ul id="myUL">
     {{#each data}}
