@@ -1,119 +1,113 @@
-
-#albumPage{
+main#albumPage{
     width: 100%;
-}
-.albumBodyAlbum
-{
-    width: 700px;
-    height: 700px;
-}
-#complete{
-    display: flex;
-}
-#photo
-{
-    justify-content: flex-start;
-    margin-top: 4vw;
-    margin-bottom:4vw;
-    max-width:700px;
-    width: 100%;
-    height:auto;
-    padding-left:1vw;
-}
-#description
-{
-    justify-content: flex-end;
-    width: 50%;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.albumBodyTitle{
-    font-size: 3rem;
-    text-align: center;
-}
-.albumBodyDescription {
-    font-size: 2rem;
-    text-align: left;
-}
-
-.album-dropdown {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 4vw;
-}
-
-.buyButton {
-    background-color:#f2ddde;
-    text-align: center;
-    list-style: none;
-    font-family: 'Amatic SC';
-    font-size: 2rem;
-    margin: 1.5vw;
-    text-decoration: none;
-    color: #585858;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-bottom: 2px solid grey;
-    border-right: 2px solid grey;
-    padding: .5vw;
-    &:hover {
-        background-color: #6f796e;
-        color: #dfdada;
-        border-right: 2px solid #585858;
-        border-bottom: 2px solid #585858;
+    div#complete{
+        display: flex;
+        div#photo{
+            justify-content: flex-start;
+            margin-top: 4vw;
+            margin-bottom:4vw;
+            max-width:700px;
+            width: 100%;
+            height:auto;
+            padding-left:1vw;
+            img.albumBodyAlbum{
+                width: 700px;
+                height: 700px;
+            }
+        }
+        div#description{
+            justify-content: flex-end;
+            width: 50%;
+            margin-left: 50px;
+            margin-right: 50px;
+            h1.albumBodyTitle{
+                font-size: 3rem;
+                text-align: center;
+            }
+            p.albumBodyDescription {
+                font-size: 2rem;
+                text-align: left;
+            }
+            .prices-buttons{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 4vw;
+                .buyButton{
+                    background-color:#f2ddde;
+                    text-align: center;
+                    list-style: none;
+                    font-family: 'Amatic SC';
+                    font-size: 2rem;
+                    margin: 1.5vw;
+                    text-decoration: none;
+                    color: #585858;
+                    border-top: 2px solid white;
+                    border-left: 2px solid white;
+                    border-bottom: 2px solid grey;
+                    border-right: 2px solid grey;
+                    padding: .5vw;
+                    &:hover{
+                        background-color: #6f796e;
+                        color: #dfdada;
+                        border-right: 2px solid #585858;
+                        border-bottom: 2px solid #585858;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1325px) {
+        div#complete {
+            flex-direction: column;
+            div#photo {
+                margin: 5vw;
+                margin-top: 3vw;
+                margin-bottom: 0;
+                padding: 3vw;
+                padding-top: 1vw;
+                padding-bottom:1vw;
+                align-self: center;
+                img.albumBodyAlbum {
+                    max-width:700px;
+                    width: 100%;
+                    height:auto;
+                }
+            }
+            div#description {
+                width: 80%;
+                margin: 0;
+                padding: 0;
+                align-self: center;
+                h1.albumBodyTitle {
+                    font-size: 2.7rem;
+                }
+                 p.albumBodyDescription {
+                    text-align: center;
+                    font-size: 1.9rem;
+                }
+                .prices-buttons{
+                    .buyButton{
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+        } 
+    }
+    @media only screen and (max-width: 800px) {
+        #description {
+            width: 100%;
+            padding: 3vw;
+        }
+        .albumBodyDescription, .buyButton, .albumBodyLink {
+            font-size: 1.8rem;
+        }
+        .albumBodyTitle {
+            font-size: 2.5rem;
+        }
     }
 }
 
-@media only screen and (max-width: 1325px) {
-    #complete {
-        flex-direction: column;
-    }
-    #photo {
-        margin: 5vw;
-        margin-top: 3vw;
-        margin-bottom: 0;
-        padding: 3vw;
-        padding-top: 1vw;
-        padding-bottom:1vw;
-        align-self: center;
-    }
-    #description {
-        width: 80%;
-        margin: 0;
-        padding: 0;
-        align-self: center;
-    }
-    .albumBodyDescription {
-        text-align: center;
-        font-size: 1.9rem;
-    }
-    .albumBodyTitle {
-        font-size: 2.7rem;
-    }
-    .buyButton, .albumBodyLink{
-        font-size: 1.9rem;
-    }
-    
-    .albumBodyAlbum {
-        max-width:700px;
-        width: 100%;
-        height:auto;
-    }
-}
 
-@media only screen and (max-width: 800px) {
-    #description {
-        width: 100%;
-        padding: 3vw;
-    }
-    .albumBodyDescription, .buyButton, .albumBodyLink {
-        font-size: 1.8rem;
-    }
-    .albumBodyTitle {
-        font-size: 2.5rem;
-    }
-
-}
 
 @media only screen and (max-width: 600px) {
     .albumBodyDescription, .buyButton, .albumBodyLink {
