@@ -10,14 +10,15 @@
     <script src="javascript/searchbar.js"></script>
     <script src="javascript/top-button.js"></script>
     <meta name="media" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 </head>
 
-<div class = "header">
+<header class = "header">
     <div class="header-logo">
         <span id="logo"><a href="/"><img src="img/soulpatch.png" /></a></span>
         <h1 id="brand"><a href="/">Soul Patch Music</a></h1>
     </div>
-    <div class="nav">
+    <nav class="nav">
         <ul class="navigation">
             <li class="pages"><a href="/genres">ALL ALBUMS</a></li>
             <li class="pages desktop-pages"><a href="/genres?genre=pop">POP</a></li>
@@ -44,7 +45,7 @@
                 </ul>
             </div>
         </ul>
-    </div>
+    </nav>
     <div class="pop-out close">
         <div class="left-side"></div>
         <div class="right-side">
@@ -70,13 +71,13 @@
         </div>
     </div>
     <script src="javascript/genres-popout.js"></script>
-</div>
+</header>
 
 <div>
     {{{ body }}}
 </div>
 
-<div class="footer">
+<footer class="footer">
     <p class="socialMedia">
         <a href="https://www.facebook.com/KennyG/">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -93,8 +94,7 @@
     </p>
     <p class="footerText"> <i class="fa fa-copyright" aria-hidden="true"></i>
       2017 COPYRIGHT
-
     </p>
-</div>
+</footer>
 
 </html>
