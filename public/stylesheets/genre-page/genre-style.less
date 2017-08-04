@@ -19,8 +19,8 @@
   #genre-name{
     margin: 0px;
     position:relative;
-    font-size:5rem;
-    left:5%;
+    font-size:4.8rem;
+    left:3.7%;
     overflow:hidden;
     max-width:500px;
   }
@@ -31,13 +31,13 @@
     color: #585858;
     font-size: 2rem;
     position:absolute;
-    top: 50px;
-    right: 74px;
+    top: 40px;
+    right: 4%;
   }
   ul{
     border-top:5px solid #585858;
     padding: 23px;
-    margin: 0 3rem 0 3rem;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -49,6 +49,7 @@
           text-decoration: none;
           color: #585858;
           text-align: center;
+          font-size: 27px;
           &:hover{
             color: #6f796e;
           }
@@ -78,45 +79,77 @@
   }
 }
 
-@media only screen and (max-width:1010px)
-  {
-    #genre-page{
-      #genre-name{
-        font-size: 4rem;
-      }
-      #myInput{
-        font-size: 1.5rem;
-        top: 35px;
-      }
-      ul{
-        li{
-          a{
-              img{
-                width: 300px;
-              }
-          div{
-            width: 300px;
-          }
-
-          }
-
+@media only screen and (max-width: 1195px) {
+  #genre-page {
+    #genre-name {
+      font-size:4.5rem;
     }
+    #myInput {
+      top: 35px;
+      width: 340px;
     }
+    ul {
+      li {
+        a {
+          font-size: 24px;
+        }
+      }
+    }
+  }
 }
+
+@media only screen and (max-width:1010px){
+  #genre-page{
+    #genre-name{
+      font-size: 3.9rem;
+    }
+    #myInput{
+      font-size: 1.5rem;
+      top: 35px;
+      width:270px;
+    }
+  }
 }
 @media only screen and (max-width: 947px){
   #genre-page{
+    #genre-name {
+      font-size:3.2rem;
+    }
     #myInput{
-      width: 160px;
-      font-size: 1rem;
-      top: 45px;
+      width: 210px;
+      font-size: 1.3rem;
+      top: 1.15rem;
       right: 30px;
     }
     ul{
       max-width: 900px;
       width: 100%;
       margin: 0;
+      li{
+        a {
+          img{
+            width: 300px;
+          }
+          div{
+            width: 300px;
+          }
+          .name {
+            width: 300px;
+          }
+        }
+      }
     }
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #genre-page {
+    #genre-name {
+      font-size: 2.8rem;
+    }
+    #myInput{
+      top: .9rem;
+    } 
   }
 }
 
@@ -125,47 +158,59 @@
     #myBtn{
       font-size: 0.8rem;
     }
-    #myInput{
-      top: 70px;
-    }
   }
 }
 
 @media only screen and (max-width: 600px){
   #genre-page{
     #genre-name{
-      margin-bottom: 50px;
-      font-size: 1.8rem;
+      margin-bottom: 15px;
+      font-size: 1.85rem;
       padding-top: 15px; 
     }
     #myInput{
-      top: 70px;
+      top: 1.1rem;
       right: 10px; 
+      font-size: .95rem;
+      width: 170px;
     }
   }
 }
 
-@media only screen and (max-width: 510px)
-{
-   #genre-page{
-      ul{
-        li{
-          a{
-            img{
-              width: 330px;
-            }
-            div{
-              width: 330px;
-            }
+@media only screen and (max-width: 510px) {
+  #genre-page{
+    ul{
+      li{
+        a{
+          img{
+            width: 330px;
+          }
+          div{
+            width: 330px;
+          }
+          .name {
+            width: 330px;
           }
         }
       }
     }
-
+  }
 }
 
-@media only screen and (max-width: 320px){
-  #myInput {
-    right: 110px;
+@media only screen and (max-width: 415px){
+  #genre-page {
+    #genre-name {
+      margin-bottom: 50px;
+      text-align: center;
+      position: initial;
+    }
+    #myInput {
+      top: 3rem;
+      right: initial;
+    }
+    #buttonHolder {
+      text-align: center;
+      margin-right: 7rem;
+    }
   }
 }
