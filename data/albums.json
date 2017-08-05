@@ -1,11 +1,13 @@
 {
     "data": {
-        "pop": {"genreName": "Pop", "albums": [
+        "pop": {
+            "genreName": "Pop", 
+            "albums": [
             {
                 "artist": "Marian Hill",
                 "title": "Act One",
                 "id": "0438728000",
-                "description": "In 2016, the American songwriting duo Marian Hill released their debut album, 'Act One'. Truly being their first act, songs featured on the album like 'Down' and 'Back To Me' brought the group into the spotlight. With strong beats, this album will be sure to get you jammin'.",
+                "description": "In 2016, the American songwriting duo Marian Hill, released their debut album, 'Act One'. Truly being their first act, songs featured on the album like 'Down' and 'Back To Me' brought the group into the spotlight. With strong beats, this album will be sure to get you jammin'.",
                 "coverArt": "img/pop/act-one.jpg",
                 "newRelease": true,
                 "mostPopular": false,
@@ -15,7 +17,7 @@
                 "artist": "Halsey",
                 "title": "BADLANDS",
                 "id": "0438728001",
-                "description": "In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
+                "description": "In her debut studio album released in 2015, Halsey brings her strong vocals to alternative pop sounds. Some critics claim her persona in interviews and the one on the album don't match, but fans don't seem to mind - critics are too critical #nitpicky. With songs like 'Colors', 'Hold Me Down' and 'New Americana', the album reached number 2 on the Billboard 200 chart.",
                 "coverArt": "img/pop/badlands.jpg",
                 "newRelease": true,
                 "mostPopular": true,
@@ -45,7 +47,7 @@
                 "artist": "Calvin Harris",
                 "title": "Funk Wav Bounces Vol.1",
                 "id": "0438728004",
-                "description": "In his fifth studio album, Calvin Harris brings the heat of summer into his tunes. After its release in 2017, 'Funk Way Bounces Vol.1' has received positive reviews due to its popular artists featured and careless vibe. This album includes songs like 'Slide' and 'Rollin', both of which will get you bouncing in the club.",
+                "description": "In his fifth studio album, Calvin Harris brings the heat of summer into his tunes. After its release in 2017, 'Funk Wav Bounces Vol.1' has received positive reviews due to its popular artists featured and careless vibe. This album includes songs like 'Slide' and 'Rollin', both of which will get you bouncing in the club.",
                 "coverArt": "img/pop/funk-way-bounces.jpg",
                 "newRelease": true,
                 "mostPopular": true,
@@ -65,7 +67,7 @@
                 "artist": "ODEZA",
                 "title": "In Return",
                 "id": "0438728006",
-                "description": "In 2014, the American electro music duo released their second album. 'In Return' reached number one on the Top Dance/Electronic Albums chart, with amazing songs like 'Sun Models' and 'Say My Name'. You pay us money and in return we will give you one of the hottest albums of the year 2014!",
+                "description": "In 2014, the American electro music duo released their second album. 'In Return' reached number one on the Top Dance/Electronic Albums chart, with amazing songs like 'Sun Models' and 'Say My Name'. You pay us money and in return *wink wink* we will give you one of the hottest albums of the year 2014!",
                 "coverArt": "img/pop/in-return.jpg",
                 "newRelease": true,
                 "mostPopular": true,
@@ -122,12 +124,14 @@
                 "staffPicks": false
             }
         ]},
-        "rap": {"genreName": "Rap/Hip Hop", "albums": [
+        "rap": {
+            "genreName": "Rap/Hip Hop", 
+            "albums": [
             {
                 "artist": "2Pac",
                 "title": "All Eyez On Me",
                 "id": "0438728100",
-                "description": "'All Eyez On Me' is 2Pac's fourth studio album, and last one to be released before his death. Featuring songs like 'How Do U Want It' and 'California Love', both of which reached number one on the Billboard Hot 100, all eyes were on 2Pac.",
+                "description": "'All Eyez On Me' is 2Pac's fourth studio album, and the last one to be released before his death. Featuring songs like 'How Do U Want It' and 'California Love', both of which reached number one on the Billboard Hot 100, all eyes were on 2Pac.",
                 "coverArt": "img/rap/all-eyez-on-me.jpg",
                 "newRelease": false,
                 "mostPopular": true,
