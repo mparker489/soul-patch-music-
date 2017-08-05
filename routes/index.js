@@ -14,7 +14,6 @@ router.get('/', (req, res) => {
           newReleases = newReleases.concat(releases.data[key].albums[i]);
       }
   })
-
   var mostPop = [];
   Object.keys(popular.data).forEach(function(key){
     for (var i = 0; i < popular.data[key].albums.length; i++)
@@ -23,7 +22,6 @@ router.get('/', (req, res) => {
           mostPop = mostPop.concat(popular.data[key].albums[i]);
       }
   })
-
   var staffPickzz = [];
   Object.keys(staff.data).forEach(function(key){
     for (var i = 0; i < staff.data[key].albums.length; i++)
