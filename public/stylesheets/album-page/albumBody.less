@@ -81,7 +81,7 @@ main#albumPage{
                 h1.albumBodyTitle {
                     font-size: 2.7rem;
                 }
-                 p.albumBodyDescription {
+                p.albumBodyDescription {
                     text-align: center;
                     font-size: 1.9rem;
                 }
@@ -93,46 +93,63 @@ main#albumPage{
             }
         } 
     }
-<<<<<<< HEAD
     @media only screen and (max-width: 800px) {
-        #description {
-            width: 100%;
-            padding: 3vw;
+        div#complete{
+            div#description {
+                width: 100%;
+                padding: 3vw;
+                h1.albumBodyTitle {
+                    font-size: 2.5rem;
+                }
+                p.albumBodyDescription{
+                    font-size:1.8rem;
+                }
+                .prices-buttons{
+                    .buyButton{
+                        font-size:1.8rem;
+                    }
+                }
+            }
         }
-        .albumBodyDescription, .buyButton, .albumBodyLink {
-            font-size: 1.8rem;
+    }
+    @media only screen and (max-width: 600px) {
+        div#complete{
+            div#description{
+                h1.albumBodyTitle {
+                    font-size: 2.1rem;
+                }
+                p.albumBodyDescription{
+                    font-size:1.6rem;
+                }
+                .prices-buttons{
+                    .buyButton{
+                        font-size:1.6rem;
+                    }
+                }
+            }
         }
-        .albumBodyTitle {
-            font-size: 2.5rem;
+    }
+    @media only screen and (max-width: 415px) {
+        div#complete{
+            div#description{
+                h1.albumBodyTitle {
+                    font-size: 1.3rem;
+                }
+                p.albumBodyDescription{
+                    font-size: 1rem;
+                }
+                .prices-buttons{
+                    .buyButton{
+                        font-size: 1rem;
+                    }
+                }
+            }
         }
-=======
-
-    .albumBodyAlbum {
-        max-width:700px;
-        width: 100%;
-        height:auto;
->>>>>>> c89a313444ca1bb4ceff01e902b9a00d667d51f9
     }
 }
 
 
 
-@media only screen and (max-width: 600px) {
-    .albumBodyDescription, .buyButton, .albumBodyLink {
-        font-size: 1.6rem;
-    }
-    .albumBodyTitle {
-        font-size: 2.1rem;
-    }
 
-}
 
-@media only screen and (max-width: 415px) {
-    .albumBodyTitle {
-        font-size: 1.3rem;
-    }
-    .albumBodyDescription, .buyButton, .albumBodyLink {
-        font-size: 1rem;
-    }
 
-}
