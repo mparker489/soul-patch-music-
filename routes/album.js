@@ -4,7 +4,6 @@ const data = require("../data/albums.json");
 
 router.get('/', (req, res) => {
     const album = req.query.album || "";
-
     var track = "";
     Object.keys(data.data).forEach(function (key) {
         for (var i = 0; i < data.data[key].albums.length; i++) {
@@ -19,7 +18,6 @@ router.get('/', (req, res) => {
     else{
         res.render('not-found');
     }
-    
 });
 
 module.exports = router;
