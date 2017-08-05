@@ -1,4 +1,3 @@
-
 <main class="homePage">
 
     <div class="banner">
@@ -16,12 +15,12 @@
                     <div class="text">
                         <p id = "title">{{title}}</p>
                         <p id = "artist">by {{artist}}</p>
-                        <p id="price-range">Price Range $2.00-$9.99</p>
+                        <p id= "price-range">Price Range $2.00-$9.99</p>
                     </div>
                 </div>
             </a>
         </div>
-        {{/each}}
+      {{/each}}
     </div>
 
     <h2> MOST POPULAR </h2>
@@ -34,7 +33,7 @@
                     <div class="text">
                         <p id = "title">{{title}}</p>
                         <p id = "artist">by {{artist}}</p>
-                        <p id="price-range">Price Range $2.00-$9.99</p>
+                        <p id = "price-range">Price Range $2.00-$9.99</p>
                     </div>
                 </div>
             </a>
@@ -44,7 +43,7 @@
 
     <h2> $T@FF P!CKZ </h2>
     <div class="explore">
-        {{#each staff}}
+      {{#each staff}}
         <div class="container">
             <a href="/album?album={{id}}">
                 <img src="{{coverArt}}" class="image">
@@ -52,12 +51,11 @@
                     <div class="text">
                         <p id = "title">{{title}}</p>
                         <p id = "artist">by {{artist}}</p>
-                        <p id="price-range">Price Range $2.00-$9.99</p>
+                        <p id = "price-range">Price Range $2.00-$9.99</p>
                     </div>
                 </div>
             </a>
         </div>
-        {{/each}}
+      {{/each}}
     </div>
 </main>
-
