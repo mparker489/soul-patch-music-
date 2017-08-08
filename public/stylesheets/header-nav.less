@@ -63,6 +63,9 @@
                     }
                     .mobile-pages{
                         display:none;
+                        @media only screen and (max-width:780px){
+                            display:block;
+                        }
                     }
                 }
             }
@@ -106,7 +109,7 @@
         }
         nav{
             height:90px;
-            .navigation{
+            ul.navigation{
                 height:90px;
                 li{
                     font-size:2rem;
@@ -124,13 +127,9 @@
                         li{
                             font-size:1.7rem;
                         }
-                        .mobile-pages{
-                            display:flex;
-                        }
                     }
                 }
-            }
-            
+            } 
         }
     }
     @media only screen and (max-width:630px){
