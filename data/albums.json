@@ -1,7 +1,7 @@
 {
     "data": {
         "pop": {
-            "genreName": "Pop", 
+            "genreName": "Pop",
             "albums": [
             {
                 "artist": "Marian Hill",
@@ -125,7 +125,7 @@
             }
         ]},
         "rap": {
-            "genreName": "Rap/Hip Hop", 
+            "genreName": "Rap/Hip Hop",
             "albums": [
             {
                 "artist": "2Pac",
@@ -294,7 +294,7 @@
                 "artist": "René Jacobs",
                 "title": "Mozart Symphonies Nos. 39 & 40",
                 "id": "0438728204",
-                "description": "Mozart Symphonies Nos. 39 & 40 is a combination of two Mozart symphonies performed by Belgian musician and composer, René Jacobs. This album was released in 2010 and includes all of symphonies No 39 and 40.",
+                "description": "Mozart Symphonies Nos. 39 & 40 is a combination of two Mozart symphonies performed by Belgian musician and composer, René Jacobs. This album was released in 2010 and includes all of symphonies No. 39 and 40.",
                 "coverArt": "img/classical/Rene_Jacobs.jpg",
                 "newRelease": false,
                 "mostPopular": false,
@@ -344,7 +344,7 @@
                 "artist": "National Philharmonic Orchestra",
                 "title": "Tchaikovsky: The Nutcracker",
                 "id": "0438728209",
-                "description": "This is the recording of two of the most famous ballets, Tchaikovsky's Nutcracker and Offenbach's Le Papillon, played by the National Philharmonic Orchestra. The National Philharmonic Orchestra is a very large orchestra with several conductors. They have also been featured on many movie soundtracks. This album contains the famous songs of both the Nutcracker and Le Papillon including \"Waltz of the Flowers\" and \"Dance of the Sugar-Plum Fairy\"",
+                "description": "This is the recording of two of the most famous ballets, Tchaikovsky's Nutcracker and Offenbach's Le Papillon, played by the National Philharmonic Orchestra. The National Philharmonic Orchestra is a very large orchestra with several conductors. They have also been featured on many movie soundtracks. This album contains famous songs of both the Nutcracker and Le Papillon including \"Waltz of the Flowers\" and \"Dance of the Sugar-Plum Fairy\"",
                 "coverArt": "img/classical/Nutcracker.jpg",
                 "newRelease": false,
                 "mostPopular": false,
@@ -500,7 +500,7 @@
                 "artist": "Pete Seeger ",
                 "title": "American Ballads",
                 "id": "0438728400",
-                "description": "Pete Seeger was an iconic folk singer during the 19th century who was known for his political activism and banjo playing abilities. This album, produced in 1957, is full of gritty American folk tunes such as 'The Titanic Disaster' and 'Down in Carlisle.'",
+                "description": "Pete Seeger was an iconic folk singer during the 19th century who was known for his political activism and banjo playing abilities. This album, produced in 1957, is full of gritty American folk tunes such as \"The Titanic Disaster\" and \"Down in Carlisle.\"",
                 "coverArt": "img/folk/peteseeger.jpg",
                 "newRelease": false,
                 "mostPopular": false,
