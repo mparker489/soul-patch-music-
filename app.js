@@ -10,8 +10,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(lessMiddleware(__dirname + '/public', {force: true}));
 app.set('view engine', 'handlebars');
 
-//routes
-
 const mainRoutes = require('./routes');
 const albumRoutes = require('./routes/album');
 const genreRoutes = require('./routes/genres');
@@ -19,10 +17,7 @@ const genreRoutes = require('./routes/genres');
 app.use(mainRoutes);
 app.use('/album', albumRoutes);
 app.use('/genres', genreRoutes);
-
-
 app.use(express.static('public'));
-
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
@@ -35,7 +30,6 @@ app.use((err, req, res, next) => {
     res.status(err.status);
     res.render('error');
 });
-
 
 app.listen(1234, () => {
     console.log('The application is running on localhost:1234!')
