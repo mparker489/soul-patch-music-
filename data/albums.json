@@ -38,7 +38,7 @@
                 "title": "#coachellabound",
                 "id": "0438728003",
                 "description": "In their debut pop album, Muzak Makers bring the heat of summer. Featuring hit singles 'Eyebrows on Fleek' and 'No Flower Crown, No Glitter, No Service', this album sure will get you in the mood to sit at home and look at pictures of celebrities at Coachella. #hipster",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/pop/coachella.jpg",
                 "newRelease": true,
                 "mostPopular": false,
                 "staffPicks": false
@@ -173,7 +173,7 @@
                 "title": "Coderz",
                 "id": "0438728104",
                 "description": "In Muzak Makers sixteenth rap studio album, they really step up their rap game. 'Coderz' is a progressive album that expresses the groups wide range of emotions. Including songs like 'All Handz on Keyz' and 'All I Do is Code', this album peaked at number 456 on Billboard 200. Come one, get ur code on!",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/rap/coderz.jpg",
                 "newRelease": true,
                 "mostPopular": true,
                 "staffPicks": false
@@ -365,7 +365,7 @@
                 "title": "Issa Wig Symphony in C#",
                 "id": "0438728211",
                 "description": "Inspired by the art of powdered wigs and the world-famous meme, the Muzak Makers created this artfully composed symphony only from the sounds wigs could produce. A creative edition to all of the classics, some have compared it to the symphonies of Bach and Beethoven. This symphony includes pieces such as \"Your Hair Changes all the Time in F#\" and \"YOU GOT BANGS?! in D Minor\"",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/classical/issaWig.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -489,7 +489,7 @@
                 "title": "Smooth HTML",
                 "id": "0438728311",
                 "description": "The Muzak Makers are back at it again with their 45th studio album under the record label Emo-Bois. In Smooth HTML, the Muzak Makers use their genius coding skills to create the world’s most amazing album yet featuring the sweet sounds of saxophone and futuristic elements. Some say this album has changed the future of jazz music forever. Smooth HTML features smash hits such as \"Divs to the Heart\" and \"Too Many Li’s Comin Out Your Mouth\"",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/jazz/smoothHTML.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": true
@@ -612,7 +612,7 @@
                 "title": "wtf (What the Folk)",
                 "id": "0438728411",
                 "description": "The Muzak Makers have won the most Grammys in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is one of their oldest, it was released in 1901 but was an instant best-seller because it was the first folk-album ever released and the incorporation of EDM and Folk music. It features singles such as, 'My banjo and Turntables' and 'Old Yesler Tearing Up the Forest'",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/folk/wtf.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -694,7 +694,7 @@
                 "title": "My Wife, My Dog, My Truck",
                 "id": "0438728507",
                 "description": "Muzak Makers did it again! They produced a country album that topped the charts! With their unconventional ways and their passionate guitar solos, 'My Wife, My Dog, My Wife' speaks to the country in all of us. Featuring songs like 'My Truck is Bigger Than Your Truck' and 'All My Ex's Live Next Door (Small Town Livin)', this album will sure be a hit at your next backyard shindig.",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/country/wifeDogTruck.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -853,7 +853,7 @@
                 "title": "Relampago",
                 "id": "0438728611",
                 "description": "Relampago is the fifth studio album by American all-around genre band Muzak Makers and was released on March 26, 2016. Relampago is a lit album that fans have cited as the spiciest album of the ages. This album features hit singles such as 'Andy Es Mi Corazón', 'HTMLoco', and 'Iluminado'.",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/latin/relampago.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -975,7 +975,7 @@
                 "title": "The Dream of the 90's is Alive in PDX",
                 "id": "0438728711",
                 "description": "Your favorite decade is making a comeback, especially in the new Muzak Makers album, The Dream of the 90’s is Alive in Portland. Made in the city that is always weird, the Muzak Makers crafted the songs to capture the vibe of the 90’s. Even though many told them \"Ugh as if!\" they stuck with the idea. The album climbed the charts and produced some of their most famous songs, including \"What’s the 4-1-1\" and \"That’s my Name, Don’t Wear It Out\".",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/decades/portland.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -1097,7 +1097,7 @@
                 "title": "Ctrl Alt Delete",
                 "id": "0438728811",
                 "description": "This album is truly the Muzak Makers best. This album puts the alternative in alternative rock. If you are feeling angsty this is the album for you. It has been said that is the most emo album of all time. Your emotions will be uncontrollable while listening to this album causing you to lie down face down on the floor. This album contains hits like 'All Black Errthang, 'I Swear I'm Not That Emo,' 'I'm Getting A Mohawk Mom,' 'Fighting the Patriarchy,' 'Emo Lyfe Happy Wyfe' and 'Cry Myself to Sleep'",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/alt_rock/ctrlaltdlt.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": true
@@ -1216,7 +1216,7 @@
                 "title": "Crunchy Granola",
                 "id": "0438728911",
                 "description": "The Muzak Makers have won the most Grammys in all of history. They are an emo all-bois band from the little known small town of Seattle, WA. This album is their cunchriest and every album comes with a mason jar with kombucha and a bag of homemade compost. This album contains hits such as ‘Free Range Chicken' and 'Solar-Powered Toilets'",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/indie_acoustic/crunchyGranola.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -1288,7 +1288,7 @@
                 "title": "Git With It",
                 "id": "0438729006",
                 "description": "In Muzak Makers’ fourth studio album, 'Git With It', their soulful beings truly shine. The album features sick vocals and smooth instrumentals, and includes songs like 'Push and Pull' and 'Gimme That Status'. Put on this record on, sit back, and git with the program.",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/rnb/gitWithIt.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": true
@@ -1460,7 +1460,7 @@
                 "title": "Baguette? Bonjour",
                 "id": "0438729111",
                 "description": "Baguette? Bonjour is the 50th studio album by American all-around genre band Muzak Makers and was released on July 10, 2008. Baguette? Bonjour is one of the top-rated albums and is known for creatively using the sounds of a crushed baguette in each song. This album features the hit songs 'Croissant', 'Ton Ton Pierre', and 'Franchement'.",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/french/baguetteBonjour.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": false
@@ -1583,7 +1583,7 @@
                 "title": "CDK: A Murder Mystery",
                 "id": "0438729211",
                 "description": "CDK: A Murder Mystery is the 88th studio album by American all-around genre band Muzak Makers and was released on October 31, 2013. The album won the Golden Globe Award for Best Original Score at 100th Golden Globe Awards and has been noted for its intriguing use of actual screams. This album features the songs 'I think Kyle killed Adam', 'some1 help me', and 'It was in the free swag'.",
-                "coverArt": "img/pop/placeholder.jpg",
+                "coverArt": "img/soundtracks/cdk.jpg",
                 "newRelease": false,
                 "mostPopular": false,
                 "staffPicks": true
