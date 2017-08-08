@@ -5,26 +5,23 @@
   width: 100%;
   position: relative;
   margin-top: .7rem;
-}
-
-.footerText{
-  color: #dfdada;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-.socialMedia{
+  .socialMedia{
   text-align: center;
   font-size: 3em;
   letter-spacing: 10px;
-  a
- {
-   color: #dfdada;
-   text-decoration: none;
-   &:hover{
-     color: #f2ddde;
-   }
- }
+    a{
+      color: #dfdada;
+      text-decoration: none;
+      &:hover{
+        color: #f2ddde;
+      }
+    }
+  }
+  .footerText{
+    color: #dfdada;
+    text-align: center;
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -55,18 +52,18 @@
 }
 
 @media only screen and (max-width: 415px) { 
-  .footerText {
-    font-size: .8em;
-  }
-  .socialMedia {
-    margin-top: 1rem;
-    a {
-      i {
-        font-size: 2.2rem;
-      }
-    }
-  }
   .footer {
     margin-top: 1rem;
+    .socialMedia {
+      margin-top: 1rem;
+      a {
+        i {
+          font-size: 2.2rem;
+        }
+      }
+    }
+    .footerText {
+      font-size: .8em;
+    }
   }
 }
