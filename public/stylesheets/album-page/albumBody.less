@@ -2,8 +2,10 @@ div#albumPage{
     width: 100%;
     div#complete{
         display: flex;
+        display: -webkit-flex;
         div#photo{
             justify-content: flex-start;
+            -webkit-justify-content: flex-start;
             margin-top: 4vw;
             margin-bottom:4vw;
             max-width:700px;
@@ -11,12 +13,12 @@ div#albumPage{
             height:auto;
             padding-left:1vw;
             img.albumBodyAlbum{
-                width: 700px;
-                height: 700px;
+                width: 100%;
             }
         }
         div#description{
             justify-content: flex-end;
+            -webkit-justify-content: flex-end;
             width: 50%;
             margin-left: 50px;
             margin-right: 50px;
@@ -31,7 +33,9 @@ div#albumPage{
             }
             .prices-buttons{
                 display: flex;
+                display: -webkit-flex;
                 justify-content: center;
+                -webkit-justify-content: center;
                 padding-bottom: 4vw;
                 .buyButton{
                     background-color:#f2ddde;
@@ -61,6 +65,7 @@ div#albumPage{
     @media only screen and (max-width: 1325px) {
         div#complete {
             flex-direction: column;
+            -webkit-flex-direction: column;
             div#photo {
                 margin: 5vw;
                 margin-top: 3vw;
@@ -69,6 +74,7 @@ div#albumPage{
                 padding-top: 1vw;
                 padding-bottom:1vw;
                 align-self: center;
+                -webkit-align-self: center;
                 img.albumBodyAlbum {
                     max-width:700px;
                     width: 100%;
@@ -80,6 +86,7 @@ div#albumPage{
                 margin: 0;
                 padding: 0;
                 align-self: center;
+                -webkit-align-self: center;
                 h1.albumBodyTitle {
                     font-size: 2.7rem;
                 }
