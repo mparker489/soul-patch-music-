@@ -2,12 +2,13 @@
     text-decoration: none;
     font-family: 'Amatic SC';
     height: auto;
-    .banner{
+    .parallax {
         background-image: url("/img/record.jpg");
-        width: 100%;
-        height: 400px;
-        padding-top: 55px;
-        margin-top: 25px;
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         h4{
             font-size: 4rem;
             color: 	#f2ddde;
@@ -88,8 +89,11 @@
 }
 @media only screen and (max-width: 1024px) {
     .homePage{
-        .banner{
-            height: 300px;
+        .parallax{
+            max-height: 300px;
+            background-attachment: scroll;
+            height: 100%;
+            padding: 1rem;
             h4{
                 font-size: 3rem;
             }
@@ -152,7 +156,7 @@
 }
 @media only screen and (max-width: 700px){
     .homePage{
-        .banner{
+        .parallax{
             h4{
                 font-size: 2.5rem;
             }
@@ -165,7 +169,7 @@
 }
 @media only screen and (max-width: 415px){
     .homePage{
-        .banner{
+        .parallax{
             height: 200px;
             padding-top: 0;
             h4{
