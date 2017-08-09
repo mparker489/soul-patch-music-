@@ -249,7 +249,9 @@
                 "staffPicks": false
             }]
           },
-        "classical": {"genreName": "Classical", "albums": [
+        "classical": {
+            "genreName": "Classical", 
+            "albums": [
             {
                 "artist": "Yo-Yo Ma",
                 "title": "Songs From the Arc of Life",
@@ -371,7 +373,9 @@
                 "staffPicks": false
             }]
       },
-        "jazz": {"genreName": "Jazz", "albums": [
+        "jazz": {
+            "genreName": "Jazz", 
+            "albums": [
             {
                 "artist": "Kenny G",
                 "title": "Ultimate Kenny G",
@@ -495,7 +499,9 @@
                 "staffPicks": true
             }]
           },
-        "folk": {"genreName": "Folk", "albums": [
+        "folk": {
+            "genreName": "Folk", 
+            "albums": [
             {
                 "artist": "Pete Seeger ",
                 "title": "American Ballads",
@@ -618,7 +624,9 @@
                 "staffPicks": false
             }]
           },
-        "country": {"genreName": "Country", "albums": [
+        "country": {
+            "genreName": "Country", 
+            "albums": [
             {
                 "artist": "Shania Twain",
                 "title": "Come On Over",
@@ -740,7 +748,9 @@
                 "staffPicks": false
             }]
           },
-        "latin": {"genreName": "Latin", "albums": [
+        "latin": {
+            "genreName": "Latin", 
+            "albums": [
             {
                 "artist": "Shakira",
                 "title": "El Dorado",
@@ -859,7 +869,9 @@
                 "staffPicks": false
             }]
           },
-        "decades":{"genreName": "Decades", "albums": [
+        "decades":{
+            "genreName": "Decades", 
+            "albums": [
             {
                 "artist": "Hall and Oates",
                 "title": "The Very Best of Hall and Oates",
@@ -981,7 +993,9 @@
                 "staffPicks": false
             }]
           },
-        "alt": {"genreName": "Alt Rock", "albums": [
+        "alt": {
+            "genreName": "Alt Rock", 
+            "albums": [
             {
                 "artist": "Third Eye Blind",
                 "title": "Third Eye Blind",
@@ -1103,7 +1117,9 @@
                 "staffPicks": true
             }]
           },
-        "indie": {"genreName": "Acoustic Indie", "albums": [
+        "indie": {
+            "genreName": "Acoustic Indie", 
+            "albums": [
             {
                 "artist": "The Staves",
                 "title": "Dead & Born & Grown",
@@ -1222,7 +1238,9 @@
                 "staffPicks": false
             }]
           },
-        "rnb": {"genreName": "R&B/Soul", "albums": [
+        "rnb": {
+            "genreName": "R&B/Soul", 
+            "albums": [
             {
                 "artist": "Estelle",
                 "title": "All Of Me",
@@ -1344,7 +1362,9 @@
                 "staffPicks": false
             }]
           },
-        "french": {"genreName": "French", "albums": [
+        "french": {
+            "genreName": "French", 
+            "albums": [
             {
                 "artist": "Louane",
                 "title": "Chambre 12",
@@ -1466,7 +1486,9 @@
                 "staffPicks": false
             }]
           },
-        "soundtracks": {"genreName": "Soundtracks", "albums": [
+        "soundtracks": {
+            "genreName": "Soundtracks", 
+            "albums": [
             {
                 "artist": "Alexandre Desplat",
                 "title": "The Danish Girl",
